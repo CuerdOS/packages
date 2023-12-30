@@ -1,23 +1,23 @@
 Package: apt-fast
 Priority: optional
 Section: admin
-Installed-Size: 125
+Installed-Size: 128
 Maintainer: Dominique Lasserre <lasserre.d@gmail.com>
 Architecture: all
-Version: 1.9.12-1~ubuntu22.04.1
+Version: 1.10.0-1~ubuntu22.04.1
 Depends: debconf (>= 0.5) | debconf-2.0, aria2, coreutils (>= 8.21-1.1) | readlink
 Suggests: aptitude, zsh, bash-completion, fish
-Filename: pool/bookworm/main/a/apt-fast/apt-fast_1.9.12-1~ubuntu22.04.1_all.deb
-Size: 37398
-MD5sum: aa24bd5d353fa18078616bc1235a95ad
-SHA1: e3bb02ef627091bf6ab433ac1be9386618366471
-SHA256: 2c6e6976bdbed233a2e95830b28da674c7c2084e7b9b2b8e2988af09fe7c14af
-SHA512: b00d4dd638e2fe510e856a0b9df552998118fdc3d6871692f02c167535ff88eef7d8ee0c1ec13f9273da16dcd8ee6d061fa31b2171ad441a815b1c17f1372e89
+Filename: pool/bookworm/main/a/apt-fast/apt-fast_1.10.0-1~ubuntu22.04.1_all.deb
+Size: 38190
+MD5sum: 62f2a93532c2fefd334662a9963335e9
+SHA1: cd26878cb15af4fd33d78c20569eae120526bb20
+SHA256: e325f76946c850a3da45a4b89a950d1264e45b3d7adcac60e91fa4a5f5f9bc4a
+SHA512: 8a9f7404336c31df5a773dbb524d86eeb99cff74bd3ca564c927ccfc435fa421188e16e4daa7d200990ff2e02b6c2d2d446d3b88a4e9f2758adcc3fa3a00eb77
 Description: shellscript wrapper for apt-get or aptitude
  apt-fast is a shellscript wrapper for apt-get that can drastically improve apt
  download times by downloading packages in parallel, with multiple connections
  per package.
-Homepage: https://github.com/ilikenwf/apt-fast.git
+Homepage: https://github.com/ilikenwf/apt-fast
 
 Package: autofirmaJA
 Priority: optional
@@ -37,20 +37,6 @@ Description: Cliente de Firma Electrónica @firma
  Utilidad para la firma electrónica de documentos 
  independiente del navegador web
 Homepage: https://administracionelectronica.gob.es/ctt/clienteafirma
-
-Package: battery-monitor
-Priority: optional
-Section: misc
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
-Version: 1.0.0
-Filename: pool/bookworm/main/b/battery-monitor/battery-monitor_1.0.0_all.deb
-Size: 1128
-MD5sum: fa481325a541e4fc9d0cddbf3ef39c4f
-SHA1: 60ca1846f689fdd0414743bbf32631a6d0b82036
-SHA256: 47dfdc958fb6560380b9c13d68aad4d49457953a0ffcf48179435f226b50c3f7
-SHA512: a321f21a09a562091b2c78686ef5658184ca4ba0c893324ae891a4602753bd025ed7b56a997ea5d10e0dfc4553b21d2a2c7238ea729ee6619819e3b00d9de81d
-Description: Low battery notifications
 
 Package: battery-monitor
 Priority: optional
@@ -110,14 +96,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
+Version: 1.0.5
 Depends: rsync, sed
-Filename: pool/bookworm/main/c/config-updates/config-updates_1.0.0_all.deb
-Size: 748
-MD5sum: 879af665eab1de94ec1a00ef2ea38ae5
-SHA1: 4ef4cfc728fd0e05a1f41d678ade84148c70b6b0
-SHA256: 441b7a0c2a216af84ffc9112b86e654c2ff25f0fa4750e13ea6e9f4041a6a966
-SHA512: 51d2d985f830c26a77c44c69f030bfdea904715dbfc9c204700b1e68402b0fed40128db3221b86c6656eb4a9d669d4e55e28d9db03230b06c9aa7772442048f0
+Filename: pool/bookworm/main/c/config-updates/config-updates_1.0.5_all.deb
+Size: 4040
+MD5sum: a33bc0653ef754f6410f0368e0afd0c3
+SHA1: 4397f981ee8573b2435a091081f01e944d403261
+SHA256: 561dac4bbd82e4ffcc7ea335f2a8ff79b60841965772a296ec7724cc95756d83
+SHA512: af33308af34f3f5a0d6dbb2c9f9fae0ab1a302a7578547a9df4101dd4c1714c1876049cbfd6b4384f6b46827b3860e88f94069def4b36b5d39b7480564357a26
 Description: CuerdOS config updates, please don´t remove this package.
 
 Package: cuerdos-evergreen-gtk-theme
@@ -148,22 +134,6 @@ SHA256: 59948f2fb4045215f1e7db44445c3d5df951fe4184a85efeb2c0e49af562d163
 SHA512: 81f77369ce93d9759a7a1402063a1f10ba14e6215708c563d5d727e70137fa7402761d86a80f7b70b2d5d6dae51a01f83eb50e8c3a1aca20376605be365317fa
 Description: CuerdOS Grub Theme
  Cuerdos theme for Grub
-
-Package: cuerdos-icon-theme
-Priority: optional
-Installed-Size: 462
-Maintainer: Pablo Gutiérrez Alba (cuerdoslinux@proton.me)
-Architecture: all
-Version: 1.0
-Depends: hicolor-icon-theme
-Filename: pool/bookworm/main/c/cuerdos-icon-theme/cuerdos-icon-theme_1.0_all.deb
-Size: 2233892
-MD5sum: d05cb49178a0d6356fe07f658237c2c5
-SHA1: 1d34501ad695c3abf90930ab58b6b60f2be24bb5
-SHA256: 3222c5f3255fc6f80882c864e11f8ded8f79bc07ba0486e08f6e452e8d7a6d21
-SHA512: 96121327c8fe1bc75532b8dd276693bf0658bc4617237a3307370510aa77b5aa4db1b7706aab04b5897f5b3e0e7edc50b4d112dab8cfd503728fbffba6d3b3df
-Description: CuerdOS iconpack
- Optimizado hasta el último pixel
 
 Package: cuerdos-icon-theme
 Priority: optional
@@ -230,20 +200,6 @@ Priority: optional
 Section: system
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.1
-Filename: pool/bookworm/main/c/cups-switch/cups-switch_1.0.1_all.deb
-Size: 1476
-MD5sum: 7b677be8fa804313ef24cbaf831b7f9c
-SHA1: b0165d7d193cd1892750c23d15016204ebf2b2ff
-SHA256: e8770c1d48901566f4daf1e4826cb3d756d0b46c08f445a737ffc37d3784fca6
-SHA512: d2c81ab2d8983e859f256108733a5b251675e285ba426f2c05473de559be5e0b3e2225cee0fd39a49c46e503317f741f39099a369daae14cd51c0bea29467357
-Description: Enable/Disable CUPS service
-
-Package: cups-switch
-Priority: optional
-Section: system
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
 Version: 1.0.2
 Filename: pool/bookworm/main/c/cups-switch/cups-switch_1.0.2_all.deb
 Size: 1524
@@ -284,15 +240,40 @@ Section: misc
 Installed-Size: 5600
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.1
+Version: 1.0.2
 Depends: dosbox
-Filename: pool/bookworm/main/d/doom/doom_1.0.1_all.deb
-Size: 1956716
-MD5sum: a79d8c18458a72bc1e64b4d4c9b95927
-SHA1: 5ad1254c03508f8aa2d108214610cb62c19c9a4f
-SHA256: a54626e78d359d715a02e03e83fd73ef1443f236d2694d794ea925272cf4888e
-SHA512: 580acd478172715a8159105cac6720f787a811d6bca3f891483d4bfbb585d2f570884b3b8d7964490ad3413e13526d6f95cab2c399d616d890327eb4efbda28b
+Filename: pool/bookworm/main/d/doom/doom_1.0.2_all.deb
+Size: 1956932
+MD5sum: 3110827e21c56bf93eaaf681aa16672e
+SHA1: e2b84f51b4188b9ecb7964011151b1718dac695b
+SHA256: d5463949eb3edfc92cb2e86683d7c40a0beed1ca82ebbada31f564dba6ec0f57
+SHA512: a54fe104132b6f1155233d45b46d115d348e523f6215fdccc167564bf6f1d1d76e22cc9fe565c14025c20ae3c70d93066bdca8190b63cd80668045b54cc5ca49
 Description: Doom Game Original with DosBox.
+
+Package: grub-btrfs
+Priority: optional
+Section: admin
+Installed-Size: 88
+Maintainer: Usarin Heininga <usarinheininga@hotmail.com>
+Architecture: all
+Version: 4.11+202311201955~ubuntu22.04.1
+Depends: grub-pc
+Filename: pool/bookworm/main/g/grub-btrfs/grub-btrfs_4.11+202311201955~ubuntu22.04.1_all.deb
+Size: 32518
+MD5sum: 776f27110ec567d59317640dafe3e706
+SHA1: 88a8b69698bcaf1bb8216a6e9a7ddc1777d80c3a
+SHA256: d1dc3bed4b9eec64075176da24ab9394dcfb94263b17a372f97015962b0101d3
+SHA512: 054b08adabba644dcc33861218b4e84f0391d573d11cfde35ea777ea4c5f3695ccb2dabbf568fa464a844841288af26b89ca621b3bd174c8ce146416ac43c8d5
+Description: Improves Grub by adding "btrfs snapshots" to the Grub menu.
+ Automatically List snapshots existing on root partition (btrfs).
+ Automatically Detect if "/boot" is in separate partition.
+ Automatically Detect kernel, initramfs and intel/amd microcode
+ in "/boot" directory on snapshots.
+ Automatically Create corresponding "menuentry" in grub.cfg
+ Automatically detect snapper and use snapper's
+ snapshot description if available.
+ Automatically generate grub.cfg if you use the provided systemd service.
+Homepage: https://github.com/Antynea/grub-btrfs
 
 Package: grub-postinstall
 Priority: optional
@@ -307,21 +288,6 @@ SHA256: 7f4ab7328c1577ee9cfa258e22abb3d879406942107101c2b871ea7553d1004e
 SHA512: 49b11a43993bb5cf62881265fcc5118fcfaf8eef9655ba65a5a48961f01275ae5b89fd9c1d45e8e9a8c6d56a509edc36f30b94c5aa9dcbcac620ae79a4ae9b1a
 Description: CuerdOS Grub Theme
  Cuerdos theme for Grub
-
-Package: i3-config
-Priority: optional
-Section: misc
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
-Version: 1.0.0
-Depends: rsync
-Filename: pool/bookworm/main/i/i3-config/i3-config_1.0.0_all.deb
-Size: 3732
-MD5sum: 9fe7329af7915dd22aeaf27440b308d8
-SHA1: be8793a4901eb4adb8cc992b027cc7a83d9757e6
-SHA256: 7a9c58a427b35f8e626c15de74b744aaf663cef1a46079f69d527d6c91e28d2c
-SHA512: 0fbbd164ab0bc1cc390e1720ecae8d069d798bf7678b4287b6c599f3909825cfb081b6a2779e1e1ac65b097b8a1b25b6f333cce74840cc17c2869669872f84d5
-Description: CuerdOS I3 config
 
 Package: i3-config
 Priority: optional
@@ -374,29 +340,15 @@ Section: misc
 Installed-Size: 232
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
-Depends: dosbox
-Filename: pool/bookworm/main/p/paku/paku_1.0.0_all.deb
-Size: 59996
-MD5sum: 0ef6300d0e75e6c4e7c540f0b02064d9
-SHA1: 76d4a8c3c5c9ce9ac2b37d97d2072aedc341c7dc
-SHA256: 3e0345f51e822e2ceaf0113584d145bd4c0b2621fc2ccb638846bed799154079
-SHA512: 57542dd5bbc6e351678c0f0a68841b3523d0ecad2e4353b00eb97a32bde98fa4224d73249b4045952a20e7e9e48d75f8eeba255407e971da4e3ee2603632af1b
-Description: Pac-Man Game for MSDOS.
-
-Package: postinstall
-Priority: optional
-Section: misc
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
 Version: 1.0.1
-Filename: pool/bookworm/main/p/postinstall/postinstall_1.0.1_all.deb
-Size: 662
-MD5sum: e8e45818ebd89aaa434941e5f3fda231
-SHA1: 73222d146331a240861dae92a19d3dba5beb291e
-SHA256: 25bf133ad1281738d1507811a07cd4a07c5f94f3d53b19c9e1657ca31a0c7d2b
-SHA512: 722495f7253b25de43afcd2a7ff42ef2d4c8fc56dac987bac9317db753bb54a3e82a533812e78d4b4a59827c54a899f20a9c5075c38bdeead4fa53b4ee4d75f1
-Description: CuerdOS postinstall file
+Depends: dosbox
+Filename: pool/bookworm/main/p/paku/paku_1.0.1_all.deb
+Size: 60000
+MD5sum: 74d4eb25d3826eee9b164589755f6f86
+SHA1: f10d961612275242b28099a8c7d4106d75bc3748
+SHA256: ee1556905df1ebf251a1e7a3a63d7cf17ed9355c311e845902ba8bb751cbfeda
+SHA512: f336951981a58f65e86666b477ab23a095b2649b5ab60a37aeb1b954fa2c9ae6ebe9887903002436fbe6e3a24aa1c9bcdc82dfe3b53b0c8ad3c749eeed796584
+Description: Pac-Man Game for MSDOS.
 
 Package: retrofuel
 Priority: optional
@@ -404,14 +356,14 @@ Section: misc
 Installed-Size: 592
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
+Version: 1.0.1
 Depends: dosbox
-Filename: pool/bookworm/main/r/retrofuel/retrofuel_1.0.0_all.deb
-Size: 187200
-MD5sum: a468a21faa4e98b9b4e2b77a7f0ad3ae
-SHA1: 0e7597b2b5139439a2948f85457a0ed9ec93e873
-SHA256: 125b5fa9e2e1720b9473194edf43f6e7ec8d800e8b91f1bab4bf2f1e2c632776
-SHA512: b9a27944325703a94fe97c991f1ef4c9d068823dee55f3926d671c786dc5f6d962a00dd408599e7d3c4c0eb8e86776543b313d857c37e02c2fd19e3803b5d742
+Filename: pool/bookworm/main/r/retrofuel/retrofuel_1.0.1_all.deb
+Size: 187240
+MD5sum: 98962f8549665fc66d6bb7e273dc6f61
+SHA1: 1e59378299bab59d99664c5931c045fa804b2a63
+SHA256: 9917a7494e3890fb381f49da3d4499626527cfdc35053a11100e9b97f6c45a2e
+SHA512: dab3657dbf5c6db4c8b763b819ae12f1e4d4871a8645c6719936d7222d25049f5c3ce15f2ae6fcbce65617640d5260222ee600ed806b735bc731c6dc5aae4998
 Description: A Cars Game for MSDOS.
 
 Package: rofi-themes
@@ -435,20 +387,6 @@ Priority: optional
 Section: system
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
-Filename: pool/bookworm/main/s/setup-repos/setup-repos_1.0.0_all.deb
-Size: 1604
-MD5sum: 5f599e83caa999cf56a2596ce33d1311
-SHA1: 3d1a26f691626e1af8bd5371c67a0c434bb558e9
-SHA256: 64f6361990c6abd3b625ae3ffa590b550c21bf5c55786fbc97318d91252b9c90
-SHA512: 1515f23f258aa5c1145c63dd7c29b104fa04a829aeffd52253b0f675fea20cf391f94f1328dc88f2d3800469331845fd2826d7158b1de95ea7d0066f4c239152
-Description: Enable/Disable propiertary repositories
-
-Package: setup-repos
-Priority: optional
-Section: system
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
 Version: 1.0.1
 Filename: pool/bookworm/main/s/setup-repos/setup-repos_1.0.1_all.deb
 Size: 1652
@@ -457,21 +395,6 @@ SHA1: 640941c80e50157bce26d85b1fbade664844dd5b
 SHA256: 737e75aa0b5eb2cc7d8844312518d20d11123d72acda599dd38fea81e2734537
 SHA512: ead18a1c91d440fac565dba3ee479b2ce9af237f0bef50e42505f70f542f5a22bdda3b3d9a1fbefa17ccef21cb22aef73077548bb80efd9ce4e24ddb9e9ac9e0
 Description: Enable/Disable propiertary repositories
-
-Package: sway-config
-Priority: optional
-Section: misc
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
-Version: 1.0.2
-Depends: rsync
-Filename: pool/bookworm/main/s/sway-config/sway-config_1.0.2_all.deb
-Size: 4040
-MD5sum: 876bc064a6e1976adf011a7433e4d364
-SHA1: 31dff293f7284bd59b85a7f7a2f7d51cbcc97b7c
-SHA256: fad6e08e7c99ebd9c32ec33f260ba8ec212ccecdbf132fb46a92ead59e6cd043
-SHA512: 4fa9838e46a882061624ad4f193264e25744d3a4eed4eec3f51fc23939ee188fc96ad08b4aca5e0350cdf2c483e9951234cc70967c5e0b514a50eb44ef6f4e82
-Description: CuerdOS Sway config
 
 Package: sway-config
 Priority: optional
@@ -506,17 +429,17 @@ Description: Swaylock blur theme.
 Package: system-monitoring-center
 Priority: optional
 Section: utils
-Installed-Size: 1745
+Installed-Size: 1333
 Maintainer: Hakan Dündar <hakandundar34coding@gmail.com>
 Architecture: all
-Version: 1.43.10
-Depends: python3-gi, python3:any, dmidecode, hwdata, iproute2, procps (>= 3.3), python3 (>= 3.6), python3-cairo, python3-gi-cairo, util-linux (>= 2.31)
-Filename: pool/bookworm/main/s/system-monitoring-center/system-monitoring-center_1.43.10_all.deb
-Size: 155540
-MD5sum: 60ec8bf50a26dd1675f54d74568535dd
-SHA1: 8d33881df72aa2a973243c42bf4fd173d3d4d07c
-SHA256: bd74714daba42fde76685259f6ffefb9a5c23de4bc35f2e400c2f7272c5cd0e9
-SHA512: c5e9daae92d75e5cf8c9e89da249831973c73412b68a6d86716abc11e8e41c5de20bf45bb9cc12b70449af37db0cb4f91df4af3b8c47b817d9ed3e6a1552c06d
+Version: 2.26.0
+Depends: dmidecode, gir1.2-adw-1, gir1.2-glib-2.0, gir1.2-gtk-4.0, gir1.2-pango-1.0, hwdata, iproute2, python3 (>= 3.6), python3-cairo, python3-gi, python3-gi-cairo, util-linux (>= 2.31)
+Filename: pool/bookworm/main/s/system-monitoring-center/system-monitoring-center_2.26.0_all.deb
+Size: 179140
+MD5sum: 92575cbf649bcc840c40c1fd93fafd04
+SHA1: 0c6441f6144871e6e9c73c297c0f98a5344c52c5
+SHA256: 945e8f9dfebbff2318783f00875d5ae9cb3cba97137962d7eb172908f19ed31d
+SHA512: 5c07d28e8a32cefabb4e39152459b0cd95b5116e67028c0dcb64af7b74dd2f0b593bf9479f7075c13623160cdaba3750b560541ba1bc4981d84d0226cbaa0cfc
 Description: Multi-featured system monitor
  Provides information about CPU/RAM/Disk/Network/GPU performance, sensors,
  processes, users, services and system.
@@ -528,14 +451,14 @@ Section: misc
 Installed-Size: 356
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
+Version: 1.0.1
 Depends: dosbox
-Filename: pool/bookworm/main/v/vitetris/vitetris_1.0.0_all.deb
-Size: 162044
-MD5sum: c094fd733cc0e210f3b51bef97063c12
-SHA1: a5fe75cb732e6f7a94e55f47c753b921e4c2de7e
-SHA256: 3611d26d52caf57f6e686cb5503f23bda9d7e063434be831e2a6094ec800b51c
-SHA512: a8e6862a8d9e518be659728c8c8d56ac9c2d4c64f47ee1fe20a40aee89552ff2d27fcef6c82c6ce0b0279028fd495738df5c166fd8e5b0ba56991eb02fff6c85
+Filename: pool/bookworm/main/v/vitetris/vitetris_1.0.1_all.deb
+Size: 162064
+MD5sum: 356947ffaa8614d1c9b925097b3e5c00
+SHA1: dbea6b6fb2875ff0568a88a1e164988f267b1c72
+SHA256: c92c6936e5a326179792d2770e9ca4c8a7ea12be66af4ca0ac8b8ad1e68df306
+SHA512: b983e1ad4887a58b26bf4c00e04de942b5307c0ac1d7f9777bb7738c050e5859d04631d352855018e9ccff1c778c07167195d0bc9c9479d2ef70825ef24de448
 Description: Tetris Game for MSDOS.
 
 Package: alltray
@@ -603,14 +526,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 0.10.5
+Version: 0.10.6
 Depends: python3, python3-colorama, python3-dateutil, python3-yaml, python3-pyqt5, python3-pyqt5.sip, python3-requests, libqt5svg5
-Filename: pool/bookworm/main/b/bauh/bauh_0.10.5_amd64.deb
-Size: 713696
-MD5sum: 7881698877ea393db15e73dc47260226
-SHA1: dccf76df3d7374844aa150c98494f2e566b5e863
-SHA256: 46302f0f9371d4e5652c5a24672bf3c2bc0092a180886d7b0acaa66b81d3d450
-SHA512: 62fa35e6fd0d814d8a00d68376d3a964bf2398dcbb96112afdbf5c3305059b8dc409e6d8652e15524ee171f7e13bb9ce0127e665efa2ba7a71e7aafa87186c98
+Filename: pool/bookworm/main/b/bauh/bauh_0.10.6_amd64.deb
+Size: 3127004
+MD5sum: 36e1dc858a6ee8348f774359e02fbfa1
+SHA1: 7e29671380e97ade5137546ba65baa30d559112a
+SHA256: 061843b7af8d276f4a25eaaa1dc83920ad7f4608cd41ac74f568e3ffc48f7fec
+SHA512: fa2f978d0d818b660d6348a937cb69e27c0b5d659b09fa5d2d340f8a697521b2e4d3f8d70e0cf8d8a09ef4a9ddf81fe0de481552160e486200539aacabf67d85
 Description: Bauh store, for Deb, Snap and Flatpak.
 
 Package: calamares-ask
@@ -672,15 +595,57 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.1.66
-Depends: linux-image-6.1.66-x64v1-xanmod1, linux-headers-6.1.66-x64v1-xanmod1
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.1.66_amd64.deb
-Size: 780
-MD5sum: 00b5ed8ecc436e18b0d3887e6a46f3ec
-SHA1: 04d5b525ef11ebc1d539ce74403239390adf6378
-SHA256: 0e226eaac8f68f091d42c5c246267d8a3b9f4bb1646e75db6c967b6e2eeecbe2
-SHA512: b3c841a7817995480cd7a82c9a37175d66fa868841bf1b9b8b86a6dafcda66dfc4d50ae06c401d1fd40d31d41928a3f48288e87d3c2d209969367a7e1a9efc3d
+Version: 6.1.69
+Depends: linux-image-6.1.69-x64v1-xanmod1, linux-headers-6.1.69-x64v1-xanmod1
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.1.69_amd64.deb
+Size: 772
+MD5sum: 145456dce5d68384637778bd6d830d9e
+SHA1: c8cf4f6b22688c67f129eb593073fe3ca4f6be40
+SHA256: cec664ec52d01114055ae4abec8abf5cb6662e1101e686d69e07948b03e1ba1b
+SHA512: 14a57586bcb84758301a1d6915580433f7b80a144edd48b1b0ef8a9570fe7f328854556a649733a09f083b77ab38ebc913e2c67758326418ce374fa194fa5d74
 Description: The Linux kernel for x86_64 architecture (meta-package).
+
+Package: discord-screenaudio
+Priority: optional
+Section: misc
+Maintainer: Malte Jürgens but packaged by CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 3.25.1
+Depends: qtbase5-dev, qtwebengine5-dev, libkf5notifications-dev, libkf5xmlgui-dev, libkf5globalaccel-dev, libpipewire-0.3-dev
+Filename: pool/bookworm/main/d/discord-screenaudio/discord-screenaudio_3.25.1_amd64.deb
+Size: 1531896
+MD5sum: e1a842ef05a49bb8ada286f3b171c6c7
+SHA1: 2b4a8ec7434c1c85ff594aa1121e71966ad4801a
+SHA256: 19e8eb3a382535e92cb9edf17e16c9a9aa65903051a186639e2634bff305cfd0
+SHA512: 5b9d2eddd3f743184f386a17103635a33603a7eb19e2d2d24bff38cbe9bb64bf12d2a5e5f29b1dffc172c26f0033052d9aa7ebffe6d451f834de5cf7d966a261
+Description: Discord 3rd party client with the capacity to share screen with audio.
+
+Package: dosbox
+Priority: optional
+Section: otherosfs
+Installed-Size: 2671
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me> [Old Maintainer: Stephen Kitt <skitt@debian.org>]
+Architecture: amd64
+Source: dosbox (0.74-3-4)
+Version: 0.74-4-4+b1
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgl1, libpng16-16 (>= 1.6.2-1), libsdl-net1.2, libsdl-sound1.2 (>= 1.0.1), libsdl1.2debian (>= 1.2.15), libstdc++6 (>= 11), libx11-6, zlib1g (>= 1:1.1.4)
+Filename: pool/bookworm/main/d/dosbox (0.74-3-4)/dosbox_0.74-4-4+b1_amd64.deb
+Size: 901808
+MD5sum: 5a165cb7af1d4b2b8098d29d982132e2
+SHA1: 38180b954576a2cc40dfcfbc79b63c95808c16d2
+SHA256: bb5b3571923f1075a8bebe5897b55891ab9fdb2ef9bc1ec6eaff94ab2bb0750d
+SHA512: 89f164ca1f0cee65c9722140b8d2b35357bc6d5fe53a440f814a3c52851693155e01567dd3540c745da4a964464236f3313090e1edfb70d3bd255f0186a0e155
+Description: x86 emulator with Tandy/Herc/CGA/EGA/VGA/SVGA graphics, sound and DOS
+ DOSBox is a x86 emulator with Tandy/Hercules/CGA/EGA/VGA/SVGA graphics,
+ sound and DOS. It's been designed to run old DOS games on platforms that
+ don't support it.
+ .
+ The following legacy sound devices are emulated: PC Speaker, Creative
+ CMS/Gameblaster, Tandy 3 voice, Adlib, Sound Blaster Pro/16,
+ Disney Soundsource and a Gravis Ultrasound. MPU-401 is forwarded to
+ the host.
+Homepage: https://www.dosbox.com/
+Multi-Arch: foreign
 
 Package: firefox
 Priority: optional
@@ -801,6 +766,26 @@ Description: Linux kernel headers for 6.1.66-x64v1-xanmod1 on amd64
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
+Package: linux-headers-6.1.69-x64v1-xanmod1
+Priority: optional
+Section: kernel
+Installed-Size: 52971
+Maintainer: Alexandre Frade <kernel@xanmod.org>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.1.69-x64v1-xanmod1-0~20231220.ga4f73a1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.1.69-x64v1-xanmod1_6.1.69-x64v1-xanmod1-0~20231220.ga4f73a1_amd64.deb
+Size: 8989192
+MD5sum: e646cf35f31cb2b4938d524328240c4d
+SHA1: 764b0412d38adb4bf467c2e393a7be23d39aff9b
+SHA256: e514436d93ff2f97104a7d7767fc5f1ba0bc8515e801a5349a57e1279a09870e
+SHA512: d2d8dc171e96f1f747020a6bde1fb8519e700172beeff6e0f0a4c7bb8200462da5d68860f250a84799aa929369855cfedb0f7b586d9b73352ea685c54fc8cf9f
+Description: Linux kernel headers for 6.1.69-x64v1-xanmod1 on amd64
+ This package provides kernel header files for 6.1.69-x64v1-xanmod1 on amd64
+ .
+ This is useful for people who need to build external modules
+Homepage: https://www.kernel.org/
+
 Package: linux-image-6.1.66-x64v1-xanmod1
 Priority: optional
 Section: kernel
@@ -818,6 +803,25 @@ SHA512: 8794ce364dbdbccf835d2fd7062d8c5cdebc793044eff47b24244ac1c3b2375a0aba6f02
 Description: Linux kernel, version 6.1.66-x64v1-xanmod1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.66-x64v1-xanmod1.
+Homepage: https://www.kernel.org/
+
+Package: linux-image-6.1.69-x64v1-xanmod1
+Priority: optional
+Section: kernel
+Installed-Size: 473261
+Maintainer: Alexandre Frade <kernel@xanmod.org>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.1.69-x64v1-xanmod1-0~20231220.ga4f73a1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.1.69-x64v1-xanmod1_6.1.69-x64v1-xanmod1-0~20231220.ga4f73a1_amd64.deb
+Size: 85112672
+MD5sum: 1e52752fe119df8cd55952e9a48b99be
+SHA1: e826986c358ae463fbfa7887e560665ef2f8a593
+SHA256: d8bc2efd0121e78f75b982e67efad0e0d1bceb030f42c80f98c081f966ff8e78
+SHA512: d6c7110b37f2435875543890b5c240c6ae73cdb3b46f7cce67e5e98a73df273591d5a6dbc672795e46fb9a827898e3c3f9fba49b1bcb434bc858ec6cef2a4494
+Description: Linux kernel, version 6.1.69-x64v1-xanmod1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.69-x64v1-xanmod1.
 Homepage: https://www.kernel.org/
 
 Package: lsd
@@ -886,35 +890,6 @@ SHA1: f56d7e1a16e637ae9fcf61902b142c0a4187e329
 SHA256: 4a238a609bf28fecf6ad3aaf25d469c3204bb5ae396c05f5831cf103b74ca4ec
 SHA512: 3ad0e3943b9145d15bfe82eb499b49fa6eb9ea16134576a872494acd035f1f4ef67172a5d3e32a71dbb0d79e34fea32f966849c8a8b8de984814aef130177f9d
 Description: Optimización de Memoria RAM para el Re-spin Vendefoul Wolf 23
-
-Package: nautilus-gtk3
-Priority: optional
-Section: gnome
-Installed-Size: 1964
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Version: 1:42.6-0ubuntu1
-Breaks: gedit (<< 40), nautilus-data (<< 1:3.38.1-1ubuntu1), totem (<< 3.31.91-1), unity (<< 7.5.1+21.10.20210601.1-0ubuntu1)
-Depends: bubblewrap, desktop-file-utils (>= 0.7), gsettings-desktop-schemas (>= 3.8.0), gvfs (>= 1.3.2), libglib2.0-data, libnautilus-extension1a (= 1:42.6-0ubuntu1), nautilus-data (= 1:42.6-0ubuntu1), shared-mime-info (>= 0.50), tracker (>= 3), tracker-miner-fs (>= 3), tracker-extract (>= 3), libatk1.0-0 (>= 1.32.0), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdbusmenu-glib4 (>= 0.4.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgexiv2-2 (>= 0.14.0), libglib2.0-0 (>= 2.70.0), libgnome-autoar-0-0 (>= 0.4.0), libgnome-desktop-3-19 (>= 3.17.92), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.23.1), libhandy-1-0 (>= 1.5.0), libpango-1.0-0 (>= 1.44.6), libselinux1 (>= 3.1~), libtracker-sparql-3.0-0 (>= 3.1.1), libunity9 (>= 3.4.6)
-Recommends: gvfs-backends, libgdk-pixbuf2.0-bin, librsvg2-common
-Replaces: nautilus-data (<< 1:3.38.1-1ubuntu1), totem (<< 3.31.91-1)
-Suggests: eog, evince | pdf-viewer, gnome-sushi, nautilus-extension-brasero, nautilus-sendto, totem | mp3-decoder, xdg-user-dirs
-Filename: pool/bookworm/main/n/nautilus-gtk3/nautilus-gtk3_42.6-0ubuntu1_amd64.deb
-Size: 634822
-MD5sum: 70f74589e3d5716aceb3f4ed860fd583
-SHA1: b2cd5f67c81096c6194e73275518071e5325efd7
-SHA256: 77e60a2f278d61d22ddc4e9843702e5dfb02a2eb0a6a1c4f4c195cc5e13e349c
-SHA512: 77b498a2b215ab1a7dd2a1df8d1ff52bef05253e9121e7db4d8bc8731e984c1b7e246932bab18f07b07118603bd6cbf5b2785b0d08b512b1c61a8dbb7aed5ffc
-Description: file manager and graphical shell for GNOME
- Nautilus is the official file manager for the GNOME desktop. It allows
- one to browse directories, preview files and launch applications
- associated with them. It is also responsible for handling the icons on
- the GNOME desktop. It works on local and remote filesystems.
- .
- Several icon themes and components for viewing different kinds of files
- are available in separate packages.
-Homepage: https://wiki.gnome.org/action/show/Apps/Nautilus
 
 Package: nwg-bar
 Priority: optional
