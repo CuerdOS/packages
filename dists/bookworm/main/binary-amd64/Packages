@@ -58,15 +58,15 @@ Section: utils
 Installed-Size: 314
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
+Version: 1.1.0
 Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
 Provides: calamares-settings
-Filename: pool/bookworm/main/c/calamares-settings-cuerdos/calamares-settings-cuerdos_1.0.0_all.deb
-Size: 96796
-MD5sum: 54d8820cde331cd7c533073563563e3d
-SHA1: b1167a4583fadab14f19b9137cfed9280049fe8a
-SHA256: cd44065dd6abca866d465556d543c500c2ccbd96ce6b3956df52f323a107cc69
-SHA512: afd25a2064a829e808a5020a493b490b4e129d9a4ff6a696edc75f91f7bbcc585fc7061b14ce2d906c3fc812a7fbccadd12c2af105f419868b639c86740ad1e8
+Filename: pool/bookworm/main/c/calamares-settings-cuerdos/calamares-settings-cuerdos_1.1.0_all.deb
+Size: 91492
+MD5sum: 5b722309bfda4d7e96dde5befaff4743
+SHA1: 2f30268bf633f097f205c94227aa3c02d26c2826
+SHA256: 1423c3c8f7dd9aa44beb91fedc141c7542466d3b6ef7d6dab526231ca77f3537
+SHA512: 7f7d67da8c5ea04564d7beb6dc27a423d889e7aa189dae36d82fc62a080ea9517a7f5e671c3c80aafdf883d4e94b2ade55f3c9fccf6415a72c929de8926d41fa
 Description: CuerdOS theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
@@ -90,6 +90,21 @@ SHA1: 6c210dd54e400514d5ceb0a2967fdd433b265f68
 SHA256: cac98954bdb0660df08aef44764a25fbfe5cf1ed0c2d68cffc9ba0876942e04d
 SHA512: 4146b198f43ba353b392032a2873e8614a652e17c081e350b7b4afababf555825533e48c8613966bace06086b7f5690292165a817f6c0f811adc34a5849b964c
 Description: CuerdOS fetch.
+
+Package: community-wallpapers
+Priority: optional
+Section: misc
+Installed-Size: 28057
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.0
+Filename: pool/bookworm/main/c/community-wallpapers/community-wallpapers_1.1.0_all.deb
+Size: 44463100
+MD5sum: 6eb26d1b953cfb80d62d3204130618f2
+SHA1: 947fc8cc1d33db832afe90aecc6fe6062932dd49
+SHA256: 490d900ae882c46b4646f7c3fc5a4249d51f7db9efbeca7afc602fa56bad90e5
+SHA512: e2a91cbee28928fde9530f0f72e8ec528de2663ae192040bfaaff06fd6bf8399a64034dd36cec895562aa5df390278d628e418277c38f42dd994fa8094673975
+Description: These are wallpapers for CuerdOS made by the community of CuerdOS users. Among these are the wallpapers of the users Wlad And and Gatoverde95.
 
 Package: config-updates
 Priority: optional
@@ -183,16 +198,16 @@ Description: Install CuerdOS second version of plymouth loading screen
 Package: cuerdos-wallpapers
 Priority: optional
 Section: misc
-Installed-Size: 41472
+Installed-Size: 73318
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.0
-Filename: pool/bookworm/main/c/cuerdos-wallpapers/cuerdos-wallpapers_1.0.0_all.deb
-Size: 39655312
-MD5sum: 039611afc0dfb855d3f1c5c53c89331f
-SHA1: 1b4af5f41da67d3486f746c6559b5d3af02f1b18
-SHA256: d257c63cbd6e43a57a7323664d62fbf36060a0c818936c09f6140fabc5d27c63
-SHA512: c9deb2a56001fb8e7ef265eba24c2f1668102341052b51d8776f889cd35b2baf8674ec7b0d89e3d3530efc7fb6553bc0ea1f1defa77f82c3850279417a04a834
+Version: 1.1.0
+Filename: pool/bookworm/main/c/cuerdos-wallpapers/cuerdos-wallpapers_1.1.0_all.deb
+Size: 54430092
+MD5sum: 5f7db925c5ec7c0569cf0f41507c5151
+SHA1: 9df9af3c882275e739ecf4306db9c5361ee21f4e
+SHA256: 2976ad2b8aebe8fddf9a13f9cd6114570478e6142cce9313882bae8daafda740
+SHA512: 6206904be4640285be91ebabf9a50fc3c7a5c8750fa22790cdafd477d5f27125e0b55fa890df20034b5610f4a668e6b0921e8147233eefa16537ac87e7e63942
 Description: Official CuerdOS Cessna wallpapers.
 
 Package: cups-switch
@@ -294,14 +309,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.1
-Depends: rsync
-Filename: pool/bookworm/main/i/i3-config/i3-config_1.0.1_all.deb
-Size: 3760
-MD5sum: 4be5022e0d6b781fca7cd61ecdcd021c
-SHA1: 30f56e7c6fe704e274206856b87df50ed0245407
-SHA256: 2ac2e8e217888e0a1922b8f9bf723cffb39c8d35478d72cff39774b779b5c575
-SHA512: 22873e0403c1ec5e3eb59b5352b1de1d1124251b3bcd7eb8f734bab92d06dbeb131e908108a5557f087453c1a6aa9efa9673f9d0c235a0fe5c7579bab7916b0b
+Version: 1.1.0
+Depends: rsync, autotiling
+Filename: pool/bookworm/main/i/i3-config/i3-config_1.1.0_all.deb
+Size: 3824
+MD5sum: 88ef7f56ffce82b768f8131b3a83c9b6
+SHA1: c6f89586116f477ddc1a56ab9daa0c6d89a10acd
+SHA256: d1fbcc471d6a9c3223bb4240c71e63f03c9e68c8b63521f1a1d70d32891c3227
+SHA512: f21fb3d4717b587c29aa1719076a08e8b977f6cccf190bc484d087e9b765ceae5899f7b17964f6da5d7500dac49abbbb40e5e29124b1ad0b46ea85b0d937aac4
 Description: CuerdOS I3 config
 
 Package: i3lock-fancy
@@ -401,14 +416,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.3
-Depends: rsync
-Filename: pool/bookworm/main/s/sway-config/sway-config_1.0.3_all.deb
-Size: 4052
-MD5sum: 7e65ea77ca7bf0e52af962b33ce5bfd9
-SHA1: 95fa6d6d9d23c4c76be510aea61432b36f17e143
-SHA256: df3b3cc4f2e6f7a5f35465e2950adb6a715c6a30ea2232fe47a0f89eb3f97c38
-SHA512: d6c61b466a9f915b757c642cf6530212416cf29071bcc2038e18bb190d5289afe652a6a0ada6e00c1929519e9409722f4633401da4aecab21c6a0e8e5c12bc78
+Version: 1.1.0
+Depends: rsync, autotiling
+Filename: pool/bookworm/main/s/sway-config/sway-config_1.1.0_all.deb
+Size: 4100
+MD5sum: aee325d09eb516525df52992bb216b3c
+SHA1: 2de07e4d6c01264c417929c9b1220ae5eeac29e5
+SHA256: f9a06d83c4fa81e88b8c1f19b9b2a03a83bccab838e65ea0453caacabe08d50c
+SHA512: a533b222a6aa1ed09976469abd010cb1b55de43b4c156aaf1b9e36cb0baa8f55a54a91b4370d4125b28eec3432b588c89ebddda03569dac32f2a4c2217a9ed3e
 Description: CuerdOS Sway config
 
 Package: swaylock-fancy
@@ -503,6 +518,23 @@ SHA512: a77ead9afac9e7bebeecdc869fa6869db9a62f261e034e79b3d1f121c496dddba6126b4b
 Description: ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 Homepage: https://github.com/armcord/armcord#readme
 
+Package: autotiling
+Priority: optional
+Section: x11
+Installed-Size: 33
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Architecture: amd64
+Version: 1.6-2~jammy
+Depends: python3-i3ipc, python3-importlib-metadata | python3 (>> 3.8), python3:any
+Filename: pool/bookworm/main/a/autotiling/autotiling_1.6-2~jammy_amd64.deb
+Size: 6218
+MD5sum: ecc81477042c69de6e172a2f7dbbabd9
+SHA1: a3d7ddacbe3254952d3e38a111e61c988cac0d17
+SHA256: 846af87a542238d9c02a4518b46f961b678abb8b4f68d9bf4d623180b7ac91f3
+SHA512: 5692646fb451a3d163f71091618c8a53bc87c5df632eb141b2d3ec7d5e36acf227b94101f9085cb150dafe06f536fad568f5bd9186a230d8d1d1515a40555d4e
+Description: Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
+Homepage: https://github.com/nwg-piotr/autotiling
+
 Package: bat
 Priority: optional
 Section: utils
@@ -595,14 +627,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.1.69
-Depends: linux-image-6.1.69-x64v1-xanmod1, linux-headers-6.1.69-x64v1-xanmod1
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.1.69_amd64.deb
+Version: 6.1.71
+Depends: linux-image-6.1.71-x64v1-xanmod1, linux-headers-6.1.71-x64v1-xanmod1
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.1.71_amd64.deb
 Size: 772
-MD5sum: 145456dce5d68384637778bd6d830d9e
-SHA1: c8cf4f6b22688c67f129eb593073fe3ca4f6be40
-SHA256: cec664ec52d01114055ae4abec8abf5cb6662e1101e686d69e07948b03e1ba1b
-SHA512: 14a57586bcb84758301a1d6915580433f7b80a144edd48b1b0ef8a9570fe7f328854556a649733a09f083b77ab38ebc913e2c67758326418ce374fa194fa5d74
+MD5sum: 74f7a8754e7f3bde30179dbf55dfc7fe
+SHA1: 157a2cb44344b699c7a692c7c2166c45b898c4f0
+SHA256: ea4d03845e0bfc2f913dbd514a9838e0504262209cba70e0e74606bcdec528b2
+SHA512: a642fec40afedf8714cf3faab3a9c49b918abbaa58abd0c4d889e8bed36513b344e3c8917d5c62bb3d4797d8818cd7c40b048f563d02fd8ab44248c37b6d7b47
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: discord-screenaudio
@@ -708,27 +740,22 @@ Description: Spanish; Castilian language pack for Firefox
  This package contains Spanish; Castilian translations and search plugins
  for Firefox
 
-Package: i3-gaps
-Priority: extra
+Package: ksuperkey
+Priority: optional
 Section: x11
-Installed-Size: 21
-Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 26
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Source: i3-gaps-wm
-Version: 4.19-1ubuntu1
-Depends: i3-gaps-wm (= 4.19-1ubuntu1), i3-gaps-session (= 4.19-1ubuntu1)
-Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
-Filename: pool/bookworm/main/i/i3-gaps-wm/i3-gaps_4.19-1ubuntu1_amd64.deb
-Size: 15026
-MD5sum: a4639e4664e1fb22a9b96e1baf03f0ef
-SHA1: 472320d79ce0b4ba1841c96307e5eae0cff5deac
-SHA256: 52491fd2671144413739effb5faf3244b64bb94ac460921386cfb41fe6fd274c
-SHA512: 58dfd60cf0fcbcd5dcc8be3626298f3d45d624120bd67006dc44a90cd673013ce3a211ab9249c096731af4ed476844c637ee506de3d2721a0899bb44d9ce12da
-Description: metapackage (i3-gaps window manager, screen locker, menu, statusbar)
- This metapackage installs the i3-gaps window manager (i3-gaps-wm), xsession, the i3lock screen
- locker, i3status (for system information) and suckless-tools (for dmenu).
- These are all the tools you need to use the i3-gaps window manager efficiently.
-Homepage: https://i3wm.org/
+Version: 1.1.0
+Depends: libx11-dev, libxtst-dev
+Filename: pool/bookworm/main/k/ksuperkey/ksuperkey_1.1.0_amd64.deb
+Size: 6636
+MD5sum: aca54e642ae4f56d5ec7512f31f7f1a6
+SHA1: aa8757edd512d8d53ee74ccfa5405c85414074f2
+SHA256: c87e37f85e664fa67ca29d1bdd99ab1e59cb54a06d15c820e7d25deba296a1fc
+SHA512: e9753cfc028ed0e7aa655ca1d8ddb2e5639891ff105616caa860c92a6d50bb64f7f82c7ec976acfe3bdc0a3493680763ebcdd1b06209825bebb7751c613e1a5b
+Description: Linux utility that allows you to use the Super key both to open the start menu and as a modifier key in keyboard shortcuts
+Homepage: https://github.com/hanschen/ksuperkey
 
 Package: lact
 Installed-Size: 8400
@@ -786,6 +813,26 @@ Description: Linux kernel headers for 6.1.69-x64v1-xanmod1 on amd64
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
+Package: linux-headers-6.1.71-x64v1-xanmod1
+Priority: optional
+Section: kernel
+Installed-Size: 52973
+Maintainer: Alexandre Frade <kernel@xanmod.org>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.1.71-x64v1-xanmod1-0~20240105.gb23be69
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.1.71-x64v1-xanmod1_6.1.71-x64v1-xanmod1-0~20240105.gb23be69_amd64.deb
+Size: 8989388
+MD5sum: 9a67aa0078a406b9b288ac10c290872d
+SHA1: e5737b0fad7b64b7439e554a648501c3e437aa95
+SHA256: 0d698ac29d3ad61b150948239429f4aaf8e7b7fb8951d5766e410c88a222281e
+SHA512: 3ca0de2e00435be0fd02c732c3d6d03358442af2b0d147d7c443474937471ee72ff050a7268fe06cbd65b1e44f500ab37581776c4468b8dd2965b8eaa2e404ad
+Description: Linux kernel headers for 6.1.71-x64v1-xanmod1 on amd64
+ This package provides kernel header files for 6.1.71-x64v1-xanmod1 on amd64
+ .
+ This is useful for people who need to build external modules
+Homepage: https://www.kernel.org/
+
 Package: linux-image-6.1.66-x64v1-xanmod1
 Priority: optional
 Section: kernel
@@ -822,6 +869,25 @@ SHA512: d6c7110b37f2435875543890b5c240c6ae73cdb3b46f7cce67e5e98a73df273591d5a6db
 Description: Linux kernel, version 6.1.69-x64v1-xanmod1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.69-x64v1-xanmod1.
+Homepage: https://www.kernel.org/
+
+Package: linux-image-6.1.71-x64v1-xanmod1
+Priority: optional
+Section: kernel
+Installed-Size: 473314
+Maintainer: Alexandre Frade <kernel@xanmod.org>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.1.71-x64v1-xanmod1-0~20240105.gb23be69
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.1.71-x64v1-xanmod1_6.1.71-x64v1-xanmod1-0~20240105.gb23be69_amd64.deb
+Size: 85143320
+MD5sum: 8b6a7f39e0e74cd3a2060cb9f044d78e
+SHA1: e4b7a34ff12f285d2fc3b02c679e6a2ff8e18ea3
+SHA256: cd51e24a018b1d4b5b53d44b11fa86c170ae9950be9970bbbda1f0450c9239e5
+SHA512: f1771ae214cc79fd657607e61aa795760a6af4419a67e0222965b7570e8b4c53398af05bafc462a7e27ec18579c12211c3318f2987b96daee2588b37b36e90e8
+Description: Linux kernel, version 6.1.71-x64v1-xanmod1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.71-x64v1-xanmod1.
 Homepage: https://www.kernel.org/
 
 Package: lsd
