@@ -4,15 +4,15 @@ Section: admin
 Installed-Size: 128
 Maintainer: Dominique Lasserre <lasserre.d@gmail.com>
 Architecture: all
-Version: 1.10.0-1~ubuntu22.04.1
+Version: 1.10.0-1.1
 Depends: debconf (>= 0.5) | debconf-2.0, aria2, coreutils (>= 8.21-1.1) | readlink
 Suggests: aptitude, zsh, bash-completion, fish
-Filename: pool/bookworm/main/a/apt-fast/apt-fast_1.10.0-1~ubuntu22.04.1_all.deb
-Size: 38190
-MD5sum: 62f2a93532c2fefd334662a9963335e9
-SHA1: cd26878cb15af4fd33d78c20569eae120526bb20
-SHA256: e325f76946c850a3da45a4b89a950d1264e45b3d7adcac60e91fa4a5f5f9bc4a
-SHA512: 8a9f7404336c31df5a773dbb524d86eeb99cff74bd3ca564c927ccfc435fa421188e16e4daa7d200990ff2e02b6c2d2d446d3b88a4e9f2758adcc3fa3a00eb77
+Filename: pool/bookworm/main/a/apt-fast/apt-fast_1.10.0-1.1_all.deb
+Size: 36564
+MD5sum: 2513df3b845086131cf2511c2bf10c6a
+SHA1: 7ee7a2a5a5fa57819a2e925549b0218dcb36002f
+SHA256: 9604ce4c19331eceabc0ed0c3fc47a3f9d7c53aab29ea21359c2bec7ea2d75d9
+SHA512: 3736996c708f92a0ad3dc3295be7ec570f2cf70ce017b02c7976874d502a9913278b889497ff20fc598fc5ecc00014f1751244116e4805d59872a5d183aae0b2
 Description: shellscript wrapper for apt-get or aptitude
  apt-fast is a shellscript wrapper for apt-get that can drastically improve apt
  download times by downloading packages in parallel, with multiple connections
@@ -271,14 +271,14 @@ Section: admin
 Installed-Size: 88
 Maintainer: Usarin Heininga <usarinheininga@hotmail.com>
 Architecture: all
-Version: 4.11+202311201955~ubuntu22.04.1
+Version: 4.11+202311201956
 Depends: grub-pc
-Filename: pool/bookworm/main/g/grub-btrfs/grub-btrfs_4.11+202311201955~ubuntu22.04.1_all.deb
-Size: 32518
-MD5sum: 776f27110ec567d59317640dafe3e706
-SHA1: 88a8b69698bcaf1bb8216a6e9a7ddc1777d80c3a
-SHA256: d1dc3bed4b9eec64075176da24ab9394dcfb94263b17a372f97015962b0101d3
-SHA512: 054b08adabba644dcc33861218b4e84f0391d573d11cfde35ea777ea4c5f3695ccb2dabbf568fa464a844841288af26b89ca621b3bd174c8ce146416ac43c8d5
+Filename: pool/bookworm/main/g/grub-btrfs/grub-btrfs_4.11+202311201956_all.deb
+Size: 31980
+MD5sum: 9dcda87e1fa827b7473dfd397e30600f
+SHA1: 1171aea9bf1f8ab80b0aca84c26d025e28970225
+SHA256: ce5f15ea75e69085b1c7aa0dbbb567c069a5a5514d453e61465f81dfcac55238
+SHA512: 5a88255b827e99571d86ceba221dd110986a390e35c2efbefdf95681b541cc80ed59cbba6ae10186474ac8fabbced4eee2e00a2daf2954573d1b65a3661008fa
 Description: Improves Grub by adding "btrfs snapshots" to the Grub menu.
  Automatically List snapshots existing on root partition (btrfs).
  Automatically Detect if "/boot" is in separate partition.
@@ -685,18 +685,18 @@ Section: web
 Installed-Size: 242315
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 121.0+build1-0ubuntu0.22.04.1~mt1
+Version: 121.0+build1-01
 Depends: lsb-release, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.35), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.42), libgtk-3-0 (>= 3.14), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libx11-6, libx11-xcb1 (>= 2:1.7.5), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1
 Provides: gnome-www-browser, iceweasel, www-browser
 Recommends: xul-ext-ubufox, libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk3-4
 Replaces: kubuntu-firefox-installer
 Suggests: fonts-lyx
-Filename: pool/bookworm/main/f/firefox/firefox_121.0+build1-0ubuntu0.22.04.1~mt1_amd64.deb
-Size: 68275854
-MD5sum: 220cad944e194415d24a34552bd98825
-SHA1: e23519b866175a2f86bcb5c2eb6709197ff1dc2d
-SHA256: a10ed557fdc7db483d0a7ebd53b3aa9ecba662396ad1362223411ddf6e31bf9f
-SHA512: 8fcdf9a3389a266e8520020b30cbf0f9f3dd7ac7acdd4f57e285b6019eebfce48225b2a556afab2030ff73a81a6c3903ef7a2c40a90a5fe411db5ec08caf316d
+Filename: pool/bookworm/main/f/firefox/firefox_121.0+build1-01_amd64.deb
+Size: 63223968
+MD5sum: 4f8ece7600d3c5bcf1822f2492cf42f2
+SHA1: b1e84a1311130b24535de6eb2b1f45fce53bebf5
+SHA256: 6292771a6e6097a6a7d1d592508dde1988129259c44be77e3ebf87b9b867af26
+SHA512: 4b4544b7fa203cb37de6fa4017e0bb72afeffa05aafcae44a676882edeb40db84328665e0134350cb094ea189fc58ba3f3b7c411fdbb709bbe83841f8ff73f13
 Description: Safe and easy web browser from Mozilla
  Firefox delivers safe, easy web browsing. A familiar user interface,
  enhanced security features including protection from online identity theft,
@@ -709,14 +709,14 @@ Installed-Size: 1216
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: firefox
-Version: 121.0+build1-0ubuntu0.22.04.1~mt1
+Version: 121.0+build1-01
 Replaces: language-pack-en-base
-Filename: pool/bookworm/main/f/firefox/firefox-locale-en_121.0+build1-0ubuntu0.22.04.1~mt1_amd64.deb
-Size: 894368
-MD5sum: d33dc114419ef3a89e7b62d51860f71f
-SHA1: 151d58a66b5725bd33436fe649db36e20db2167d
-SHA256: 4c938747001f7cdd4433effdce1981ff912021d97fc7a50e39c8064b995aadc2
-SHA512: 5b73fbf6c5d66e639be683a7c2900f9e5432af65cecd7d0a36f955e5d8e224c2a97e7510703b3b95983d514fda4ca40cbe3fec1f844fc2dc1b63736536931b49
+Filename: pool/bookworm/main/f/firefox/firefox-locale-en_121.0+build1-01_amd64.deb
+Size: 898812
+MD5sum: 23b317203466ac3d1715e09a4b4afb85
+SHA1: 4d6a9d8681766522d9c15597df248872e9391953
+SHA256: 8860df3024690504ebced6f2a6a8688c03ec1ed80125f3a4072029b68efc27dc
+SHA512: 7e76abe881850227c92dec2b56214dc33c0ec831608e810e89f6b16ac292912f7714fe97e0a423caea3ef62cb9c8b3d889236e83b58eccfb5ec7a7f2043496c3
 Description: English language pack for Firefox
  This package contains English translations and search plugins
  for Firefox
@@ -728,14 +728,14 @@ Installed-Size: 2346
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: firefox
-Version: 121.0+build1-0ubuntu0.22.04.1~mt1
+Version: 121.0+build1-01
 Replaces: language-pack-es-base
-Filename: pool/bookworm/main/f/firefox/firefox-locale-es_121.0+build1-0ubuntu0.22.04.1~mt1_amd64.deb
-Size: 1991872
-MD5sum: bdc693273554382cf7257bca4d9d8f1c
-SHA1: 48aa3c224a4fbae335d7b2813007a5f1e4caf95a
-SHA256: 72227c7485983475a56ac59eaa7c1137e7838b2809779ba62c1f6a22755e6454
-SHA512: dbfda64383faf26832106b943dcbbfb78e9395bcd19ce82a5bb0323e9eca9cfdbfa53f420af136995fab520c073b6722d2e323ba8d07d64a055420833008aaf4
+Filename: pool/bookworm/main/f/firefox/firefox-locale-es_121.0+build1-01_amd64.deb
+Size: 2000840
+MD5sum: 0aa9a5e36fccbbf98db8f51ed67ec9de
+SHA1: eeb266f2584cd4719408a4b2dfa69a2628f97efa
+SHA256: 465bce7ad2781162faba75ceeee8c33eb11561bb22ea15eb3ac956e54ddf8b3d
+SHA512: b58faa34e61523126c2e86da55b4d69e7f33b6c365db6997ad9615b8bbdfac13eb567501fe72d44766b2d572e62218d51f06751907a107c815fbaa0e508edc0b
 Description: Spanish; Castilian language pack for Firefox
  This package contains Spanish; Castilian translations and search plugins
  for Firefox
@@ -1087,14 +1087,14 @@ Section: xfce
 Installed-Size: 308
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Architecture: amd64
-Version: 0.4.0+git20211129+zorin2
+Version: 0.4.0+git20211130
 Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.21.5), libstdc++6 (>= 5.2), libwnck-3-0 (>= 3.2.0), libx11-6 (>= 2:1.2.99.901), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
-Filename: pool/bookworm/main/x/xfce4-docklike-plugin/xfce4-docklike-plugin_0.4.0+git20211129+zorin2_amd64.deb
-Size: 77010
-MD5sum: acbf28a9a9e22835c8d958f538fc36fb
-SHA1: 96fcf34554f05ae7bf0f2fcc0e494126994b314e
-SHA256: 52ab76c11e40d5ca8617578b902e7804d3448f4d740a89ac64ef61d5444cf77f
-SHA512: 2d5efd44adbc577669fb53021f2e5fafa7fb7acc754b38250c021bb6670562eb9e2fc4551c861038be23f8fae79c466b5b7d5d6f89d48812e778fa4dd59847e6
+Filename: pool/bookworm/main/x/xfce4-docklike-plugin/xfce4-docklike-plugin_0.4.0+git20211130_amd64.deb
+Size: 68368
+MD5sum: c01d458e86410298950ce3d83fdc8d0c
+SHA1: 21ea5361d6012a17300a5a238b34907b52bb49bc
+SHA256: 95c84ec1884231bc1f2b2df6d8b3b45367f0ed8cda618030576067b3dde590f5
+SHA512: 3ccf702f30dcce4f5a6c49e342a9bf41cfde56efe9b83907d5e2a6fe220ed4d2b4a7d531fb7a36f044ac220e878cc80488a8d91b05d198c38daa394eb2014912
 Description: modern, docklike, minimalist taskbar for Xfce
  Its features include:
   - Pinnable applications and grouped windows (dock-like)
