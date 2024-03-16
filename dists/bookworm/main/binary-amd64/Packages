@@ -269,18 +269,16 @@ Package: doom-wad-shareware
 Priority: optional
 Section: non-free/games
 Installed-Size: 4116
-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Maintainer: CuerdOS Dev Team [cuerdoslinux@proton.me] | Original maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Architecture: all
-Version: 1.9.fixed-4
+Version: 1.9.fixed-4.cuerd1
 Provides: doom-wad
-Recommends: doom-engine
-Suggests: freedoom, game-data-packager
-Filename: pool/bookworm/main/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed-4_all.deb
-Size: 1366256
-MD5sum: 88433427555fe459b8c319e7d305402d
-SHA1: 952f00e9a4993c32dad9b40c564771dff169586c
-SHA256: 29c673d3ed41fb9ab64b3f3907ab9d17e2ca861b1cd6f4aca53aced79d257d0e
-SHA512: 24b8ef4d0c419bfd7ea0201415ce26bb8f83275f8c5561567f2d6e807a9d88719bc3ff66bebdebb194a34eddc71270b618718df0ac5690a81dff7f15c32283c4
+Filename: pool/bookworm/main/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed-4.cuerd1_all.deb
+Size: 1366728
+MD5sum: bc70309a5d0f6a6d87eb5b709e156c10
+SHA1: b330bad16c156dd17f8aa56d16cc08642074f8c2
+SHA256: 70ece94ccee376c201606fe9eee77bf9a1674215332b54be116513a1828035b1
+SHA512: d08736e2b500d6809e217e763ebd57c028db6f82cfb6fe9b473b50015c61498d46f402c1bc34ca8b32d192abf3d1d16e7b877a7df06dffd92fb5e8543a37df08
 Description: Shareware game files for the 3D game Doom
  This is the Shareware doom-wad file for Doom. A doom-wad file is
  required for doom-engines such as prboom or chocolate-doom.  You can
@@ -659,6 +657,23 @@ Description: Code editing. Redefined.
  instructions and FAQ.
 Homepage: https://vscodium.com/
 
+Package: cuerd-welcome
+Priority: required
+Section: tools
+Maintainer: gatoverde9506@outlook.com
+Architecture: amd64
+Version: 2024.02.05
+Depends: python3, libgtk-3-0
+Filename: pool/bookworm/main/c/cuerd-welcome/cuerd-welcome_2024.02.05_amd64.deb
+Size: 1308144
+MD5sum: 23bea535bd4ed6bee51fe810eef5d595
+SHA1: 2136a0f642b4d2b588783e4cf4f0ef009dfa103d
+SHA256: 07ef73f2510df34984f5b083e180b4e9a649dee874172fb5d63d078dafbc2ed1
+SHA512: 7647372ac83f8a624db37993c9e2fdba96a0086cd8e22fb94333ee30c84ffe54321b702d20dcd6166a34bb3d7b045816d5ba237bb60b4646d6843c459d47dabe
+Description: Bienvenida de CuerdOS GNU/Linux. 
+ Es una aplicacion que ofrece paquetes, agregados o mas recursos para CuerdOS GNU/Linux.
+Homepage: https://github.com/CuerdOS/CuerdOS-Yelena-4_1.1
+
 Package: cuerdos-control-panel
 Priority: optional
 Section: system
@@ -695,14 +710,14 @@ Priority: optional
 Section: system
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 1.0.0
+Version: 1.0.1
 Depends: dpkg, figlet, apt
-Filename: pool/bookworm/main/d/debinstaller-sh/debinstaller-sh_1.0.0_amd64.deb
-Size: 1308
-MD5sum: 57415171ede33059ad92ebcf13609cc3
-SHA1: c8694a4ea6cd359f9de7ba690bff326103cc9faa
-SHA256: 32e3a3ea67eed4e91fb4b6860db9cb0655876be5e21ae1419272f04e31e0b871
-SHA512: 5f03024175e774e343e4a20c864bd29dd8fd0205c19178ee9bf6740379fd95017a8d53b3aad7f94ee9c1ba5443e8c66d9fe516d88f419a665004e7c09d81db1e
+Filename: pool/bookworm/main/d/debinstaller-sh/debinstaller-sh_1.0.1_amd64.deb
+Size: 1360
+MD5sum: a5aa8326fc4fbdd0350e8002ccb6f603
+SHA1: 54055a6053e0ad9c7af7c3ab9897157f077405bf
+SHA256: 6fe0058b846dde517c5747b97a7b29a09ce2156e5a8fbfdb87ec9938dbf8ac68
+SHA512: cff58649b4d7fbd2a840f624a3089562d3cdb7a941e5eadaaf21e6be0ee57579619741c386bc964ea83222974781fca65102c157b730232edbe7f0e8b45d5438
 Description: A deb package installer script.
 Homepage: https://github.com/CuerdOS/debinstaller-sh
 
@@ -721,33 +736,6 @@ SHA1: 89c28be9b68f89726de6e1e4ccceaec2d660f4f8
 SHA256: e2f2686a9c5dcf1d20dbca8bc1e600b41bf0f4ae651874d881610e94a06690ce
 SHA512: 375024638a09f8485f16ead473cadbd6f75ef09c2fb7b640b1048afd868dd8bf6fac53a2d65e727dbe94f0b0d34ecd4d24058b189a532884df5263ad70a8853f
 Description: Discord 3rd party client with the capacity to share screen with audio.
-
-Package: dosbox
-Priority: optional
-Section: otherosfs
-Installed-Size: 2671
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me> [Old Maintainer: Stephen Kitt <skitt@debian.org>]
-Architecture: amd64
-Source: dosbox (0.74-3-4)
-Version: 0.74-4-4+b1
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgl1, libpng16-16 (>= 1.6.2-1), libsdl-net1.2, libsdl-sound1.2 (>= 1.0.1), libsdl1.2debian (>= 1.2.15), libstdc++6 (>= 11), libx11-6, zlib1g (>= 1:1.1.4)
-Filename: pool/bookworm/main/d/dosbox (0.74-3-4)/dosbox_0.74-4-4+b1_amd64.deb
-Size: 901808
-MD5sum: 5a165cb7af1d4b2b8098d29d982132e2
-SHA1: 38180b954576a2cc40dfcfbc79b63c95808c16d2
-SHA256: bb5b3571923f1075a8bebe5897b55891ab9fdb2ef9bc1ec6eaff94ab2bb0750d
-SHA512: 89f164ca1f0cee65c9722140b8d2b35357bc6d5fe53a440f814a3c52851693155e01567dd3540c745da4a964464236f3313090e1edfb70d3bd255f0186a0e155
-Description: x86 emulator with Tandy/Herc/CGA/EGA/VGA/SVGA graphics, sound and DOS
- DOSBox is a x86 emulator with Tandy/Hercules/CGA/EGA/VGA/SVGA graphics,
- sound and DOS. It's been designed to run old DOS games on platforms that
- don't support it.
- .
- The following legacy sound devices are emulated: PC Speaker, Creative
- CMS/Gameblaster, Tandy 3 voice, Adlib, Sound Blaster Pro/16,
- Disney Soundsource and a Gravis Ultrasound. MPU-401 is forwarded to
- the host.
-Homepage: https://www.dosbox.com/
-Multi-Arch: foreign
 
 Package: firefox
 Priority: optional
@@ -1011,11 +999,11 @@ Architecture: amd64
 Version: 0.6
 Depends: libncurses5-dev, groff
 Filename: pool/bookworm/main/m/myman/myman_0.6_amd64.deb
-Size: 1338488
-MD5sum: 6455b766daed976f5a488dd49ba7ec4b
-SHA1: 47ac6c9ae26c09e88e3b241d37e6c55776e0c02c
-SHA256: 06fee04c87defbd596830f2a50ff1ec86b1160f5430bfb7ae4da0a314e3be717
-SHA512: f5d3fa5ddc0f2e40d9c2e2c4b9d0c6304cfd357d49ced190eb856500eb9b9604ffd15561de5cf41b556e09df510b35a04f3411e4b3ec438676f299e477bc0848
+Size: 1350760
+MD5sum: f40df0b0b76f9c33fad0d8bf0f68510f
+SHA1: c49e0b460b81aebae47b2615020ede1bb0f87753
+SHA256: 9183081f8c3eed74d620409d9b2ba780bc8ddf94706ad81f6bde5497bc315842
+SHA512: 345523a5da1e6c7e62ab1443150325c2e3a89c06e6c799d3ef54f6526878c48585a2a92c53da4fb1189334b49549fb4fa947362c013a4fa991518e6a70101f48
 Description: A Pac-Man clone for GNU/Linux in terminal.
 Homepage: https://myman.sourceforge.io/
 
