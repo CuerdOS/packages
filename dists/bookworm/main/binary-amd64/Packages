@@ -411,6 +411,23 @@ SHA512: 00cdcd85a891170106a430f38b28a885691fac878ba961faf3e8c69dfe1a40d3bc766ca1
 Description: Pac-Man game clone for MSDOS.
 Homepage: https://deathshadow.com/pakuPaku
 
+Package: pinta
+Priority: optional
+Section: graphics
+Installed-Size: 3686
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.7.1
+Depends: mono-runtime, libc6, libcairo2, libglib2.0-cil, libgtk2.0-cil, libmono-cairo4.0-cil, libmono-corlib4.5-cil, libmono-posix4.0-cil, libmono-system-core4.0-cil, libmono-system-xml4.0-cil, libmono-system4.0-cil, gnome-icon-theme
+Filename: pool/bookworm/main/p/pinta/pinta_1.7.1_all.deb
+Size: 996336
+MD5sum: cef88ce2a542fb56511762c1dc17a41e
+SHA1: 6ac862d2c06205ac6bd126bb5f76ec2aa8706b19
+SHA256: 4e85d930807e4a5b31eddd310b50e94fc599a429e505a6be291c20d31f8527dd
+SHA512: 6ed655d39cc5de7cb3a9edc2db6f851ce2d796ff2ff9cf3432f7c0aae9fb5da3855873f623666b45225660aacf6dff3545167b11a815cbb02ce182a18b2d2a74
+Description: Simple GTK# Paint Program
+Homepage: http://pinta-project.com/
+
 Package: prime-run
 Priority: optional
 Section: misc
