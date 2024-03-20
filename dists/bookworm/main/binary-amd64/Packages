@@ -712,14 +712,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.6.18
-Depends: linux-image-6.6.18-x64v1-xanmod1, linux-headers-6.6.18-x64v1-xanmod1
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.18_amd64.deb
-Size: 776
-MD5sum: dd91ec73d73e036b7b925bff50dfef8e
-SHA1: 32368cb049493854ac7a95b9e844417fd5050bbc
-SHA256: a68fc889a2e765274b9c4aaee664459a3701f154c80b9f2df9240e1077e9cc2b
-SHA512: 12b1c14552d771fb57ac422962eaf5b74c0b0e33112f63df9b0364e2438f98fc0c1245139e19c959aee126e3b24c30e16858c915ad1b0a96a1c6a5ac77a0d22b
+Version: 6.6.22
+Depends: linux-image-6.6.22-cuerdos, linux-headers-6.6.22-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.22_amd64.deb
+Size: 764
+MD5sum: dfa07ff88e520d719fa80e4dceec0a12
+SHA1: e1147c822abeb7f593b4800adffeeed80f6ce361
+SHA256: fcca9204c4fbafa86d5ae79c685d5ea22d1020b25e51b578ce34c00f497b03f1
+SHA512: ad96c1990919b881eaec894f3c3f45eb274e233306cacdfbfd75c8948194fa64fde2b28c7c28bc9c68ae49fa5c41a790bfcb5442d0f8b823652c208ffa261742
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: debinstaller-sh
@@ -768,6 +768,22 @@ MD5sum: e456f1a2338ea395ef3db51d4b2f2fea
 SHA1: 3f8278d910764cf3f67e1954c6ed8c7a0cce2184
 SHA256: 958f78f0402ba9a7a283f06ee3cbb67d00d60f8f39331ced4bf505e6045d3532
 SHA512: 9ec1036357c042b2db747b44e25d931a83731c8bcaa273c5ee02997f4e3a47cd7fd6e55024ff6550f165814e5b4ba88c3d3f0b3a6bdaa27ae9f9fb9f58e16827
+Description: Mozilla Firefox
+
+Package: firefox
+Priority: optional
+Section: web
+Installed-Size: 248896
+Maintainer: Mozilla Releng <release@mozilla.com>
+Architecture: amd64
+Version: 124.0~build1
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.5.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1
+Filename: pool/bookworm/main/f/firefox/firefox_124.0~build1_amd64.deb
+Size: 68870156
+MD5sum: 10c122dde68d7960e62bc33b9df1aa8f
+SHA1: d42a7b0a371a665eb6fa1fb00099f35347f648e6
+SHA256: 67bc4760c1c4d16b9823ea78c6adea1c6d163dcf456b83ac6e227fd138530cac
+SHA512: 3d7a73c513265e8e04c2b337a9c88b328d1e491530a279b24c7664b5dd9298110c47279253fc37ac3ef3f16814d8bf810bb40ba751a1e5bdcc7ad05e5b442e11
 Description: Mozilla Firefox
 
 Package: github-desktop
@@ -860,60 +876,60 @@ SHA512: 2996ac1c1b673e032da8b8b6a70aafa4110c1654de659b7e32fb6476e09607a5247808c2
 Description: AMDGPU control utility
 Homepage: https://github.com/ilya-zlobintsev/lact
 
-Package: linux-headers-6.6.18-x64v1-xanmod1
+Package: linux-headers-6.6.22-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 55277
-Maintainer: Alexandre Frade <kernel@xanmod.org>
+Installed-Size: 54618
+Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.18-x64v1-xanmod1-0~20240223.g8170398
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.18-x64v1-xanmod1_6.6.18-x64v1-xanmod1-0~20240223.g8170398_amd64.deb
-Size: 9355440
-MD5sum: b037f6822805a0a274fea7fb63ae34d7
-SHA1: b78425c2749d11a72b4764e6e3442cb93a45e774
-SHA256: a6a1fa896126732080467a1ea101d0278946ced51d694c1dbe5226d3df6b3d4e
-SHA512: 7c9253b8a3cc00ced1a1f79315a1ee3598e11a0a46efdf2a3fa717c24f853977b5d5bf31926541356852372c7cef3c02976f1489f9ddc6ed002c6a10838d0ebd
-Description: Linux kernel headers for 6.6.18-x64v1-xanmod1 on amd64
- This package provides kernel header files for 6.6.18-x64v1-xanmod1 on amd64
+Version: 6.6.22-2
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.22-cuerdos_6.6.22-2_amd64.deb
+Size: 9260264
+MD5sum: 0d77a19472cd25ef0687e2625bb84ae5
+SHA1: 01f85b7cd133b42d5ced335cf2f89d68be80c46a
+SHA256: e4a27e9979c284fcbc1f38d131e97b715977f98220f197e5bf1607398df64962
+SHA512: 4a32984ff001cc9c9571381429fa686bd32d9529399c9990016a18e70a86d7fc39146ea6814d7020fa784c3862f87a9ce9692d30bd3ee9f8240c46a0c711657a
+Description: Linux kernel headers for 6.6.22-cuerdos on amd64
+ This package provides kernel header files for 6.6.22-cuerdos on amd64
  .
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-image-6.6.18-x64v1-xanmod1
+Package: linux-image-6.6.22-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 488514
-Maintainer: Alexandre Frade <kernel@xanmod.org>
+Installed-Size: 467219
+Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.18-x64v1-xanmod1-0~20240223.g8170398
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.18-x64v1-xanmod1_6.6.18-x64v1-xanmod1-0~20240223.g8170398_amd64.deb
-Size: 87057668
-MD5sum: 0ce80b9c9026625a4418a3a4f0b518f0
-SHA1: 5dc2396c8f36097e1321eab6652ff5af7b52e8ae
-SHA256: 0e01d38f248a03ddb46398f9b952d6050927f03e896e92419b4c50eaa6e4f2e5
-SHA512: fcdcebd30a0967e2cc1e68ba2fc3fe1d325cae75ce091d92fb2fd6a4f9e25356f145919fe7047d92cccb7a5811b3bfbe4fd9850796fb30af43c72eb3d69200a8
-Description: Linux kernel, version 6.6.18-x64v1-xanmod1
+Version: 6.6.22-2
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.22-cuerdos_6.6.22-2_amd64.deb
+Size: 78742376
+MD5sum: b3b7d023c0643fb30ec90b887593c1ef
+SHA1: 48696560b2aba18a7525edd4aeb5d41ab711a125
+SHA256: 3efc0b8fa6f9f461d7767527add7230d71c9e890dc22bdd7a399230408c46540
+SHA512: 716e59d10a82b2023df43c253aa2d8736468eb600afd6bd438cd810936bda3d399d4e05421ad2fda29332a8c97ff3f541c1afc56feccc41e817af478b64d3766
+Description: Linux kernel, version 6.6.22-cuerdos
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.18-x64v1-xanmod1.
+ files, version: 6.6.22-cuerdos.
 Homepage: https://www.kernel.org/
 
 Package: linux-libc-dev
 Priority: optional
 Section: devel
-Installed-Size: 6846
-Maintainer: Alexandre Frade <kernel@xanmod.org>
+Installed-Size: 6841
+Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.18-x64v1-xanmod1-0~20240223.g8170398
+Version: 6.6.22-2
 Provides: linux-kernel-headers
-Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.18-x64v1-xanmod1-0~20240223.g8170398_amd64.deb
-Size: 1318700
-MD5sum: 84ed0c04942928359dc8cc98d6bd4664
-SHA1: 0ee011335b48eeabed3c4bd9dbaf4a6267d16331
-SHA256: 1ec0642db359b83067faa784061bec058e40723bee060a1343e6ad397facfb5f
-SHA512: dd8cb23a1beb4d2d1db008837048216e32c537cc98f2ea2a2d561270cb0472d98c8b4dd3b43b522f6f883c71aaf2ed78a8af7287ed707606acab076d26034d82
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.22-2_amd64.deb
+Size: 1317544
+MD5sum: 60b11f3028022b8f08f9a3d660a62bd3
+SHA1: 69d7a1132c9aa5aebe9e72db4b3210826bd87d45
+SHA256: 0c76bbdd16d538a051cd2db9ab77a8c9f61f682ae52c718b698ec6d02256fd2e
+SHA512: a100b03d478012dc1004a832556e546d22bdc0fd5cdfe083f783489de99a9a820da4aa0bf5fafab8fcfda0c16be972c60dab50bf8bfec36cdbe86e02bb462eb1
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
