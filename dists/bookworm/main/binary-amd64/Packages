@@ -1,0 +1,1519 @@
+Package: apt-fast
+Priority: optional
+Section: admin
+Installed-Size: 128
+Maintainer: Dominique Lasserre <lasserre.d@gmail.com>
+Architecture: all
+Version: 1.11.0-1~ubuntu22.04.1
+Depends: debconf (>= 0.5) | debconf-2.0, aria2, coreutils (>= 8.21-1.1) | readlink
+Suggests: aptitude, zsh, bash-completion, fish
+Filename: pool/bookworm/main/a/apt-fast/apt-fast_1.11.0-1~ubuntu22.04.1_all.deb
+Size: 38270
+MD5sum: 901e5ef0fb2d0f6bc4fe5aad5f4323e5
+SHA1: 2ad8813ee2cf8b5d09b19772b465e122eea1c2ff
+SHA256: 1a408bcd85c28718a94f64e6965424c1ed124f5cb61ab440c0b54012c85e3d1c
+SHA512: 873ece146e9e15ba9f784dd176f1119855eb47aa307ccf1ba159bd4f5f00a51359084e3df3edf237bcb62942f1f99c6ea3984b2d744209e0d2260178e7181c14
+Description: shellscript wrapper for apt-get or aptitude
+ apt-fast is a shellscript wrapper for apt-get that can drastically improve apt
+ download times by downloading packages in parallel, with multiple connections
+ per package.
+Homepage: https://github.com/ilikenwf/apt-fast
+
+Package: autofirmaJA
+Priority: optional
+Section: utils
+Installed-Size: 33776
+Maintainer: GECOS Team <gecos@guadalinex.org>
+Architecture: all
+Version: 1.6JAv06-C1
+Depends: default-jdk, default-jre, libnss3-tools,  libnss3 (>= 2:3.26), openssl, ca-certificates, jarwrapper
+Filename: pool/bookworm/main/a/autofirmaJA/autofirmaJA_1.6JAv06-C1_all.deb
+Size: 28450576
+MD5sum: c9fe81b4c55bad64b43db0c40089d9af
+SHA1: c38734cff30e1edf0827ec9a5652d16610077cce
+SHA256: e48432e2d5df58b560620a0d7745db5e8ec4e9d141b1828fb1609c19587e8779
+SHA512: 07a80508f384aea90e5563b457811ab63fc89ff0d1e030236124c735c474cd4e3c77a4ac69617c2192b2c9e8a5a190aeebcfd7b940cde90426450a3aa39a677b
+Description: Cliente de Firma Electrónica @firma
+ Utilidad para la firma electrónica de documentos 
+ independiente del navegador web
+Homepage: https://administracionelectronica.gob.es/ctt/clienteafirma
+
+Package: battery-monitor
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0.2
+Filename: pool/bookworm/main/b/battery-monitor/battery-monitor_1.0.2_all.deb
+Size: 1074
+MD5sum: 2c4869e511610f27eabbce70d71a5612
+SHA1: d252ed83174ae9dca66434bd072016a99b109d84
+SHA256: 61d30d81a166f3480bb1981897925bd4ec4f84279b6dc96c07c759c7cbf389f6
+SHA512: a03c369c6b83e7591e496947070e7c40d2a8b7e0844b44b081478186fce688a3ce3b7a0a6a0bd7e314e0dc4061349e47b4682d381327469d4df97391fc361661
+Description: Low battery notifications
+
+Package: boot-info
+Priority: optional
+Section: admin
+Installed-Size: 45
+Maintainer: Yann Mrn <yannubuntu@protonmail.com>
+Architecture: all
+Source: boot-repair
+Version: 4ppa2075
+Depends: boot-sav (>= 4ppa2067)
+Filename: pool/bookworm/main/b/boot-repair/boot-info_4ppa2075_all.deb
+Size: 11338
+MD5sum: 21f1182906eac4b79ab5dc039a917652
+SHA1: b61499e581edc67f45c58eb5607e3554da715c41
+SHA256: 646af00e93526ffe05b71f9e23b9d51765c94283aece01f527d0cc0f233abf9b
+SHA512: 12e68c23116355898d622940091fc607fb3a9d4815a6e1802e499f2fe94970d16161e3e7c239ac65987e15b85fe33274ab12b8a8e58e31591070443191399775
+Description: Diagnose the boot of the computer
+ Boot-Info creates a report about your boot environment.
+ This can help diagnose boot issues, and find the best solution.
+ .
+ The report can be either opened in a text file, or uploaded
+ to a pastebin URL for easier sharing with people who help you.
+Homepage: https://launchpad.net/boot-info
+
+Package: boot-repair
+Priority: optional
+Section: admin
+Installed-Size: 66
+Maintainer: Yann Mrn <yannubuntu@protonmail.com>
+Architecture: all
+Version: 4ppa2075
+Depends: boot-sav (>= 4ppa2067)
+Recommends: ntfsprogs | ntfs-3g (>= 1:2011.4.12AR.4)
+Filename: pool/bookworm/main/b/boot-repair/boot-repair_4ppa2075_all.deb
+Size: 17372
+MD5sum: af6829ff89b5a24f2744d08d9c1db7c0
+SHA1: 13c47ed11e8847c7694de19041b53d5c2909796a
+SHA256: 28d1c90a9c93885c147a917daa2591753a939d695f0abb2876bb43e5687dbb15
+SHA512: cbaedffb79da1890726bbd2aab7342740031aaeb119f4ca91bd55f7a0270256a22ef2e0fe0faa02ea5d34924428f023ecf6b3dfec026bdb05250e9ab04abdcd0
+Description: Graphical tool to repair boot problems
+ In some situation, you might loose access to one or several of
+ your operating systems, because of a buggy update, a bootloader
+ problem, or after installing a new OS (e.g. installing
+ Windows breaks Linux bootloader).
+ .
+ Boot-Repair is a graphical tool that will repair these problems,
+ generally by reinstalling GRUB, which then restores access to the
+ operating systems you had installed before the issue.
+ .
+ Boot-Repair also has advanced options to reinstall GRUB, add
+ kernel options, or restore a generic MBR.
+Homepage: https://launchpad.net/boot-repair
+
+Package: boot-sav
+Priority: optional
+Section: admin
+Installed-Size: 2697
+Maintainer: Yann Mrn <yannubuntu@protonmail.com>
+Architecture: all
+Source: boot-repair
+Version: 4ppa2075
+Depends: efibootmgr, gawk | mawk (>= 1.3.4), gettext-base, gdisk, glade2script (>= 3.2.4~ppa23), lsb-release, mokutil, os-prober, parted, xdg-utils, xz-utils | xz-lzma | lzma, zenity
+Recommends: boot-sav-extra, lshw, pastebinit, syslinux-common | syslinux | mbr, zip
+Suggests: boot-info, boot-repair, cryptsetup, dmraid, lvm2, mdadm, os-uninstaller, zfsutils-linux
+Filename: pool/bookworm/main/b/boot-repair/boot-sav_4ppa2075_all.deb
+Size: 525644
+MD5sum: ede869ac465bba754d136568849e1920
+SHA1: 2ac20b48224fabcd8603f13f81d31f9e8d18db7e
+SHA256: a113f5fcf1502ed9fc92a0a74cdd09c3db44db2526ffd206320084a0947557f5
+SHA512: ab914faf144e264d929954f5de9e27849d30cf656f6c4d2e508a273b0535fdd3880edeb11941922a2c3d00967948bb5e56710d57df2a925bc36b67c4017db86d
+Description: Librairies for Boot-Info, OS-uninstaller and Boot-repair
+ Common files for 3 tools related to boot:
+ Boot-Info,
+ OS-Uninstaller,
+ and Boot-Repair
+Homepage: https://launchpad.net/boot-repair
+
+Package: boot-sav-extra
+Priority: optional
+Section: admin
+Installed-Size: 159
+Maintainer: Yann Mrn <yannubuntu@protonmail.com>
+Architecture: all
+Source: boot-repair
+Version: 4ppa2075
+Depends: boot-sav
+Filename: pool/bookworm/main/b/boot-repair/boot-sav-extra_4ppa2075_all.deb
+Size: 146992
+MD5sum: eeb88bd53b5594ac58e09b35144b6cee
+SHA1: e48b6266155cf2880a2412d3c56cb00775dd0945
+SHA256: 12782c2fd6708ff128151b8888b0422ad8599fbf5e4549c8a6534b05bf72748a
+SHA512: cf3af3b772afccd4418de8c572693186ec1cd62cc1faec612af89be006be27e53c16352857808ee36ee71918b89cf86fa40b72da26b7fa6ca42d024450a93c9a
+Description: Extra librairies for OS-uninstaller and Boot-repair
+ Common files for 3 tools related to boot:
+ Boot-Info,
+ OS-Uninstaller,
+ and Boot-Repair
+Homepage: https://launchpad.net/boot-repair
+
+Package: calamares-settings-cuerdos
+Priority: optional
+Section: utils
+Installed-Size: 314
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.0
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Filename: pool/bookworm/main/c/calamares-settings-cuerdos/calamares-settings-cuerdos_1.1.0_all.deb
+Size: 91492
+MD5sum: 5b722309bfda4d7e96dde5befaff4743
+SHA1: 2f30268bf633f097f205c94227aa3c02d26c2826
+SHA256: 1423c3c8f7dd9aa44beb91fedc141c7542466d3b6ef7d6dab526231ca77f3537
+SHA512: 7f7d67da8c5ea04564d7beb6dc27a423d889e7aa189dae36d82fc62a080ea9517a7f5e671c3c80aafdf883d4e94b2ade55f3c9fccf6415a72c929de8926d41fa
+Description: CuerdOS theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
+Package: cfetch
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1
+Depends: cowsay, fastfetch
+Filename: pool/bookworm/main/c/cfetch/cfetch_1.1_all.deb
+Size: 872
+MD5sum: 0f79d8d11fbc1d773d35ddf4a0c76df6
+SHA1: 1f5998fe70ceae7a49cc3df49564f9c0a5c4dc08
+SHA256: 7a126e82cfc4b02e32c3d00f738fe88a2a6feb3e2883f6b0f85b7e367a413588
+SHA512: 7806a6476ad3ffd286ee8ebf0fe38fa2aeb2ff9dd4477262bf7418934e6bf6c4a9d7418bbbb8a0ecfca8d28710a6de7e3360f4dab0db2eb080c2b26ec02e85fe
+Description: CuerdOS fetch.
+
+Package: community-wallpapers
+Priority: optional
+Section: misc
+Installed-Size: 28057
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.1
+Filename: pool/bookworm/main/c/community-wallpapers/community-wallpapers_1.1.1_all.deb
+Size: 40288652
+MD5sum: b92474115deac3f4a12389e9dbbecfc4
+SHA1: 9e99d2c53b4966039cb32f104325e4ff6eee5bb9
+SHA256: 4bdf8edc5d13c6a12ed7d290f68af8fb438ce5e62a8a5a8c92cc8d7acd82b28d
+SHA512: 1432728ae4922947545d3a391564e62aa188f60b1f2a0352e6314f8f2571927df741a9e55735ef0d62572458e00c32046aa50742c9e1fbf1a5950cb29caeb457
+Description: These are wallpapers for CuerdOS made by the community of CuerdOS users. Among these are the wallpapers of the users Wlad And and Gatoverde95.
+
+Package: config-updates
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.2.1
+Depends: rsync, sed, libxapp-gtk3-module
+Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.1_all.deb
+Size: 5616
+MD5sum: 5e2f269a63e90ffc19faa3895b174353
+SHA1: d45f6d775eb9f0a0a9b1ad64c49035e2e543b2da
+SHA256: 795ecd0c3de724d37d41efddeb706b35931637a08def61ba6d41bb8167517311
+SHA512: 67e49a33af8455f2f8455a574b2e7ca7e23a9311d883fa2ae90e4e4d0772f44f548cafdfb8f9ef7b434867c4443275bbec41b673f1dc8f26f581940165068fd3
+Description: CuerdOS config updates, please don´t remove this package.
+
+Package: config-updates-gnome
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.2.1
+Depends: rsync, sed
+Filename: pool/bookworm/main/c/config-updates-gnome/config-updates-gnome_1.2.1_all.deb
+Size: 5584
+MD5sum: 127178a44040146eb64bcae49f8db715
+SHA1: 5d5e0f2330dfdb591afed3d084052e1d6214a525
+SHA256: 3bf3c6389351b84f6f052b4988d43a8b5d67943dc59b81c0cc17a4eba186659a
+SHA512: 7e1bf8bf5d713211a97383739c1732a97fe02b9984f5170c117716e5f085feaa50a6c5ceb3bb0c5a855f3295521f82bf1bd37bc9e0584cb57f800a042d6579ff
+Description: CuerdOS config updates for Shell edition, please don´t remove this package.
+
+Package: cuerdos-evergreen-gtk-theme
+Priority: optional
+Maintainer: CuerdOS Dev Team (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.0.3
+Filename: pool/bookworm/main/c/cuerdos-evergreen-gtk-theme/cuerdos-evergreen-gtk-theme_1.0.3_all.deb
+Size: 69020
+MD5sum: e920b25ec46e752be4daf8dab5bb5ed8
+SHA1: 009b79598863a05dab4fec1f1032e45bdaf8a9de
+SHA256: 0e224221b209c283ac9026936b6ab598647d4ed181b19c99e2002bfd0113088f
+SHA512: 9a326bd5aaaa50b1acdfa46f16c3c4e29754e8edb89977ba9d6f07e81b5aafaaa712dd4ab871a33b97bd1795e88835eb3ea143ea08c8a57eb0d194a5afa4d829
+Description: CuerdOS Evergreen GTK Theme
+ El verde en su máximo esplendor.
+
+Package: cuerdos-grub-theme
+Priority: optional
+Installed-Size: 300
+Maintainer: Pablo Gutiérrez (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.0.1
+Filename: pool/bookworm/main/c/cuerdos-grub-theme/cuerdos-grub-theme_1.0.1_all.deb
+Size: 793020
+MD5sum: a0947e751619d2455ca540ce6abb5fed
+SHA1: 1e26cd9373ad152587f62c84d79d0a26b5cc2192
+SHA256: 59948f2fb4045215f1e7db44445c3d5df951fe4184a85efeb2c0e49af562d163
+SHA512: 81f77369ce93d9759a7a1402063a1f10ba14e6215708c563d5d727e70137fa7402761d86a80f7b70b2d5d6dae51a01f83eb50e8c3a1aca20376605be365317fa
+Description: CuerdOS Grub Theme
+ Cuerdos theme for Grub
+
+Package: cuerdos-icon-theme
+Priority: optional
+Installed-Size: 462
+Maintainer: CuerdOS Dev Team (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.1.0
+Depends: hicolor-icon-theme
+Filename: pool/bookworm/main/c/cuerdos-icon-theme/cuerdos-icon-theme_1.1.0_all.deb
+Size: 2106524
+MD5sum: 8ca0ec8bb203fe2b475acc0aa48747ae
+SHA1: 176cf1a03740c4b1789e591a410233ae6dbc6a02
+SHA256: 35b8abc756de265667dae0588e60572ba2599994a987295d6e0bc4429921c522
+SHA512: ccd23203b82b39b41479778c9432287f7eab9c8de519e6cd06eb24f24c45ea41eb0c0d971e8fd51083c13a077cc754fbfa4fbcd39c09ddf1a820a55ea0475656
+Description: CuerdOS iconpack
+ Optimizado hasta el último pixel
+Homepage: https://github.com/CuerdOS/cuerdos-icon-theme
+
+Package: cuerdos-mentolado-gtk-theme
+Priority: optional
+Installed-Size: 43693
+Maintainer: CuerdOS Dev Team (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.1.0
+Filename: pool/bookworm/main/c/cuerdos-mentolado-gtk-theme/cuerdos-mentolado-gtk-theme_1.1.0_all.deb
+Size: 95692
+MD5sum: 7b2c4a21e906b7a52ed861fd70e54c0d
+SHA1: 24026709ca205086ae7b4e31411c2b5797c30984
+SHA256: 1482cf169a3af1188636a28e03fab46a947835ca4a702c74b0f2a18207633a15
+SHA512: 4cb4e43eb178f903cc5fb86f8412cf9a2ad78fce6ef0ae5072bd99cffdeed77bd6be6042d0cfdd1232060f4acc178d16a1cca96d2b6c14aed546b00087f73a11
+Description: CuerdOS GTK Theme
+ CuerdOS con un toque de menta.
+
+Package: cuerdos-second-plymouth-theme
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0
+Filename: pool/bookworm/main/c/cuerdos-second-plymouth-theme/cuerdos-second-plymouth-theme_1.0_all.deb
+Size: 25164
+MD5sum: 728f6ae3ce14aadd8287246466b78ea0
+SHA1: fcf4011c255a9a3d3eb2227724f7afc2b08512e4
+SHA256: 0a2f08c91916f52a25e0fce8c4e7f4e367e2bd5f9d4587abd93fd0fe1deadfff
+SHA512: 41c03bae1c1458ffae40d098318e133833b9f860c1b45faf744d257eeece6df8064332018c1770d164588024be83a76c83da4f24d606d58c853552c4145786ce
+Description: Install CuerdOS second version of plymouth loading screen
+
+Package: cuerdos-wallpapers
+Priority: optional
+Section: misc
+Installed-Size: 60351
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.1
+Filename: pool/bookworm/main/c/cuerdos-wallpapers/cuerdos-wallpapers_1.1.1_all.deb
+Size: 60899648
+MD5sum: 7a2a80618756458a057af70b168a6200
+SHA1: b4d7eb06432c096caa573e0fa096208eafa75941
+SHA256: 251253767ec18508e1a31f07ce7d3b3752f4404b7162ac7179a66fbdb855a19c
+SHA512: 7b8ee332e98e721e3d879e19be8ba01cf72f2a64d7ce069163811e0653805c8ca9fa3fd6bf53c470c90c75c2077202cb2d42e45121fe288d8f398df1b2893a06
+Description: Official CuerdOS Cessna wallpapers.
+
+Package: cuerdos-wofi-theme
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.0
+Depends: wofi
+Filename: pool/bookworm/main/c/cuerdos-wofi-theme/cuerdos-wofi-theme_1.1.0_all.deb
+Size: 1728
+MD5sum: 459db6128af7d6b5b868e62dd3dfccac
+SHA1: 36f983a47a599e4077e8ec3a6d40b003366956f2
+SHA256: e969d92fd95ad68a4447d6a31870b7adab1dfed5f561322babc7b7b61bb47ace
+SHA512: bbc6ba30a6e869598dd003c4d2c847c3757fb2e59614f675395077a7f827a80d99bcc0214caeab70afca8f0b96d5c9606fe5859ec8ebe9931d8b695203b59ed4
+Description: CuerdOS Wofi theme
+
+Package: cups-switch
+Priority: optional
+Section: system
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0.2
+Filename: pool/bookworm/main/c/cups-switch/cups-switch_1.0.2_all.deb
+Size: 1524
+MD5sum: ea7a11df69688741aa934c05f8601a94
+SHA1: 9a7fa7b9019fda9b3ae680b76577a8c0d60987c2
+SHA256: 85c97cb2f90e43a0135ecaf1e02b00b819a65d21545bee8b6f962163c707d65d
+SHA512: 9c0ab8ae0cbf036ade47271a753102c0b38919fcf4739efc2d082aa0f79c8cb1ebe8e10a1d9372becd9ab07b79798212313de2c097ccdb4796780494641d2736
+Description: Enable/Disable CUPS service
+
+Package: desktop-base
+Priority: optional
+Section: x11
+Installed-Size: 7680
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 12.0.7+nmu1~deb12u1
+Depends: librsvg2-common, fonts-quicksand
+Recommends: plymouth-label
+Suggests: gnome | kde-standard | xfce4 | wmaker
+Filename: pool/bookworm/main/d/desktop-base/desktop-base_12.0.7+nmu1~deb12u1_all.deb
+Size: 5646072
+MD5sum: ec80e2e7f1033f3f624bf8d9ced85bbf
+SHA1: 46288cf1c3effe4abab15815d5005cc836b7ba49
+SHA256: 8fe7bc8222ba21a93a380e7d90ed5749e1fa960268e5ee04f89e6a7114426789
+SHA512: 0a3e721de77f348264e965913382de55cbddc77de9d2c54f1889b8633f70a2a795b3d97bd8b462f1d17732e0c01ad6119d7c03fe5710cda1267b9a4aadcdd372
+Description: common files for the Debian Desktop
+ This package contains various miscellaneous files which are used by
+ Debian Desktop installations.  Currently, it provides some
+ Debian-related artwork and themes, .desktop files containing links to
+ Debian related material (suitable for placement on a user's desktop),
+ and other common files between the available desktop environments
+ such as GNOME and KDE.
+Homepage: https://www.debian.org/devel/debian-desktop/
+
+Package: doom-wad-shareware
+Priority: optional
+Section: non-free/games
+Installed-Size: 4116
+Maintainer: CuerdOS Dev Team [cuerdoslinux@proton.me] | Original maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 1.9.fixed-4.cuerd1
+Provides: doom-wad
+Filename: pool/bookworm/main/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed-4.cuerd1_all.deb
+Size: 1366728
+MD5sum: bc70309a5d0f6a6d87eb5b709e156c10
+SHA1: b330bad16c156dd17f8aa56d16cc08642074f8c2
+SHA256: 70ece94ccee376c201606fe9eee77bf9a1674215332b54be116513a1828035b1
+SHA512: d08736e2b500d6809e217e763ebd57c028db6f82cfb6fe9b473b50015c61498d46f402c1bc34ca8b32d192abf3d1d16e7b877a7df06dffd92fb5e8543a37df08
+Description: Shareware game files for the 3D game Doom
+ This is the Shareware doom-wad file for Doom. A doom-wad file is
+ required for doom-engines such as prboom or chocolate-doom.  You can
+ use this package to sample the commercial game in conjunction with
+ a package providing doom-engine.
+ .
+ If you own one of the commercial Doom games, you can use
+ game-data-packager to register your commercial doom-wad file on your
+ Debian system.
+ .
+ Finally, you can use the freedoom boom-wad package in conjunction
+ with a boom-engine (e.g. prboom).
+Multi-Arch: foreign
+
+Package: firecord
+Priority: optional
+Section: web
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0
+Depends: firefox
+Filename: pool/bookworm/main/f/firecord/firecord_1.0_all.deb
+Size: 3216
+MD5sum: 53c7b197d8da43a4f15b84ac70b16f4e
+SHA1: 4c9c42c441ca42e61a5c5ae22a0ecec3495eabb5
+SHA256: bbd23d65ba4cd9c283acc5c303809b75e1e64605e1c0dcab01619ba3e52f618d
+SHA512: b661a69ae4bb6089fdf1ae516bf2d2e62647ae3314e7a0377154af60eab1481dd92bdcf58601bf471d52d565a87d85f43ae8642138cb7942dbc2bea723f3378b
+Description: Discord webapp on Firefox web browser.
+Homepage: https://github.com/CuerdOS/firecord
+
+Package: glade2script
+Priority: optional
+Section: devel
+Installed-Size: 9
+Maintainer: Yann MRN <yannubuntu@protonmail.com>
+Architecture: all
+Version: 3.2.4~ppa23
+Depends: glade2script-python3 | glade2script-python2
+Filename: pool/bookworm/main/g/glade2script/glade2script_3.2.4~ppa23_all.deb
+Size: 2204
+MD5sum: 4ac90357f5851b1f61163fc4490b9011
+SHA1: 42ac21dbe4b7f50ad1f3c78ab718331f40b647cb
+SHA256: da01af7ca6683b1e47cb837b874864eed366017ab2fc1817a04fdebe53bc6eb7
+SHA512: 10c4616162f2b27cf73c1443b27aa716fadd4def32cb7b07aa9b4c0892a74deedf4deba4c773a06700aecba1f32c0e1216b74c4a6a0eabd54283f7861fc0c4c5
+Description: Glade interface engine for scripts
+ Glade2script allows a script (Bash, Python or other) to display and
+ interact with a GUI (created with Glade).
+ .
+ Most of the opportunities offered by Gtk are available. A terminal
+ (vte) and/or webkit are integrable. One can also embed an external
+ application that supports it natively, like mplayer or gvim. A plugin
+ system was added to extend G2S capability.
+ .
+ Documentation, many examples, and an interface giving access to the
+ archive supports (simply install and run glade2script-doc).
+ .
+ Glade2script is used by several software, such as Boot-Repair,
+ OS-Uninstaller, Debeditor, DeskWall, GUnity, LaunchBash, Malokal,
+ mkv_extractor_gui, Screencastor, Sylaba2, Xee, Zenitor.
+ Glade2script allows a script (Bash, Python or other) to display and
+ interact with a GUI (created with Glade).
+Homepage: https://launchpad.net/glade2script
+
+Package: glade2script-python2
+Priority: optional
+Section: devel
+Installed-Size: 198
+Maintainer: Yann MRN <yannubuntu@protonmail.com>
+Architecture: all
+Source: glade2script
+Version: 3.2.4~ppa23
+Depends: python2 | python, python2-gi | python-gi, gir1.2-gtk-3.0
+Recommends: gir1.2-notify-0.7
+Suggests: gir1.2-appindicator3-0.1
+Filename: pool/bookworm/main/g/glade2script/glade2script-python2_3.2.4~ppa23_all.deb
+Size: 35856
+MD5sum: 30b2cd4322196f49041322ce8e97ab61
+SHA1: 466af89095e132840d53bfe2bbb1b2d7d819bbdf
+SHA256: b455762e6511038e6dc7bfc8ffa2524f7f40cc98578b8d18f1164e17b9256411
+SHA512: b5c01035b13e1116ca026f26ef7f445ac037bacaebc0a8b496c2cfa3a061607bc32d0c039a663548368025c2f8a1b0c2527c3ed8049635c6be1c9dd0d84944b4
+Description: Glade interface engine for scripts (Python2 version)
+ Python2 version of Glade2script for retrocompatibility purpose.
+ .
+ The python3 version is recommended when possible.
+Homepage: https://launchpad.net/glade2script
+
+Package: grub-btrfs
+Priority: optional
+Section: admin
+Installed-Size: 88
+Maintainer: Usarin Heininga <usarinheininga@hotmail.com>
+Architecture: all
+Version: 4.11+202311201956
+Depends: grub-pc
+Filename: pool/bookworm/main/g/grub-btrfs/grub-btrfs_4.11+202311201956_all.deb
+Size: 31980
+MD5sum: 9dcda87e1fa827b7473dfd397e30600f
+SHA1: 1171aea9bf1f8ab80b0aca84c26d025e28970225
+SHA256: ce5f15ea75e69085b1c7aa0dbbb567c069a5a5514d453e61465f81dfcac55238
+SHA512: 5a88255b827e99571d86ceba221dd110986a390e35c2efbefdf95681b541cc80ed59cbba6ae10186474ac8fabbced4eee2e00a2daf2954573d1b65a3661008fa
+Description: Improves Grub by adding "btrfs snapshots" to the Grub menu.
+ Automatically List snapshots existing on root partition (btrfs).
+ Automatically Detect if "/boot" is in separate partition.
+ Automatically Detect kernel, initramfs and intel/amd microcode
+ in "/boot" directory on snapshots.
+ Automatically Create corresponding "menuentry" in grub.cfg
+ Automatically detect snapper and use snapper's
+ snapshot description if available.
+ Automatically generate grub.cfg if you use the provided systemd service.
+Homepage: https://github.com/Antynea/grub-btrfs
+
+Package: grub-postinstall
+Priority: optional
+Maintainer: CuerdOS Dev Team (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.0.1
+Filename: pool/bookworm/main/g/grub-postinstall/grub-postinstall_1.0.1_all.deb
+Size: 824
+MD5sum: c7634bf1fb8bfcd618b38a67b5b5a080
+SHA1: 1f88cae286ed7e65c3b52d3d24ea377c384d7581
+SHA256: 7f4ab7328c1577ee9cfa258e22abb3d879406942107101c2b871ea7553d1004e
+SHA512: 49b11a43993bb5cf62881265fcc5118fcfaf8eef9655ba65a5a48961f01275ae5b89fd9c1d45e8e9a8c6d56a509edc36f30b94c5aa9dcbcac620ae79a4ae9b1a
+Description: CuerdOS Grub Theme
+ Cuerdos theme for Grub
+
+Package: i3-config
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.1
+Depends: rsync, autotiling, xautolock
+Filename: pool/bookworm/main/i/i3-config/i3-config_1.1.1_all.deb
+Size: 4012
+MD5sum: 06e416085c47b49988c246ecd3f781ba
+SHA1: 1a21fc07dd2aad68a2f7a52b671b3ef674ae0200
+SHA256: e09a1361d5794a34123b43a7dd55a5b571c1459fb48a6c5cc003dfd2cc0c02af
+SHA512: 9b22463106712af65b518774cb0d439316c9468cb9992ea28132db84bfb43395f70c73273e23be62d3b608818ff741a50de36eaae3fab73fde5de89684868617
+Description: CuerdOS I3 config
+
+Package: i3-config-reloaded
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.0
+Depends: rsync, autotiling, xautolock, xss-lock
+Filename: pool/bookworm/main/i/i3-config-reloaded/i3-config-reloaded_1.1.0_all.deb
+Size: 3964
+MD5sum: 9389a1614db287508be56697a8b8f648
+SHA1: e451d6cdb7879b5c12d3969887edf516cc5c306d
+SHA256: ab3e77477cbb086b2252d90c27fd298a8ede2cdb696142a8d09ec23cbafe9593
+SHA512: 9c21def618cd9e67da9f245103b075165f9921c8f1175b82efc78e3712c62207f17797ed9d5f92814cd5e354326ca7724fb123899b331af28d2133d2c785f0ed
+Description: CuerdOS I3 config
+
+Package: i3lock-fancy
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 0.2.0-b2
+Depends: imagemagick, gawk, util-linux, bash, i3lock-color
+Filename: pool/bookworm/main/i/i3lock-fancy/i3lock-fancy_0.2.0-b2_all.deb
+Size: 20968
+MD5sum: 70a04de0042dd51afa1920753d2d64b9
+SHA1: 3fb7126022d50c602eca1a376892130af17e1040
+SHA256: 1041b2369a7a890866767eede95a2626acb99e8b6ccb5bc305dfa86c8311ef0e
+SHA512: 6c6373928ba259bec903a13c07aea7d469737c9b75048da39392eb295b4e3b09716dfde843dfa0125ab7993a088ce0563e76cf10e10111c9922a4b51a6382f4d
+Description: I3lock blur theme.
+ I3lock script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text.
+Homepage: https://github.com/meskarune/i3lock-fancy/
+
+Package: kernel-build-deps
+Priority: optional
+Section: utils
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0
+Depends: build-essential, libncurses-dev, flex, bc, bison, openssl, libssl-dev, dkms, libelf-dev, libudev-dev, libpci-dev, libiberty-dev, autoconf, dwarves, python3, zstd, gnupg2, rsync, debhelper, git, curl, wget
+Filename: pool/bookworm/main/k/kernel-build-deps/kernel-build-deps_1.0_all.deb
+Size: 872
+MD5sum: 328ba8c8da8449eb3e55cfe2a1fb7319
+SHA1: ed92d84268c8d1d1d38a50c5e8207afbaabec02d
+SHA256: 03508ddc319ece55fdc4550df554a9117c67320b32c7bf4c82c0ca2d5f663fd4
+SHA512: f341af94d70f8b266ca241692e9c8f4e57248eacca8834e875440bb8abf1e52e21f797aed0aa950c762e7925f0ea565a38dccc88be01126d737db93c86f0b4f3
+Description: CuerdOS package for someone who wants to build their own kernel.
+
+Package: os-uninstaller
+Priority: optional
+Section: admin
+Installed-Size: 66
+Maintainer: Yann Mrn <yannubuntu@protonmail.com>
+Architecture: all
+Source: boot-repair
+Version: 4ppa2075
+Depends: boot-sav (>= 4ppa2067)
+Filename: pool/bookworm/main/o/boot-repair/os-uninstaller_4ppa2075_all.deb
+Size: 17504
+MD5sum: 30559f2b63cf66719ffe7aa99c501eab
+SHA1: 6e256842bb0b65ae8819f15f95ff0ded600288d0
+SHA256: 4af8c8942430abfa5ab7350db66c428383cc19c9d745f4ef98e286220c4be45e
+SHA512: bf7aab30cd11de3d8f704d8c9f1f0113a31e0331a7963b8b8664dae1f8e21e46ba613469d839e21e7111d6b326dbe23318aa2159f9f15544ecb04a0237b94cc1
+Description: Operating System Uninstaller
+ When you have several operating systems (Windows, MacOS, GNU/Linux ..)
+ installed on your computer, you may want to remove one of them.
+ .
+ OS-Uninstaller is a graphical tool that will let you choose the system
+ you want to remove, and uninstall it very easily. After your
+ confirmation, it will format the selected system, and update the
+ bootloader so that you will still access your other remaining systems.
+ .
+ OS-Uninstaller also has advanced options for OS formatting, and
+ bootloader updating.
+Homepage: https://launchpad.net/os-uninstaller
+
+Package: paku
+Priority: optional
+Section: misc
+Installed-Size: 232
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.6
+Depends: dosbox
+Filename: pool/bookworm/main/p/paku/paku_1.6_all.deb
+Size: 60044
+MD5sum: 272cd20567410bf06b1932cfab1dee62
+SHA1: e73a7fc5c49666dd8fe1d85933b9f0f4b9191ddf
+SHA256: 16a6396bd8731181616129b1e573c3d29e556f8d30d766246865352978674ea2
+SHA512: 00cdcd85a891170106a430f38b28a885691fac878ba961faf3e8c69dfe1a40d3bc766ca182e25a82d3425db8f0c7d08ab03735dc4cae92be34e353ac1426cf2c
+Description: Pac-Man game clone for MSDOS.
+Homepage: https://deathshadow.com/pakuPaku
+
+Package: pinta
+Priority: optional
+Section: graphics
+Installed-Size: 3686
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.7.1
+Depends: mono-runtime, libc6, libcairo2, libglib2.0-cil, libgtk2.0-cil, libmono-cairo4.0-cil, libmono-corlib4.5-cil, libmono-posix4.0-cil, libmono-system-core4.0-cil, libmono-system-xml4.0-cil, libmono-system4.0-cil, gnome-icon-theme
+Filename: pool/bookworm/main/p/pinta/pinta_1.7.1_all.deb
+Size: 996336
+MD5sum: cef88ce2a542fb56511762c1dc17a41e
+SHA1: 6ac862d2c06205ac6bd126bb5f76ec2aa8706b19
+SHA256: 4e85d930807e4a5b31eddd310b50e94fc599a429e505a6be291c20d31f8527dd
+SHA512: 6ed655d39cc5de7cb3a9edc2db6f851ce2d796ff2ff9cf3432f7c0aae9fb5da3855873f623666b45225660aacf6dff3545167b11a815cbb02ce182a18b2d2a74
+Description: Simple GTK# Paint Program
+Homepage: http://pinta-project.com/
+
+Package: prime-run
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1
+Filename: pool/bookworm/main/p/prime-run/prime-run_1.1_all.deb
+Size: 1000
+MD5sum: 570eb28009921ae72887d48941a95fcb
+SHA1: 5001c15e7fb5e1a20158576b52a2e73a75d52780
+SHA256: b613098c0ee64a1241e62f399da9c1359bf86be157093e4f94eb8c1f4d6075e9
+SHA512: b0b9f462e1832a74f9e062b091c241f531ec4ada9a771110fcf09258a041d47cb3731ec95151287687e54afa69d98d77d666c79d08613229bfe2b9395c4af760
+Description: Prime-run script which makes a Program uses Nvidia gpu on Hybrid Graphics like AMD + Nvidia or Intel + Nvidia.
+Homepage: https://gitlab.archlinux.org/archlinux/packaging/packages/nvidia-prime/-/blob/main/prime-run?ref_type=heads
+
+Package: retrofuel
+Priority: optional
+Section: misc
+Installed-Size: 592
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 2b-0.2
+Depends: dosbox
+Filename: pool/bookworm/main/r/retrofuel/retrofuel_2b-0.2_all.deb
+Size: 187296
+MD5sum: 1671caa264a78fd0db4b89e89842b3e0
+SHA1: 8f8294a7daa842e5930f8c782b680e0bcd387913
+SHA256: edfec3562ca878d371e22aa23360cb307279f538408e672ad12e5854ef89c322
+SHA512: 7d32ac37c675205cceb543c4d6309d45bf86a1f54d6e5085014bc96da3d9ff1a7f8038e9449f7acb7380705e38209818eef4cac29c699d64de3217da42d1facd
+Description: A Cars Game for MSDOS.
+Homepage: https://coconutpizza.itch.io/retrofuel
+
+Package: rofi-themes
+Priority: optional
+Section: misc
+Installed-Size: 16263
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0.0
+Depends: rofi, rsync
+Filename: pool/bookworm/main/r/rofi-themes/rofi-themes_1.0.0_all.deb
+Size: 14021168
+MD5sum: 2c2e9c68fc040921639d60c2a5b44857
+SHA1: 5c0a3be3b78da75f342e7a75558f2f5c78524c01
+SHA256: db25023221d5ecbe5237d5db64ca340e89301394311df0ac3d54e13fc0796c41
+SHA512: 841ee74a94398f946f34ad1300e08f66e1e0b566d520fe37f2a575b7ed32e57a7a88cd9ebc63ac7a71f685933a62a1faf6651a4718bd652149b80b424e3dd182
+Description: Diferent themes for Rofi.
+
+Package: setup-repos
+Priority: optional
+Section: system
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 2.0
+Filename: pool/bookworm/main/s/setup-repos/setup-repos_2.0_all.deb
+Size: 3632
+MD5sum: f5573a8fc10b75359aadfae9da7230ea
+SHA1: a6b0fa5db3a3a5464d329ee575597d10b3f5d978
+SHA256: e87dd72bf3ca48510f83b35ea0759fb2a74e88b5dedd53d046b55d02c4ef53c5
+SHA512: 68f612fe59c1c0a2b66cd669ee8b0cd31490fd7c8671e227208b3987647c1622be1ee42b69b54b2aaabd3c1d140cdb64fad2901496bab2aef6c7455d848d2eec
+Description: Enable/Disable propiertary repositories
+Homepage: https://github.com/CuerdOS/setup-repos
+
+Package: sway-config
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.2
+Depends: rsync, autotiling, swayidle
+Filename: pool/bookworm/main/s/sway-config/sway-config_1.1.2_all.deb
+Size: 4204
+MD5sum: cf1fbbe7520b5c44840e72881089fc10
+SHA1: e5c38b86ce08d73e7f8bb026817bd6b5ea1ed833
+SHA256: e5efd5122cef9bb989e5041bebcb7dca42cda4b61cf1d6b863ca2ffd69f2725c
+SHA512: dca8bd53ca68af6d0bbf2a9fa530b951f10512b93cb36ff062165a8b68bb24db7adb13e102e9e414674c621a4480e94a5d5e86ada25e6637e61fa0bdfd335df9
+Description: CuerdOS Sway config
+
+Package: sway-config-reloaded
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.1.0
+Conflicts: sway-config
+Depends: rsync, autotiling, swayidle, wofi, nwg-bar, cuerdos-wofi-theme
+Filename: pool/bookworm/main/s/sway-config-reloaded/sway-config-reloaded_1.1.0_all.deb
+Size: 4164
+MD5sum: 45a3781067fc9620864fd786ecaaa199
+SHA1: 3bc7d2ad1680598c31ecff9d0b77bccbff8a2d81
+SHA256: 3a2febedacdc271aec1b8d344ff77a91c293794149e14232fb137ea456f932e1
+SHA512: 5e3d488c2e03fdbeea997ca423da4c2ce99cb456731e6ac9ac19cca4a6cc637ad8af3babe41465b2d3c5ec7add543bde07b27d410bf968dec1c27db364787ff8
+Description: CuerdOS Sway config
+
+Package: swaylock-fancy
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 226.0b93740-git-b1
+Depends: swaylock, imagemagick, bash, awk, jq, util-linux, grim
+Filename: pool/bookworm/main/s/swaylock-fancy/swaylock-fancy_226.0b93740-git-b1_all.deb
+Size: 4872
+MD5sum: f40076070a50fe681ed3e9282a701228
+SHA1: de672b4e3ef84b422d15cddde2b1e80921d065e4
+SHA256: a1dec906f64a88befe8b2a58da98641d506839b0adec194e251449ff283202d3
+SHA512: 3f36d32f5cb73850e47a8cd56fc22782d6b237b31af26b42a6c55ad54990264d1c433b5fe1c96231fee6ff75759b742aa60a5aecbfb7a5d37da54b414c63825d
+Description: Swaylock blur theme.
+ Swaylock script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text.
+Homepage: https://github.com/Big-B/swaylock-fancy/
+
+Package: system-monitoring-center
+Priority: optional
+Section: utils
+Installed-Size: 1333
+Maintainer: Hakan Dündar <hakandundar34coding@gmail.com>
+Architecture: all
+Version: 2.26.0
+Depends: dmidecode, gir1.2-adw-1, gir1.2-glib-2.0, gir1.2-gtk-4.0, gir1.2-pango-1.0, hwdata, iproute2, python3 (>= 3.6), python3-cairo, python3-gi, python3-gi-cairo, util-linux (>= 2.31)
+Filename: pool/bookworm/main/s/system-monitoring-center/system-monitoring-center_2.26.0_all.deb
+Size: 179140
+MD5sum: 92575cbf649bcc840c40c1fd93fafd04
+SHA1: 0c6441f6144871e6e9c73c297c0f98a5344c52c5
+SHA256: 945e8f9dfebbff2318783f00875d5ae9cb3cba97137962d7eb172908f19ed31d
+SHA512: 5c07d28e8a32cefabb4e39152459b0cd95b5116e67028c0dcb64af7b74dd2f0b593bf9479f7075c13623160cdaba3750b560541ba1bc4981d84d0226cbaa0cfc
+Description: Multi-featured system monitor
+ Provides information about CPU/RAM/Disk/Network/GPU performance, sensors,
+ processes, users, services and system.
+Homepage: https://github.com/hakandundar34coding/system-monitoring-center
+
+Package: alltray
+Priority: optional
+Section: x11
+Installed-Size: 169
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: amd64
+Version: 0.71b-4
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgdk-pixbuf-xlib-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.24.0), libx11-6
+Filename: pool/bookworm/main/a/alltray/alltray_0.71b-4_amd64.deb
+Size: 55896
+MD5sum: 929b2521caebdcbbfe808014189e384c
+SHA1: 846ad6bb08417711a94618a3384acb5a1849da59
+SHA256: e6a2414394547f9089929f42dcb9c07a6f4a996d67adfe36398e96ed97124e7c
+SHA512: 9f5b384d634c0728c2bbc212f9428376f7d32e7613ea052580334f913948f5984a67a55827dfcf110dde79c0f284937d3351131bd7bb5fde3d694773cf5822cb
+Description: Dock any program into the system tray
+ With AllTray you can dock any application with no native tray icon
+ (like Evolution, Thunderbird, Terminals) into the system tray.
+ A high-light feature is that a click on the "close" button
+ will minimize back to system tray. It works well with GNOME,
+ KDE, Xfce 4*, Fluxbox* and WindowMaker*.
+ (*) No drag 'n drop support. Enable with "-nm" option.
+Homepage: http://alltray.trausch.us/
+
+Package: armcord
+Priority: optional
+Section: default
+Installed-Size: 266488
+Maintainer: smartfridge@vivaldi.net
+Architecture: amd64
+Version: 3.2.7
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/bookworm/main/a/armcord/armcord_3.2.7_amd64.deb
+Size: 74353498
+MD5sum: bee01d2ac0141cd1b59b492ceaebfe9e
+SHA1: 0cab0cb1316cd1c44fadf799d74fa6f897fc3307
+SHA256: 4c580ef5d773fd2be2e107ee8234d37a3a55fe6fb1735e78f1ca24ce1560c24c
+SHA512: dc3aeca58ff8d3586dfccb238c7150ca1ef711f3d3b78cb9e056072eda1522cef8238fd4d09b0030c5189324b26d3ad8e4c892db2d1cdf90d4d0b45de228bd03
+Description: ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+Homepage: https://github.com/armcord/armcord#readme
+
+Package: autotiling
+Priority: optional
+Section: x11
+Installed-Size: 33
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Architecture: amd64
+Version: 1.6-2~jammy
+Depends: python3-i3ipc, python3-importlib-metadata | python3 (>> 3.8), python3:any
+Filename: pool/bookworm/main/a/autotiling/autotiling_1.6-2~jammy_amd64.deb
+Size: 6218
+MD5sum: ecc81477042c69de6e172a2f7dbbabd9
+SHA1: a3d7ddacbe3254952d3e38a111e61c988cac0d17
+SHA256: 846af87a542238d9c02a4518b46f961b678abb8b4f68d9bf4d623180b7ac91f3
+SHA512: 5692646fb451a3d163f71091618c8a53bc87c5df632eb141b2d3ec7d5e36acf227b94101f9085cb150dafe06f536fad568f5bd9186a230d8d1d1515a40555d4e
+Description: Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
+Homepage: https://github.com/nwg-piotr/autotiling
+
+Package: bat
+Priority: optional
+Section: utils
+Maintainer: David Peter <mail@david-peter.de>
+Architecture: amd64
+Version: 0.24.0
+Conflicts: bat-musl
+Provides: bat
+Filename: pool/bookworm/main/b/bat/bat_0.24.0_amd64.deb
+Size: 2459628
+MD5sum: 4a2ad0e0245ec9fd1fc397d9213c3e51
+SHA1: 67b7a8a9d2d8190458b043a47bffa7823e1ee876
+SHA256: fa9353fa0c6e1e67b87757c4bd6bf515f85d3fc16d41b12cc26f7a673892ad01
+SHA512: 556589cd30f114a2e9a6ee2852c91a333e29d0eb4a124ddc50ae3e2d28f1d795b1562908a26f0ddc9dfb316bb901b64980721edeb1bbfbeb3b20b2d44f05a21a
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+Homepage: https://github.com/sharkdp/bat
+
+Package: bauh
+Priority: optional
+Section: misc
+Installed-Size: 5078
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 0.10.7
+Depends: python3, python3-colorama, python3-dateutil, python3-yaml, python3-pyqt5, python3-pyqt5.sip, python3-requests, libqt5svg5
+Filename: pool/bookworm/main/b/bauh/bauh_0.10.7_amd64.deb
+Size: 918300
+MD5sum: a012c6cbc10d1edf7ecd02e94645881d
+SHA1: 9ea847503eee0afabe2b02b8b1c65947a807df95
+SHA256: 7661a8dfe6a5e9227aec239497914e40eb8909ad3c9f518c978329dc1bde1797
+SHA512: 25f610f9a5e2c2abc4a579e5fa90d01ff68753fbee7d69f85e956c02cec970200e49e9e83a69bf0d433097e40362788591a532c21482aaa57d56920459aa6473
+Description: Bauh store, for Deb, Snap, Flatpak and Appimage.
+Homepage: https://github.com/vinifmor/bauh
+
+Package: calamares-ask
+Priority: optional
+Section: system
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 1.0.1-b1
+Filename: pool/bookworm/main/c/calamares-ask/calamares-ask_1.0.1-b1_amd64.deb
+Size: 2396
+MD5sum: e388163bb0fd36ab86dd49b536445c56
+SHA1: bb42e5c0646b2e43a277807c4c52c6b52097e9c5
+SHA256: 1e0f5c9736aeaef05225d938c6cf3b6e13db0325143b61401caffef30636f233
+SHA512: b2bc9018fa883574de4e22818b390bfdc590877d40a5c3ec6f6f9e619ed4714ff17153b0c9f20137ce343bd9b3ca1f7ef9cfa02c4ad87181bad8092bf76452d1
+Description: Calamares caller.
+Homepage: https://github.com/CuerdOS/calamares-ask
+
+Package: codium
+Priority: optional
+Section: devel
+Installed-Size: 361457
+Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
+Architecture: amd64
+Version: 1.90.1.24165
+Conflicts: visual-studio-codium
+Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.15), libc6 (>= 2.17), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgssapi-krb5-2 (>= 1.17), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libkrb5-3 (>= 1.6.dfsg.2), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 5), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
+Provides: visual-studio-codium
+Recommends: libvulkan1
+Replaces: visual-studio-codium
+Filename: pool/bookworm/main/c/codium/codium_1.90.1.24165_amd64.deb
+Size: 92989624
+MD5sum: 4d2119df6fc7d988e3b131235e12cd04
+SHA1: aaea9969da7bd0e0c6a7683df972dffaf0b1f9af
+SHA256: ccbf9c6a9eb3b9d413b2949c30f62ce5b37d51817a870a4552137dd4dfabec42
+SHA512: 8905dd809c40013e19a92ebe1527b91360668648021e9641049fb90688e4b8b92e5e2f751d40758a0472d9211ef87a41c14a4bc1a996e38fa7fde4d08766f384
+Description: Code editing. Redefined.
+ VSCodium is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://vscodium.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://vscodium.com/
+
+Package: cuerd-welcome
+Priority: required
+Section: tools
+Maintainer: gatoverde9506@outlook.com
+Architecture: amd64
+Version: 2024.02.05-b1
+Depends: python3, libgtk-3-0
+Filename: pool/bookworm/main/c/cuerd-welcome/cuerd-welcome_2024.02.05-b1_amd64.deb
+Size: 1308144
+MD5sum: 5b549d61c44d4abb4e2692154893af8a
+SHA1: 64590f882a3d2477ff462d96598d15fb5d054cd9
+SHA256: 9ad0e7fa29f4f470c2ff2fa394e65bece2d89fd12f52573b4e09558e9a0510df
+SHA512: 1c5dd54f3a522bb6f08824027d62457497f880160fea49bb3e2acc9adda3f1d537bbf400c077109771cac7367aed6023330fbeebe141275927ed4b5c5c12abd9
+Description: Bienvenida de CuerdOS GNU/Linux. 
+ Es una aplicacion que ofrece paquetes, agregados o mas recursos para CuerdOS GNU/Linux.
+Homepage: https://github.com/CuerdOS/CuerdOS-Yelena-4_1.1
+
+Package: cuerdos-control-panel
+Priority: optional
+Section: system
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 1.0.8-b1
+Depends: libgtk-3-0, firewall-config, bleachbit, bauh, network-manager, blueman, pavucontrol, nwg-look, gnome-system-tools, cups-switch, setup-repos
+Filename: pool/bookworm/main/c/cuerdos-control-panel/cuerdos-control-panel_1.0.8-b1_amd64.deb
+Size: 3528
+MD5sum: da21aa7e273462d0cec79568221f9058
+SHA1: daa60e0c1cc341361978e2c50b05f5d60ab34983
+SHA256: 44f218a0da7c64c5fd5e5b0e4ac37678c590bce578d49d625e19da236b898d59
+SHA512: fa564d05d450bacf59c438ff862842a3d657f86b665e2613f944656afd4149db3c2bb64819f5ffee23c4255469b5bad4ec6799e5d01d07617bf1ac58cb82c2db
+Description: A simple and lighweight GTK control panel.
+Homepage: https://github.com/CuerdOS/cuerdos-control-panel
+
+Package: cuerdos-kernels-amd64
+Priority: optional
+Section: kernel
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 6.6.32
+Depends: linux-headers-6.6.32-cuerdos, linux-image-6.6.32-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.32_amd64.deb
+Size: 764
+MD5sum: 4251eb76ac3df934b325473e91904f25
+SHA1: 4ddc07eadad9e745eaee74c7568c93043f50b3cb
+SHA256: a74027cc36f21f1d737dbd0bf864ff0ec9a7d34aa91fc9446fd7d81e86faea45
+SHA512: 7351de9f27ab1d781095c8677ba44a6faaead5062e947080a6e6a9006e63096a1a43ccbc3f8c76cb9e6eb67f80dc01974376d7be2e283bddc0e8b77cdf45ae3a
+Description: The Linux kernel for x86_64 architecture (meta-package).
+
+Package: cuerdos-kernels-nhs-amd64
+Priority: optional
+Section: kernel
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 6.9.3
+Depends: linux-headers-6.9.3-cuerdos, linux-image-6.9.3-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-nhs-amd64/cuerdos-kernels-nhs-amd64_6.9.3_amd64.deb
+Size: 764
+MD5sum: aa7a53a5caff9996132d8bb420a68e22
+SHA1: 2276acefa300d1b34fa873e6e19df0641372a1d0
+SHA256: 8112b50c7880d9a04c5725b7bedee7c629aeade22a1b6f10714607c82a09eae4
+SHA512: 64c722540a0c43c15f3335cf77698ddbc67f3fa4fed079a0eff779c4e22bb70e2b30bc71bab62d20232f485d87a83aa5ea023d3ffcbebdcab13ab6c7682e1f5c
+Description: The Linux kernel for x86_64 architecture (meta-package).
+
+Package: debinstaller-sh
+Priority: optional
+Section: system
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 1.0.1
+Depends: dpkg, figlet, apt
+Filename: pool/bookworm/main/d/debinstaller-sh/debinstaller-sh_1.0.1_amd64.deb
+Size: 1360
+MD5sum: a5aa8326fc4fbdd0350e8002ccb6f603
+SHA1: 54055a6053e0ad9c7af7c3ab9897157f077405bf
+SHA256: 6fe0058b846dde517c5747b97a7b29a09ce2156e5a8fbfdb87ec9938dbf8ac68
+SHA512: cff58649b4d7fbd2a840f624a3089562d3cdb7a941e5eadaaf21e6be0ee57579619741c386bc964ea83222974781fca65102c157b730232edbe7f0e8b45d5438
+Description: A deb package installer script.
+Homepage: https://github.com/CuerdOS/debinstaller-sh
+
+Package: fastfetch
+Priority: optional
+Section: devel
+Installed-Size: 22317
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me> | Old Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
+Architecture: amd64
+Version: 2.13.2-b1
+Depends: libc6 (>= 2.31)
+Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.13.2-b1_amd64.deb
+Size: 3633708
+MD5sum: ad49534c5dc2c2d13513528fdebdf7e5
+SHA1: d640ca367cf9242dab4924923b9ca9d9310b884c
+SHA256: bf2eb6ceb614b6a78296c7fefeb9fcc5e3e266bb73f99b03a0d35e2072c92d43
+SHA512: 829d3999d4442f2c81ec661520f655edeaffe85886411e1ff9fdc94ee7f7c2af97a90eb875e8de739c7d2b2963c182e5da0f5f5f03a7ff73e540e4b79eadcb76
+Description: Fast neofetch-like system information tool
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
+Homepage: https://github.com/fastfetch-cli/fastfetch
+
+Package: github-desktop
+Priority: extra
+Section: GNOME;GTK;Development
+Installed-Size: 351854
+Maintainer: Brendan Forster <github@brendanforster.com>
+Architecture: amd64
+Version: 3.3.18-linux1
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libcurl3 | libcurl4, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: pool/bookworm/main/g/github-desktop/github-desktop_3.3.18-linux1_amd64.deb
+Size: 97408628
+MD5sum: f5f72e825d8ffa4ff91e39c731cef06e
+SHA1: 4cc723f03dc5d7977bd0cab27bd600764fe6d632
+SHA256: 05755785c29e3e3f3b99a698d53d54d0b96e402eba066f5042264220e742b63b
+SHA512: 2b7558828e3840fe7ff3447cdf46d3290e2ae82c486c94f6616830b3dca99227f4097e566e963ec4e77b351a1fa3d4d7b3e910216ba86280510529f35541a3c9
+Description: Simple collaboration from your desktop
+ This is the unofficial port of GitHub Desktop for Linux distributions
+Homepage: https://github.com/shiftkey/desktop
+
+Package: gzdoom
+Priority: optional
+Section: games
+Installed-Size: 32608
+Maintainer: DRD Team <admin@maniacsvault.net>
+Architecture: amd64
+Version: 4.11.3
+Conflicts: gzdoom1, gzdoom-legacy
+Depends: libc6, libstdc++6, libgomp1, libsdl2-2.0-0, zlib1g, libbz2-1.0, libasound2, libogg0, libvorbis0a, libvorbisenc2, libopus0, libmpg123-0, libmp3lame0
+Recommends: libopenal1
+Filename: pool/bookworm/main/g/gzdoom/gzdoom_4.11.3_amd64.deb
+Size: 18497292
+MD5sum: 684ef0ea6b48976d4958073a46e1ca19
+SHA1: b285e0973baedfbdb4b63fe590366013a1a91d0b
+SHA256: 790c23cbf72d7b0d8b36f0ef351047826efd499e555635040f927c49e4636274
+SHA512: 5ee95c1bee61b9e70128c9c2cf42760a4da3bf2c9b1a8f3b71dc5a801f4308c96aff2bdda3efeade1e1a17658f789622468c916971d9ed4299f0925ce5140383
+Description: OpenGL version of ZDoom.
+Homepage: https://zdoom.org/
+
+Package: i3lock-color
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 2.13.c.5-b1
+Conflicts: i3lock
+Depends: libpam0g-dev, libcairo2-dev, libfontconfig1-dev, libxcb-composite0-dev, libev-dev, libx11-xcb-dev, libxcb-xkb-dev, libxcb-xinerama0-dev, libxcb-randr0-dev, libxcb-image0-dev, libxcb-util0-dev, libxcb-xrm-dev, libxkbcommon-dev, libxkbcommon-x11-dev, libjpeg-dev
+Filename: pool/bookworm/main/i/i3lock-color/i3lock-color_2.13.c.5-b1_amd64.deb
+Size: 46480
+MD5sum: 9299a3aedc7d54e8bebb017d06dc3b7b
+SHA1: 2fcc292b5d53fcf85f76461032ad968c85f8a6ba
+SHA256: a28e834e06740617c8dbec25fabb60cd910e6eb07df7d5b6eb6ee06a366bb946
+SHA512: 55b6e2d528266571589e771464be0731f899eb48c90caf9f04442e1e4a915cb63c012504471adc1901a421d5d658b2a5eee9c410b144d4aee3f02809572c707a
+Description: A modern version of i3lock with color functionality and other features.
+Homepage: https://github.com/Raymo111/i3lock-color/
+
+Package: ksuperkey
+Priority: optional
+Section: x11
+Installed-Size: 26
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 130.57dbebc-git
+Depends: libx11-dev, libxtst-dev
+Filename: pool/bookworm/main/k/ksuperkey/ksuperkey_130.57dbebc-git_amd64.deb
+Size: 6808
+MD5sum: f159f49593a1d2e5a75e709e8083952a
+SHA1: 0bc588b3588d4eabec1808ed74438abeee844df1
+SHA256: f0ba0ed7c7f4d0b6d3d54ff52e9832d49413c3892bb0765e81256374ee11d711
+SHA512: bb777266677c13b294861fcc0faf0b19c176b60198faa683fb29887c88e135045054cf2b58e53eee6be94df088e1d7f40d5f2e85a795af6df0f309580dc2db9d
+Description: Linux utility that allows you to use the Super key both to open the start menu and as a modifier key in keyboard shortcuts
+Homepage: https://github.com/hanschen/ksuperkey
+
+Package: lact
+Installed-Size: 6604
+Maintainer: ilya-zlobintsev
+Architecture: amd64
+Version: 0.5.4-0
+Conflicts: lact-headless, lact-libadwaita
+Depends: hwdata, libgtk-4-1
+Provides: lact
+Filename: pool/bookworm/main/l/lact/lact_0.5.4-0_amd64.deb
+Size: 1996584
+MD5sum: 34ab0f7adce5fbef79bc5f195cafbba1
+SHA1: d07a4bfd6bc1818fc42a38d31e0cae8b13d63431
+SHA256: 5a28de1c58c3e1b1c6d1ce7fac3657d685ec087be10a686b4b43e2e6698f8921
+SHA512: 5a38d3295e5261a56e2977309de46822bbbe007cd08b892077d224d65027b22fa4e69fcf95bac430691b35d6a2a19914d4f2551b3427b69692a2b1271fab9eec
+Description: AMDGPU control utility
+Homepage: https://github.com/ilya-zlobintsev/lact
+
+Package: linux-headers-6.6.32-cuerdos
+Priority: optional
+Section: kernel
+Installed-Size: 54644
+Maintainer: ale <ale@CuerdOS>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.6.32-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.32-cuerdos_6.6.32-1_amd64.deb
+Size: 9264704
+MD5sum: c5036981ef99887d7f824c4c6bb8c8c5
+SHA1: 851b5b0d686d07790a878d5cf3910cb5e1610f80
+SHA256: a9003ba62e9f7d3c33f7abf26c3e274206547519348e0ab328b278c24753c8ec
+SHA512: 88c124ad8a6f208cabff1c82d9717fd5055b67776d5f39974b24839a4847d84bc81375f967611b40c58c7b3d367ac83486d19a3477f2fe2b599dac2d06c38204
+Description: Linux kernel headers for 6.6.32-cuerdos on amd64
+ This package provides kernel header files for 6.6.32-cuerdos on amd64
+ .
+ This is useful for people who need to build external modules
+Homepage: https://www.kernel.org/
+
+Package: linux-headers-6.9.3-cuerdos
+Priority: optional
+Section: kernel
+Installed-Size: 54459
+Maintainer: user <user@user-virtualbox>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.9.3-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.9.3-cuerdos_6.9.3-1_amd64.deb
+Size: 9453520
+MD5sum: b75db3ea13c3f68ef5697502ba849727
+SHA1: 46cf27686513199340627043f194f686b22a6241
+SHA256: a27d2989e4e4bb7b1b8ab206188721ae0652d4b71bef3e315ace21fd4b7709b1
+SHA512: 6dc3fd3d6d3d7ce1f6b47648c18aed6dce82672d5992f825338b1de28aa05f489a4ce8867bb9ca5cae2d336941f414050fb53e63746f50692935a2cc83444cd2
+Description: Linux kernel headers for 6.9.3-cuerdos on amd64
+ This package provides kernel header files for 6.9.3-cuerdos on amd64
+ .
+ This is useful for people who need to build external modules
+Homepage: https://www.kernel.org/
+
+Package: linux-image-6.6.32-cuerdos
+Priority: optional
+Section: kernel
+Installed-Size: 406561
+Maintainer: ale <ale@CuerdOS>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.6.32-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.32-cuerdos_6.6.32-1_amd64.deb
+Size: 69243032
+MD5sum: 64207777e26ce2d3e6535152d2f8188a
+SHA1: 9a910cfee1d374a3201a5732f037500fa6386447
+SHA256: b667da4a68e24fc7856d6f1dab621b75d6c9d2b89628b0a73e33efeb91b533b6
+SHA512: 977719bfaa7cbd45f7f10a86c611f02a65d992bc61303202b0fe07835793aee276003792375de2178b54d309e04d2afa5d4254b60ae03af3dac429b45660dc0a
+Description: Linux kernel, version 6.6.32-cuerdos
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.32-cuerdos.
+Homepage: https://www.kernel.org/
+
+Package: linux-image-6.9.3-cuerdos
+Priority: optional
+Section: kernel
+Installed-Size: 414247
+Maintainer: user <user@user-virtualbox>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.9.3-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.9.3-cuerdos_6.9.3-1_amd64.deb
+Size: 70808440
+MD5sum: 36715d87dfd9df2a1a8c27d232ad0806
+SHA1: a607c2cdf51fa0b799cef3e3b2fe9206430edb85
+SHA256: 02869878921e9a8f97471b7ec46b772f9d572befba8479a40e248f6bc4e94a06
+SHA512: 551b0cec8823aea3a80ce3c91a6e48a6f5f9fedee6cffbd7dc427692bd97db8f3c80ae3d4f615bf02df0095617858ee3cceb3393dce78460957c45b4e16d0bc0
+Description: Linux kernel, version 6.9.3-cuerdos
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.9.3-cuerdos.
+Homepage: https://www.kernel.org/
+
+Package: linux-libc-dev
+Priority: optional
+Section: devel
+Installed-Size: 6842
+Maintainer: ale <ale@CuerdOS>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.6.32-1
+Provides: linux-kernel-headers
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.32-1_amd64.deb
+Size: 1317552
+MD5sum: 90599b8084ec937b09d4c151d128047f
+SHA1: 84abf22af3dae47a17491e6c267833053e93f6c2
+SHA256: 393d97376368167b66ea4fbb2939c3a5496c847de4bce8ea4c0bc6360759fcad
+SHA512: 03afe3e5bee39882c7c8f705ecd53ab0e9839df91c282993c81b7f0a0428e2107f8cfa2ada4285a31389ee78318cf6a146627ef64eaa473e07c3221b3d4b730a
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Homepage: https://www.kernel.org/
+Multi-Arch: same
+
+Package: linux-libc-dev
+Priority: optional
+Section: devel
+Installed-Size: 6983
+Maintainer: user <user@user-virtualbox>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.9.3-1
+Provides: linux-kernel-headers
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.9.3-1_amd64.deb
+Size: 1356644
+MD5sum: b97bf1601967ad96b12bbb3e5eb95110
+SHA1: 6d2ba2b64ff5ffca3c6eaa8c87bf1d024d101077
+SHA256: 241c38e41c97ae513d96896226a3b63a96504763c9c7fc05117b7fe645225b77
+SHA512: fd688177ab9c1188bafd9d6da84b7c8e6da66b597a0be515f84399300c2c71aff18bdacf724608124d6b1261d43fb5ed3525468bf84e076eb2c446922e265128
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Homepage: https://www.kernel.org/
+Multi-Arch: same
+
+Package: lsd
+Priority: optional
+Section: utils
+Maintainer: Peltoche <peltoche@halium.fr>
+Architecture: amd64
+Version: 1.1.2
+Conflicts: lsd-musl
+Provides: lsd
+Filename: pool/bookworm/main/l/lsd/lsd_1.1.2_amd64.deb
+Size: 1364352
+MD5sum: df5344ed05db2b7c32b657c48d504bc9
+SHA1: 3f4041db149d468e200adda7adda3c5e7d3facf1
+SHA256: 661c395e38f782fa98ab1a92a07a2c89175a89218ce428975e3e8ffdf5ed3f71
+SHA512: bdcbc4e09d88933744aac66f0a4509a0567687daa33969d238acc7035dc0a06f5a95ac1d72e52a06a7e1a607657a0c9d88142aece8a8356a08a5a8ed95a9ae0e
+Description: An ls command with a lot of pretty colors.
+
+Package: ly
+Priority: optional
+Section: misc
+Installed-Size: 254
+Maintainer: CuerdOS Dev Team [cuerdoslinux@proton.me]
+Architecture: amd64
+Version: 0.6.0-b1
+Filename: pool/bookworm/main/l/ly/ly_0.6.0-b1_amd64.deb
+Size: 73044
+MD5sum: 1dd14cee6c8bd83a995a7d4bee422a44
+SHA1: 9576c78aa2f76b0d62bd49968bd71f1e5a91e942
+SHA256: 27c9b0d53ceb92fe246751a4d467f041114976fc0283d33c744bb11a2c6ea3e7
+SHA512: da2c1e80fcf7cb95d4febef8aa1d3236f17fce15dfee524e55b96d8d5d980f4b33aae3975d35b273f6bfa796e5277eee1e6a36b32b302d1aef91f7179cdecb47
+Description: Ly is a lightweight TUI (ncurses-like) display manager for Linux and BSD.
+Homepage: https://github.com/fairyglade/ly
+
+Package: mako-notifier
+Priority: optional
+Section: x11
+Installed-Size: 158
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Architecture: amd64
+Version: 1:1.6~git20220626-1~jammy
+Depends: init-system-helpers (>= 1.52), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0 (>= 2.12.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.22.0), libsystemd0 (>= 243), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2)
+Provides: notification-daemon
+Filename: pool/bookworm/main/m/mako-notifier/mako-notifier_1.6~git20220626-1~jammy_amd64.deb
+Size: 51800
+MD5sum: c1dceae28f37812673517ccb464a971f
+SHA1: 3ebb5f4fc195cea21345a991065fc25a23853219
+SHA256: 2e577b145cad51e02d6d2b87cb7f3bb2cdfda4baa81854323b8b1faac51c6b6e
+SHA512: ffd5b8c750171eaf2a17b039224e17ab80651a7ae7a712d4fc62fad8e2baa4f4cd239b9710d94a4ba4545120907798702dd523abe9239c01e947edca86f5e184
+Description: lightweight notification daemon for Wayland compositors
+ mako is a lightweight notification daemon for Wayland compositors that support
+ the layer-shell protocol.
+Homepage: https://wayland.emersion.fr/mako/
+Multi-Arch: foreign
+
+Package: masmemoria
+Priority: optional
+Section: others
+Installed-Size: 2000
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me> [Original maintainer: Bierzolinux <vendefoulwolf@proton.me>]
+Architecture: amd64
+Version: 2b-1.0.1
+Depends: figlet,inxi
+Filename: pool/bookworm/main/m/masmemoria/masmemoria_2b-1.0.1_amd64.deb
+Size: 48472
+MD5sum: f273c05f3a4550ee2435a41a4eab68b8
+SHA1: ea34a9f9575e3bf88d7c6d53bf4dacad98ffc75c
+SHA256: 6fa7bb6f45822cfb80a6ff3576bb991739b99a6ea527481774166786f81901a9
+SHA512: fd421887c8b621c4678fe16d8c74e9179b47ee34596336589a5f75b060b8c6996b93c2a9bb3165cb93e9dfe1898dcc2770820ea20210b7537e6eced0fb3f2655
+Description: Optimización de Memoria RAM para el Re-spin Vendefoul Wolf 23
+ Este programa ha sufrido una ligera modificación por el equipo de CuerdOS Dev Team, para adaptar su funcionamiento fuera del entorno de escritorio de Xfce, este programa modificado se publicó originalmente el 18/12/23.
+
+Package: moonplayer
+Priority: extra
+Section: sound
+Installed-Size: 1046
+Maintainer: YK Liu <cos.lyk@gmail.com>
+Architecture: amd64
+Version: 4.3-1~opt12
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.3.0), libqt6quick6 (>= 6.2.0), libssl3 (>= 3.0.0), libstdc++6 (>= 11), ffmpeg, qml6-module-qtquick-dialogs, qml6-module-qt-labs-settings, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window
+Filename: pool/bookworm/main/m/moonplayer/moonplayer_4.3-1~opt12_amd64.deb
+Size: 341200
+MD5sum: 2abac579f850540a3ed946db3bbc42bb
+SHA1: c1b496f41967dd0713163df7ed65faabe2f923e6
+SHA256: d8539a8a1b0c1c772711134f8fde0df5cdac6a1637b16cb7d8a9ba0e12598a9f
+SHA512: d19039c52d6efe4238810f7073cd53d2b9fa1e2f8113cf11dca400c78e6d5c9b8494e51238b0f9d4be295043cedc4bcb05041f94d212e538633378ec3519ea19
+Description: Video player
+ Video player for playing and downloading online videos from youtube, bilibili etc.
+Homepage: https://github.com/coslyk/moonplayer
+
+Package: myman
+Priority: optional
+Section: games
+Maintainer: CuerdOS Dev Team [cuerdoslinux@proton.me]
+Architecture: amd64
+Version: 0.6
+Depends: libncurses5-dev, groff
+Filename: pool/bookworm/main/m/myman/myman_0.6_amd64.deb
+Size: 1350760
+MD5sum: f40df0b0b76f9c33fad0d8bf0f68510f
+SHA1: c49e0b460b81aebae47b2615020ede1bb0f87753
+SHA256: 9183081f8c3eed74d620409d9b2ba780bc8ddf94706ad81f6bde5497bc315842
+SHA512: 345523a5da1e6c7e62ab1443150325c2e3a89c06e6c799d3ef54f6526878c48585a2a92c53da4fb1189334b49549fb4fa947362c013a4fa991518e6a70101f48
+Description: A Pac-Man clone for GNU/Linux in terminal.
+Homepage: https://myman.sourceforge.io/
+
+Package: niri
+Priority: optional
+Section: misc
+Installed-Size: 108544
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 0.1.5+git38e329a-b2
+Depends: libpipewire-0.3-0, libpangocairo-1.0-0, libpango-1.0-0, libglib2.0-0, libcairo2, libgbm1, libxkbcommon0, libseat1, libudev1, libinput10, libpixman-1-0, libgcc-s1, libc6, libpangoft2-1.0-0, libharfbuzz0b, libfontconfig1, libglib2.0-0, libfribidi0, libthai0, libffi8, libfreetype6, libpng16-16, libxcb-shm0, libxcb1, libxcb-render0, libxrender1, libx11-6, libxext6, zlib1g, libdrm2, libwayland-server0, libexpat1, libsystemd0, libmtdev1, libevdev2, libwacom9, libpcre2-8-0, libgraphite2-3, libmount1, libselinux1, libdatrie1, libxau6, libxdmcp6, libpthread-stubs0-dev, libcap2, libgcrypt20, liblzma5, libzstd1, liblz4-1, libgudev-1.0-0, libblkid1, libbrotli1, libbsd0, libgpg-error0, libmd0
+Suggests: xdg-desktop-portal-gnome
+Filename: pool/bookworm/main/n/niri/niri_0.1.5+git38e329a-b2_amd64.deb
+Size: 15122848
+MD5sum: 3f0d6b131bcd64ae6f21d383414886d6
+SHA1: fc40a9221f4da8d7f49c03b6c2db892298553d21
+SHA256: 2bc966674de1cd665cc6483e53ded76790bd92eeb9ebbe19352c5cdd6764fbb3
+SHA512: 376616613e61ef023e1cd7106fdba8a0064d98c4448ec90788ffec8c3d2fe5e9498323fd8e8f9dad66924a3938d6926bffeb36c2052e968b8e11e644ff560a94
+Description: A scrollable-tiling Wayland compositor. 
+ Spotify adblocker forA tiling-scrollable Wayland window manager written in Rust.
+Homepage: https://github.com/YaLTeR/niri
+
+Package: nwg-bar
+Priority: optional
+Section: x11
+Installed-Size: 4351
+Maintainer: CuerdOS dev Team <cuerdoslinux@proton.me> Original manintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Architecture: amd64
+Version: 0.1.0-5
+Built-Using: golang-1.20 (= 1.20.3-1), golang-github-allan-simon-go-singleinstance (= 1.0.0-2~lunar), golang-github-dlasky-gotk3-layershell (= 0.0~git20210827.e6ecab2-4~lunar), golang-github-gotk3-gotk3 (= 0.6.1-1), golang-github-joshuarubin-go-sway (= 1.2.0-4~lunar), golang-github-joshuarubin-lifecycle (= 1.1.3-2~lunar), golang-go.uber-atomic (= 1.10.0-2), golang-go.uber-multierr (= 1.6.0-1), golang-golang-x-sync (= 0.1.0-1)
+Depends: libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0 (>= 2.46.0), libgtk-3-0 (>= 3.21.6), libgtk-layer-shell0 (>= 0.6.0), libpango-1.0-0 (>= 1.44.6), libpangocairo-1.0-0 (>= 1.22.0)
+Filename: pool/bookworm/main/n/nwg-bar/nwg-bar_0.1.0-5_amd64.deb
+Size: 1129740
+MD5sum: f8a480dea75fa9eff729570e636285b3
+SHA1: 7ebd22378a10abe2f06f8db92af51eeed17e13e5
+SHA256: ae4f5cf99d4f117a68ccaac6337e3ec03c1ade8279e34f061b81b5e63682e44d
+SHA512: f1515bd6c5bb75902672a77fe14c4c130712ac8a18f768dd0d8a1b5a0e2e017d5ea2b948c9cb804f4717cbe24914254d126a8bc9549d96eddfad2b7e0babc2c1
+Description: GTK3-based button bar for sway and other wlroots-based compositors
+Homepage: https://github.com/nwg-piotr/nwg-bar
+
+Package: nwg-look
+Priority: optional
+Section: misc
+Installed-Size: 6860
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 0.2.5-b1
+Depends: xcur2png
+Filename: pool/bookworm/main/n/nwg-look/nwg-look_0.2.5-b1_amd64.deb
+Size: 2833832
+MD5sum: 0aff0cc80b133279279576b2f3fd92bc
+SHA1: 6cc4ef551be842d160d5043726763fb75dce0480
+SHA256: dfa47bf8cedc851d4eaa5fbb896bd254106d1f6264664f2fbeea30546cf374ab
+SHA512: 15eb93cec5d1edd950fc2cee7ebf10720aa6529b3096d529094c7399f75b771795a64b184435effddf6481581d47905e66afc9f8c96661e1238b3260e4c191c4
+Description: GTK3 settings editor adapted to work in the wlroots environment.
+Homepage: https://github.com/nwg-piotr/nwg-look
+
+Package: pico8-games
+Priority: optional
+Section: misc
+Installed-Size: 21708
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 1.0.0
+Filename: pool/bookworm/main/p/pico8-games/pico8-games_1.0.0_amd64.deb
+Size: 2051084
+MD5sum: 05a83f228d8ccb62d063b38765ea990d
+SHA1: acfdf22d3a6a4e0fc74b7224d21c78b3009d0c94
+SHA256: a7ee4bb39142180af31e0a7e424d0c52f595dd8abd8666f1b5b6f5d81ee32341
+SHA512: b4ecc25b15ef076f34a052138816b3b91c6068d689e9b6ac5141b790c42f4f383b5c75a9c1b1414d1fa8a020d0bb1eda80b78a2cac4dc70c3f15d4b4ce614cd4
+Description: Pico-8 games recompilation by CuerdOS Dev Team.
+
+Package: space-cadet-pinball
+Priority: optional
+Section: misc
+Installed-Size: 5529
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.>
+Architecture: amd64
+Version: 2.1.0
+Depends: libsdl2-dev, libsdl2-mixer-dev
+Filename: pool/bookworm/main/s/space-cadet-pinball/space-cadet-pinball_2.1.0_amd64.deb
+Size: 1748612
+MD5sum: b27fcecbf557d5cdc07fcfbfedcad365
+SHA1: 629789abb7fbb16276ceeefe95b3841dc8beb533
+SHA256: ffed5c5b16e3ace4e5cdc7d8d0cd3cf999fa381f774c144a5b0d0b03dd2afcbe
+SHA512: 915a3f4c96f7988a043cb08908d6c5566ca3d8957c04932c50a4100566248ed1f8cd4ac4f1a68cda3e19cd03b5b81e7367a9a6214f296caa60d5b68d46ade87d
+Description: Space Cadet Pinball game for Windows.
+
+Package: spotify-adblock
+Priority: optional
+Section: misc
+Installed-Size: 1363
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 1.0.2
+Depends: libgcc-s1, libc6
+Filename: pool/bookworm/main/s/spotify-adblock/spotify-adblock_1.0.2_amd64.deb
+Size: 374356
+MD5sum: 572ac70013fd46a7eaca945160852acf
+SHA1: 0cb7193df9061c43ab9177ab0d1b6bac3acb352b
+SHA256: 63c58238606074920736fca8da10f3d853b611dcd1b885b16268cbc47f293e6b
+SHA512: 229a2d46fcdc9db9860b4e1ff9c9af4d59e63f5568df845707235f1f10fb0d31410f00641774f796ddb9ae394b5f426ddf4ed4eace67748fc5fe0ddd8d58073e
+Description: Adblocker for Spotify 
+ Spotify adblocker for Linux that works by wrapping getaddrinfo and cef_urlrequest_create. It blocks requests to domains that are not on the allowlist, as well as URLs that are on the denylist.
+Homepage: https://github.com/abba23/spotify-adblock
+
+Package: swappy
+Priority: optional
+Section: graphics
+Installed-Size: 152
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Architecture: amd64
+Version: 1.5.1-1
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.42.0), libgtk-3-0 (>= 3.21.4), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), fonts-font-awesome
+Recommends: wl-clipboard
+Filename: pool/bookworm/main/s/swappy/swappy_1.5.1-1_amd64.deb
+Size: 30796
+MD5sum: e4f9c95345ecec0b95ff478bd759231f
+SHA1: e277b7e02b9f0cdc5716f9f6209899f3f20df474
+SHA256: af18ae4ceb9bb9f4874317d2e0dfbf1559ee0398c03ae32be0c48349d8aa2428
+SHA512: 6dfa7ad05ead377170ce4653da959cdf44b9ec856303ca61023c50b3b81ddc6e51cbfcf13198ab9a6d2a15b6dbcf33ab4fefbe00647d2f924a29c0df9796e07a
+Description: a Wayland native screenshot editing tool
+ A Wayland native snapshot and editor tool,
+ inspired by Snappy on macOS. Works great with grim,
+ slurp and sway. But can easily work with other
+ screen copy tools that can output a final image to stdout
+Homepage: https://github.com/jtheoof/swappy
+
+Package: twmn
+Priority: optional
+Section: misc
+Installed-Size: 4492
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 193.58ca77d-git
+Filename: pool/bookworm/main/t/twmn/twmn_193.58ca77d-git_amd64.deb
+Size: 994148
+MD5sum: ab1ad21eaa634b3edc9d600f12be02cd
+SHA1: de1060368eab94e73048e59327602693f7ee427d
+SHA256: 8467e01a1961a333ea42b0d47f3039d5ec77aab76551cf58391fc4d7357f30a8
+SHA512: fbcaadaf0c192c0b576c3502dd68c08cafbc956fe054cce6bff8e93283f257cfe4254bae2badf798fa5f997cde9d46ae517233b9aa02e88e473d813c6957e6e6
+Description: A notification system for tiling window managers.
+Homepage: https://github.com/sboli/twmn
+
+Package: xcur2png
+Priority: optional
+Section: x11
+Installed-Size: 133
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: amd64
+Version: 0.7.1-b1
+Depends: libpng-dev
+Filename: pool/bookworm/main/x/xcur2png/xcur2png_0.7.1-b1_amd64.deb
+Size: 27940
+MD5sum: 8967ae82472c262231e1fc25572f3ad7
+SHA1: d51557543fd0136d4a7c36f199d015ff90fb649b
+SHA256: ffa450ca67f459a2f1c7e1081e1f274ea27d56d71f34f09e915ea87ef2e10f34
+SHA512: bc81f14e8eaf08b4cc74c5e43294788b1e2cfde611b680ceedef450619e576370f5d0110e24d13fbc1a4d2197eb76fd50713b24c991b99b8d816d0a04996ddd4
+Description: Take PNG images from Xcursor and generate xcursorgen config-file 
+ xcur2png is a program which let you take PNG image from X cursor,
+ and generate config-file which is reusable by xcursorgen.
+ To put it simply, it is converter from X cursor to PNG image.
+Homepage: https://github.com/eworm-de/xcur2png
+
+Package: xdman
+Maintainer: Subhra Das Gupta
+Architecture: amd64
+Version: 8.0.29
+Depends: libgtk-3-0 (>= 3.22.11)
+Recommends: ffmpeg
+Filename: pool/bookworm/main/x/xdman/xdman_8.0.29_amd64.deb
+Size: 10349588
+MD5sum: 3a67fa5716036948e044296e34e5347e
+SHA1: 9cb8d972c9c151d209bf72aa5701f9133bdb6b13
+SHA256: 3659bb2db0251c8df0fa501e53185fd03c7b15d7b58c22a2b60b93144b6b9e11
+SHA512: 79330434bdabae2c88b8df59ff9fbc112d2518979b7bbf1d51aa85a6fcc48efa694f52549591e1fdda70152d3ab4946fc549918fabf049e116fc281e6abaee0b
+Description: Open source download accelerator and video downloader.
+ Open source download accelerator and video downloader.
+
+Package: xfce4-docklike-plugin
+Priority: optional
+Section: xfce
+Installed-Size: 308
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.4.0+git20211130
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.21.5), libstdc++6 (>= 5.2), libwnck-3-0 (>= 3.2.0), libx11-6 (>= 2:1.2.99.901), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0)
+Filename: pool/bookworm/main/x/xfce4-docklike-plugin/xfce4-docklike-plugin_0.4.0+git20211130_amd64.deb
+Size: 68368
+MD5sum: c01d458e86410298950ce3d83fdc8d0c
+SHA1: 21ea5361d6012a17300a5a238b34907b52bb49bc
+SHA256: 95c84ec1884231bc1f2b2df6d8b3b45367f0ed8cda618030576067b3dde590f5
+SHA512: 3ccf702f30dcce4f5a6c49e342a9bf41cfde56efe9b83907d5e2a6fe220ed4d2b4a7d531fb7a36f044ac220e878cc80488a8d91b05d198c38daa394eb2014912
+Description: modern, docklike, minimalist taskbar for Xfce
+ Its features include:
+  - Pinnable applications and grouped windows (dock-like)
+  - Use Ctrl to reorder your applications or access the settings panel
+  - Fast application switching by hovering mouse while button pressed
+    or scrolling
+  - Hotkeys: Use your Super key to start or switch applications extremely fast
+  - Different styles
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-docklike-plugin/start
+Multi-Arch: same
+
