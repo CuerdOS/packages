@@ -1187,17 +1187,17 @@ Homepage: https://github.com/CuerdOS/debinstaller-sh
 Package: fastfetch
 Priority: optional
 Section: devel
-Installed-Size: 25269
+Installed-Size: 25305
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
 Architecture: amd64
-Version: 2.21.0
+Version: 2.21.3
 Depends: libc6 (>= 2.31)
-Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.21.0_amd64.deb
-Size: 6721560
-MD5sum: 88b73c28ecbf1205e248f1a886aacf23
-SHA1: 856a61a16a305f2aa108017f96c3a3986433e2da
-SHA256: b665087675c6c1fc2e314646faa295769cc7b1de194cbeee73f06610fcb5031f
-SHA512: 5df2b09def6891d6d9a3cedc6c942acd58963adeb2b76691856c47d033e53f5367fb0db27939037e96908833a17d383114a59e89081ff5d3099d21582693f331
+Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.21.3_amd64.deb
+Size: 6730840
+MD5sum: 674ebc46237f8ac43b930f55db77d163
+SHA1: 7f25aa13ba97520974d40e7f5fd810e93df0f300
+SHA256: deb0ae34bf519aef0a8aa8f3cde4d439a3b6da392bef65031a5c88babd65379f
+SHA512: fd2d7e3a79c34be31451fd8d29e45f04ae258a83e1e84356aefbbe79d62000843a8b6840832d011840525b71828a3b52b6ab58239739d35c1c3ef3ade252b5f5
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
@@ -1237,6 +1237,30 @@ SHA256: a28e834e06740617c8dbec25fabb60cd910e6eb07df7d5b6eb6ee06a366bb946
 SHA512: 55b6e2d528266571589e771464be0731f899eb48c90caf9f04442e1e4a915cb63c012504471adc1901a421d5d658b2a5eee9c410b144d4aee3f02809572c707a
 Description: A modern version of i3lock with color functionality and other features.
 Homepage: https://github.com/Raymo111/i3lock-color/
+
+Package: icewm
+Priority: optional
+Section: x11
+Installed-Size: 2740
+Maintainer: Shaggy <blade@debian.org>
+Architecture: amd64
+Version: 3.6
+Conflicts: icewm-common (<< 1.3.8-3)
+Depends: icewm-common (= 3.3.1-1), libao4 (>= 1.1.0), libc6 (>= 2.34), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libimlib2 (>= 1.4.5), librsvg2-2 (>= 2.14.4), libsm6, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxft2 (>> 2.1.1), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), libxrender1, fonts-dejavu-core | ttf-dejavu-core | custom-icewm-font, sensible-utils
+Provides: x-window-manager
+Replaces: icewm-common (<< 3.6)
+Filename: pool/bookworm/main/i/icewm/icewm_3.6_amd64.deb
+Size: 6362696
+MD5sum: db1885e8a06c5e270bdda3a4bef6cb9f
+SHA1: 12eb7ac289514afc6507cf093a4eb41b8ca1b3a0
+SHA256: 59c1008457bae294b860216d218c9dde45cf976476562869c00d254ac14891db
+SHA512: 8a2959b66ee6db155f49b0496956a4954508da4a8b8f6e45cb2560b6fbe2b67a9d9026450e301a7a7e54515130c26a96716597fab8f5797eca93c5b3e677afb6
+Description: wonderful Win95-OS/2-Motif-like window manager
+ IceWm is a Window Manager for X Window System. It is fast and
+ memory-efficient, and it provides many different looks including Windows'95,
+ OS/2 Warp 3,4, Motif. It tries to take the best features of the above
+ systems. Additional features include  multiple workspaces, opaque move/resize,
+ task bar, window list, mailbox status, digital clock.
 
 Package: ksuperkey
 Priority: optional
