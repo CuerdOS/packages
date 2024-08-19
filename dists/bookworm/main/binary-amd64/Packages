@@ -961,17 +961,17 @@ Section: utils
 Installed-Size: 659
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
 Architecture: all
-Version: 1.6.1-1~bpo12+1.5
+Version: 1.6.1-1~bpo12+1
 Conflicts: laptop-mode-tools, power-profiles-daemon
 Depends: hdparm, iw, pciutils, rfkill, usbutils
 Recommends: tlp-rdw, ethtool
 Suggests: tp-smapi-dkms, smartmontools, linux-cpupower
-Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-1~bpo12+1.5_all.deb
-Size: 102024
-MD5sum: d7855f46e26372bd10a12f7b3251281b
-SHA1: 32dc8a77a59b0810834c8c9bb1bebd2dd2c7735c
-SHA256: 7e778564ef303706d1b443a7bd4e36c9a5e4d55df2312e8e34faf523143e586c
-SHA512: 8c06ecb2300cad0b23a70e0b42df922cebc453ed6e75af53441ed95774ab29e4a5a9d48dcef9adef9c284c601d0a7fa06a48056d6aa1fca5089c3a5ac25be24d
+Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-1~bpo12+1_all.deb
+Size: 102008
+MD5sum: 56012e87b18760e769f3b61cf4f2d0ad
+SHA1: 26de8b60b382a2fd762546a5662cc281d03954a7
+SHA256: 12046b6c78ce5df1f979681fb0c2f87a3724a85ff5bac9e732bc4bcf5cd971e3
+SHA512: 22305ee2373f86434199dac4ae95923e3488bc4c78c3526ea65825cdb5d518d83a45688d038ce9591b2e4e7202b48898f027176260fee3998006aa3497c3aaed
 Description: Optimize laptop battery life
  TLP is a feature-rich command-line utility, saving laptop battery power
  without the need to delve deeper into technical details.
