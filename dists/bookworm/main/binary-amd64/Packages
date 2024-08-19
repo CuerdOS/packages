@@ -989,6 +989,28 @@ Description: Optimize laptop battery life
  to configure charge thresholds and recalibrate the battery.
 Homepage: https://linrunner.de/tlp
 
+Package: tlp-rdw
+Priority: optional
+Section: utils
+Installed-Size: 40
+Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
+Architecture: all
+Source: tlp
+Version: 1.6.1-1~bpo12+1
+Depends: network-manager, tlp (= 1.6.1-1~bpo12+1)
+Filename: pool/bookworm/main/t/tlp/tlp-rdw_1.6.1-1~bpo12+1_all.deb
+Size: 5348
+MD5sum: f7f347c55a2b47d8456848d3c928a2e3
+SHA1: b985af7f5197c492a0ad83b98cf013d4ba2487ca
+SHA256: 8c3df0bc598448f15c8d18368929b5f562d9f4ce05331f27f132f7fb9063712a
+SHA512: 257e343de83539255c5dd1a7cb3ae1276f5d2b701234ceddc5e3a20f8a7a7fe7a28a73fb78b0063cfdfc2f063e8c780435570e21f02770ad929d044c5e8dcc6f
+Description: Radio device wizard
+ Radio device wizard is an add-on to TLP. It provides event based
+ switching of bluetooth, NFC, Wi-Fi and WWAN radio devices on:
+  - network connect/disconnect
+  - dock/undock
+Homepage: https://linrunner.de/tlp
+
 Package: vortex-cuerdos-plymouth-theme
 Priority: optional
 Section: misc
