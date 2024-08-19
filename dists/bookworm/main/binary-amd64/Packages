@@ -955,6 +955,40 @@ SHA256: 7e0fdb74fc038bb05a8bf0e4df0313e61b7d017114c603b50a87450c239b84a8
 SHA512: 95f72674df0e65be540e8c84104619dfe7a0392a98dda5244b89e727d8b7137ebf03180997ab73aecfee8a0a5cf6ccabe7502ba6bd8b1d030c56723d87d8cbe5
 Description: Third-party repository collection
 
+Package: tlp
+Priority: optional
+Section: utils
+Installed-Size: 659
+Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
+Architecture: all
+Version: 1.6.1-1~bpo12+1.5
+Conflicts: laptop-mode-tools, power-profiles-daemon
+Depends: hdparm, iw, pciutils, rfkill, usbutils
+Recommends: tlp-rdw, ethtool
+Suggests: tp-smapi-dkms, smartmontools, linux-cpupower
+Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-1~bpo12+1.5_all.deb
+Size: 102024
+MD5sum: d7855f46e26372bd10a12f7b3251281b
+SHA1: 32dc8a77a59b0810834c8c9bb1bebd2dd2c7735c
+SHA256: 7e778564ef303706d1b443a7bd4e36c9a5e4d55df2312e8e34faf523143e586c
+SHA512: 8c06ecb2300cad0b23a70e0b42df922cebc453ed6e75af53441ed95774ab29e4a5a9d48dcef9adef9c284c601d0a7fa06a48056d6aa1fca5089c3a5ac25be24d
+Description: Optimize laptop battery life
+ TLP is a feature-rich command-line utility, saving laptop battery power
+ without the need to delve deeper into technical details.
+ .
+ TLP’s default settings are already optimized for battery life and implement
+ Powertop’s recommendations out of the box. Moreover TLP is highly
+ customizable to fulfil specific user requirements.
+ .
+ Settings are organized into two profiles, allowing to adjust between
+ savings and performance independently for battery (BAT) and AC operation.
+ In addition TLP can enable or disable Bluetooth, NFC, Wi-Fi and WWAN radio
+ devices on boot.
+ .
+ For ThinkPads and selected other laptops it provides a unified way
+ to configure charge thresholds and recalibrate the battery.
+Homepage: https://linrunner.de/tlp
+
 Package: vortex-cuerdos-plymouth-theme
 Priority: optional
 Section: misc
