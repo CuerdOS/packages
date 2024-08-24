@@ -958,20 +958,19 @@ Description: Third-party repository collection
 Package: tlp
 Priority: optional
 Section: utils
-Installed-Size: 659
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
 Architecture: all
-Version: 1.6.1-1~bpo12+1
+Version: 1.6.1-25
 Conflicts: laptop-mode-tools, power-profiles-daemon
 Depends: hdparm, iw, pciutils, rfkill, usbutils
 Recommends: tlp-rdw, ethtool
 Suggests: tp-smapi-dkms, smartmontools, linux-cpupower
-Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-1~bpo12+1_all.deb
-Size: 102008
-MD5sum: 56012e87b18760e769f3b61cf4f2d0ad
-SHA1: 26de8b60b382a2fd762546a5662cc281d03954a7
-SHA256: 12046b6c78ce5df1f979681fb0c2f87a3724a85ff5bac9e732bc4bcf5cd971e3
-SHA512: 22305ee2373f86434199dac4ae95923e3488bc4c78c3526ea65825cdb5d518d83a45688d038ce9591b2e4e7202b48898f027176260fee3998006aa3497c3aaed
+Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-25_all.deb
+Size: 100196
+MD5sum: 211c6fd1150b28c12c707d6c9f7ebe96
+SHA1: 569947d32c25ed779a4536cdabedde33598147f8
+SHA256: 5bb5d0961705b7fa9b4d4361bea39c38e9c3a2241066f820fc796ebaf61758d1
+SHA512: fd81663a0f42ea4497ef1799a840abb6eff85075b4c08997cc232a5b6d3261d4e7307ad748e6b7f8d1c188da6c6bc0b495413933a80795cd5b7779234cb2305d
 Description: Optimize laptop battery life
  TLP is a feature-rich command-line utility, saving laptop battery power
  without the need to delve deeper into technical details.
@@ -992,18 +991,17 @@ Homepage: https://linrunner.de/tlp
 Package: tlp-rdw
 Priority: optional
 Section: utils
-Installed-Size: 40
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
 Architecture: all
 Source: tlp
-Version: 1.6.1-1~bpo12+1
-Depends: network-manager, tlp (= 1.6.1-1~bpo12+1)
-Filename: pool/bookworm/main/t/tlp/tlp-rdw_1.6.1-1~bpo12+1_all.deb
-Size: 5348
-MD5sum: f7f347c55a2b47d8456848d3c928a2e3
-SHA1: b985af7f5197c492a0ad83b98cf013d4ba2487ca
-SHA256: 8c3df0bc598448f15c8d18368929b5f562d9f4ce05331f27f132f7fb9063712a
-SHA512: 257e343de83539255c5dd1a7cb3ae1276f5d2b701234ceddc5e3a20f8a7a7fe7a28a73fb78b0063cfdfc2f063e8c780435570e21f02770ad929d044c5e8dcc6f
+Version: 1.6.1-25
+Depends: network-manager, tlp (= 1.6.1-25)
+Filename: pool/bookworm/main/t/tlp/tlp-rdw_1.6.1-25_all.deb
+Size: 5088
+MD5sum: 176b1ebb9b2ab80d3958aebea6b09449
+SHA1: f4dfcef36382aa5576949bf4dd783267533fb0a1
+SHA256: fb13f453d67d2d525003ca68f3baf3d73da6cd2cfe03903c520071301493ffb7
+SHA512: b5776106e48e0e6bd94c5f49f2c2b921e859008ee29769df6ba88d2a7541ee9eed2758002efcab6114bdf7964be4cc341854ec472617011e8915475d75bcaad8
 Description: Radio device wizard
  Radio device wizard is an add-on to TLP. It provides event based
  switching of bluetooth, NFC, Wi-Fi and WWAN radio devices on:
