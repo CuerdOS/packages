@@ -315,14 +315,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.2.4
+Version: 1.2.5
 Depends: rsync, sed, libxapp-gtk3-module, ananicy
-Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.4_all.deb
-Size: 5696
-MD5sum: 72fdbd34a319b214817aa5a158b9e9fe
-SHA1: db7f8c0563432980d32af7854c035d13e93e52f0
-SHA256: 801635f1f91612c96ba9f80dd746769a6e232ef7bd382ecb561cdca9c4f7026f
-SHA512: 855946a064c6f363bd996cd4529fb291a3c28322ec40e2a81b4462f4620bffe95b650836c4f6487085f1b3354eec5557ea43706e122a50ba740f52c25c567fc8
+Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.5_all.deb
+Size: 5940
+MD5sum: a8836ea3750ad050ebacb2e61a7379a7
+SHA1: 3d374a068207558edd01ec78b61d4a9f3a8cd860
+SHA256: fe0842820823a88b08ada4bedee7ff46b49fcc4ff0a7383095f2d25736a2036c
+SHA512: ca308db8e7a7707dfefbb6aca76ce97f46c1959e0ea4db1d1b35db1f7a8aff84f350e1a49086ca46d2e0ab7070cbe3d63266935ed50c1792ea11bc09b949d075
 Description: CuerdOS config updates, please don´t remove this package.
 
 Package: config-updates-gnome
