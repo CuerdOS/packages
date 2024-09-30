@@ -973,17 +973,17 @@ Priority: optional
 Section: utils
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
 Architecture: all
-Version: 1.6.1-30
+Version: 1.6.1-35
 Conflicts: laptop-mode-tools, power-profiles-daemon
-Depends: hdparm, iw, pciutils, rfkill, usbutils
-Recommends: tlp-rdw, ethtool
+Depends: hdparm, iw, pciutils, rfkill, usbutils, tlp-rdw
+Recommends: ethtool
 Suggests: tp-smapi-dkms, smartmontools, linux-cpupower
-Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-30_all.deb
+Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-35_all.deb
 Size: 100252
-MD5sum: eaa6d429d138c7776c905ec0fff8fdb1
-SHA1: f2c1d0f68aaf6b0a3e3abfc9f76cbeac430f8a56
-SHA256: ad3040d98b70ae2250cbdd6a8653a017528b13c1653d1ea47a02126795bbf56b
-SHA512: fe7739f7c6c961395c29e89279d7beb5c32d5159c5f967dd2a05d8e6f6a1c86f792d9c0452af582c3ab4d8b91294360046a4f1cd3a65a5a6eb21752e61e59db5
+MD5sum: 5d1ab48735435c7bf45c94c9e3819d1e
+SHA1: 3b47542155379e6af4e208d88f301db1e0287b89
+SHA256: 52f1b5954797cbf184ca78cfe620802a7c43dbd381200fa0ea61724f1c8e814d
+SHA512: 4e998e2ac4ca30d82693daa4b5a098c4c2141bb63449e0daf42eb8e81b09878fb30c49e387414d5e3977e5fec4c8fa9dadf2a8b6c485f23d9f93ed11c7b79df0
 Description: Optimize laptop battery life
  TLP is a feature-rich command-line utility, saving laptop battery power
  without the need to delve deeper into technical details.
@@ -1015,6 +1015,27 @@ MD5sum: 176b1ebb9b2ab80d3958aebea6b09449
 SHA1: f4dfcef36382aa5576949bf4dd783267533fb0a1
 SHA256: fb13f453d67d2d525003ca68f3baf3d73da6cd2cfe03903c520071301493ffb7
 SHA512: b5776106e48e0e6bd94c5f49f2c2b921e859008ee29769df6ba88d2a7541ee9eed2758002efcab6114bdf7964be4cc341854ec472617011e8915475d75bcaad8
+Description: Radio device wizard
+ Radio device wizard is an add-on to TLP. It provides event based
+ switching of bluetooth, NFC, Wi-Fi and WWAN radio devices on:
+  - network connect/disconnect
+  - dock/undock
+Homepage: https://linrunner.de/tlp
+
+Package: tlp-rdw
+Priority: optional
+Section: utils
+Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
+Architecture: all
+Source: tlp
+Version: 1.6.1-35
+Depends: network-manager, tlp (= 1.6.1-35)
+Filename: pool/bookworm/main/t/tlp/tlp-rdw_1.6.1-35_all.deb
+Size: 5084
+MD5sum: 194e3cc7e399bedd2ae9af88c7dc6124
+SHA1: a866bcdb323a776d52952c9f37f9ed0560152a5b
+SHA256: be2a6c808ca59da870a64a58826d0f3561e03dfa9a33a6395b4c9324c042de8b
+SHA512: db7b4e2737df47ad7e5788d48d3a907ba1bb8b346fbc6a712b5136179b8cd06c9c7eb4f3f55b5607568c3dca04320165d917a5cf7a843b47a2e37294d81c1453
 Description: Radio device wizard
  Radio device wizard is an add-on to TLP. It provides event based
  switching of bluetooth, NFC, Wi-Fi and WWAN radio devices on:
@@ -1254,17 +1275,17 @@ Homepage: https://github.com/CuerdOS/debinstaller-sh
 Package: fastfetch
 Priority: optional
 Section: devel
-Installed-Size: 25407
+Installed-Size: 27337
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
 Architecture: amd64
-Version: 2.22.0
+Version: 2.26.1
 Depends: libc6 (>= 2.31)
-Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.22.0_amd64.deb
-Size: 6756446
-MD5sum: dfb49136d995b1c8584c3d30dc315287
-SHA1: 981083f148ae13bfb7e9a6ee2534586251c08975
-SHA256: 61407aca2c8e2f2cd243bb873e721e17ac4e4c26dbeafe1980f3ebb642594d55
-SHA512: 48bb75f9581620f210cb63d2e84aaff7ec1262cb2253cf29c22f4117d645ddc2afff764d80192748346a80521bd18f5009c056defee1a60dd19eb161a3b025e7
+Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.26.1_amd64.deb
+Size: 7156348
+MD5sum: 62ab6dce9aa8154e5690a8636c629c5c
+SHA1: 274e44c8a4e39e2a166e1d17a2320535851d7f6b
+SHA256: 8963d40fc272112502f3a16c001bba25093cb7a15b3f6866ddcb68948b43e32d
+SHA512: 5f6910eea387cd3e5209ac622a87caa7daca11572fdb7b3a5914e90e57c00e99df76e17109c0b805b60617ec5d899a20fbe25b43ed66a8ddb582c7bc4797ae13
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
