@@ -1,3 +1,19 @@
+Package: ananicy
+Priority: optional
+Section: custom
+Installed-Size: 16
+Maintainer: nefelim4ag@gmail.com
+Architecture: all
+Version: 2.2.1
+Depends: coreutils, schedtool
+Filename: pool/bookworm/main/a/ananicy/ananicy_2.2.1_all.deb
+Size: 30252
+MD5sum: a155ef59c928e31f58e27972dd80d018
+SHA1: 531b31f89ab99764402f27939f72a084c88f65cd
+SHA256: 838ab5746f280436b71c7bcbee2637c82ee87d4d4fc65d8621c82a259d6ea7a8
+SHA512: de7a215cc8fd3f6342092111dd83077a77aec2bd57d7dbfea93eb27a949a2a13beb23d96b9223f58519c30d7ebc403e55ba74ecbe76b74abec06eca4c7fe9a14
+Description: Ananicy (ANother Auto NICe daemon) — is a shell daemon created to manage processes' IO and CPU priorities, with community-driven set of rules for popular applications (anyone may add his own rule via github's pull request mechanism).
+
 Package: apt-fast
 Priority: optional
 Section: admin
@@ -299,14 +315,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.2.7
-Depends: rsync, sed, libxapp-gtk3-module
-Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.7_all.deb
-Size: 5872
-MD5sum: f95e5d032ad91cc00fdb9aedfd8cb8a4
-SHA1: f1dfc6b121c10acab81d136c2f984353beed72ae
-SHA256: 5d46e1dc0fea467e40fb1837330703362655efd2c3e32860b788adcebb592961
-SHA512: f11baa3abd4e502e109380140e0614840b5aef42e5f4789fc8891723e717f7bfa94130db687a2103e2b8d978272f669f5b87699dbbc1de0efd30add70bc2911b
+Version: 1.2.75
+Depends: rsync, sed, libxapp-gtk3-module, ananicy
+Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.75_all.deb
+Size: 5904
+MD5sum: 46965739bf748514b02d0aadff30147f
+SHA1: ad51ce10cad97ab703fe7aa93d11bfdf4e37a824
+SHA256: 7d025abff24e38bf2e6a38acec1c65356df3ba8467655d490cffb2254ecdfa85
+SHA512: c0723f05ee6c70644c6f2fb601e3b2056f775d274a43473ac07295e3662bd3f13d5644b231ed9c5bf32dd94fc41bccb7a83854e322c5cce582940f728747398a
 Description: CuerdOS config updates, please don´t remove this package.
 
 Package: config-updates-gnome
