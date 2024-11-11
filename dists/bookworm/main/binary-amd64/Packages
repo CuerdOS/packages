@@ -1078,24 +1078,6 @@ Description: Dock any program into the system tray
  (*) No drag 'n drop support. Enable with "-nm" option.
 Homepage: http://alltray.trausch.us/
 
-Package: armcord
-Priority: optional
-Section: default
-Installed-Size: 266488
-Maintainer: smartfridge@vivaldi.net
-Architecture: amd64
-Version: 3.2.7
-Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
-Recommends: libappindicator3-1
-Filename: pool/bookworm/main/a/armcord/armcord_3.2.7_amd64.deb
-Size: 74353498
-MD5sum: bee01d2ac0141cd1b59b492ceaebfe9e
-SHA1: 0cab0cb1316cd1c44fadf799d74fa6f897fc3307
-SHA256: 4c580ef5d773fd2be2e107ee8234d37a3a55fe6fb1735e78f1ca24ce1560c24c
-SHA512: dc3aeca58ff8d3586dfccb238c7150ca1ef711f3d3b78cb9e056072eda1522cef8238fd4d09b0030c5189324b26d3ad8e4c892db2d1cdf90d4d0b45de228bd03
-Description: ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
-Homepage: https://github.com/armcord/armcord#readme
-
 Package: autotiling
 Priority: optional
 Section: x11
@@ -1166,21 +1148,21 @@ Homepage: https://github.com/CuerdOS/calamares-ask
 Package: codium
 Priority: optional
 Section: devel
-Installed-Size: 359059
+Installed-Size: 374529
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
 Architecture: amd64
-Version: 1.94.2.24286
+Version: 1.95.2.24313
 Conflicts: visual-studio-codium
-Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.15), libc6 (>= 2.17), libc6 (>= 2.25), libc6 (>= 2.28), libc6 (>= 2.29), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libstdc++6 (>= 9), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
+Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Provides: visual-studio-codium
 Recommends: libvulkan1
 Replaces: visual-studio-codium
-Filename: pool/bookworm/main/c/codium/codium_1.94.2.24286_amd64.deb
-Size: 92662244
-MD5sum: 4f35fdb8bdd8eb6e8008aa7f06b45557
-SHA1: 96ea9c65c4937f039744587b84d9ee72cdf2804f
-SHA256: 59462e1700d945ad7557af150caeda9ba61782ed9fafa74ea060f519819b9376
-SHA512: 16e3bc6cdfd5b839ec7b337f7b991e5e4093617ae7bfd86d039ed2c041cd33b398aff8af13f2394e722d5c828af8347d970e8e75ccfe691b77c20f4da80e938d
+Filename: pool/bookworm/main/c/codium/codium_1.95.2.24313_amd64.deb
+Size: 96579088
+MD5sum: 073cc5b40a53594640e53b1cd0869087
+SHA1: 0b598a7c54a59fa2b5aaeeea7200b6fbdf64f3a6
+SHA256: 4b928209297407b4e78c8fcb9e2e72fb04a91f096f0f4fdf5e908cbc9ca1ba03
+SHA512: 558c19f4c92be354549826e04b6723feb023543d85e583480093449ddab69c837cf5c3ce0523d497317f28c32238f38816b4013e9af066152b0ec44778c6b376
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of
  a code editor with what developers need for the core edit-build-debug cycle.
@@ -1226,14 +1208,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.6.58
-Depends: linux-headers-6.6.58-cuerdos, linux-image-6.6.58-cuerdos
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.58_amd64.deb
+Version: 6.6.60
+Depends: linux-headers-6.6.60-cuerdos, linux-image-6.6.60-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.60_amd64.deb
 Size: 764
-MD5sum: 5b89009c77e287b1310457f217d91174
-SHA1: 367773462943cf7f104781cb213a7858b0d586bf
-SHA256: ed2c7e35aee6aceed9440198ec5fbc5d4b1d8f7a8fc81511f08a0b9b45ca6875
-SHA512: eb0514518bcf5c8318e3fffed076c7d16660aa56358fbbd48817f7db7d391af6df5d891f65867e6cfc554fc50634ad43a958285c35f34d79493130cd9ebe3597
+MD5sum: e380389ff345455572d0182e257af904
+SHA1: 291202c60e133d0b881b758a6b7aa5d9c0b5443a
+SHA256: 18cacb5af91e9055b85d0743353917e1d54dbad7c00b9a059270f6495e85f09e
+SHA512: dfb37f19d682f045c16f3093e847bd8b1be2994db2bebf56ed4cf5161a0236f816eca0e1db8b5ba676a45163c27348c03947f0c40bc1fb4900ef5aa2ec020701
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: cuerdos-kernels-nhs-amd64
@@ -1241,14 +1223,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.10.10
-Depends: linux-headers-6.10.10-cuerdos-nhs, linux-image-6.10.10-cuerdos-nhs
-Filename: pool/bookworm/main/c/cuerdos-kernels-nhs-amd64/cuerdos-kernels-nhs-amd64_6.10.10_amd64.deb
-Size: 768
-MD5sum: aba46018c5071e9c92d6f83cdd95c492
-SHA1: a89d1115994a053bd434c829a16617ce40c7ac1f
-SHA256: bfe974bdd964d4b26f2581f84dc12041d763d478e1bdea1fcfd4b66ecdc75b9f
-SHA512: 456903ebda1e8dbb6f9b7820ae2c5563109314fa66d5d02b97509b8afa403f899ed0d15e7ed18f69676058cd952b713bd0f9f4e9ad12359464a378b26caae259
+Version: 6.10.11
+Depends: at, cuerdos-kernels-amd64
+Filename: pool/bookworm/main/c/cuerdos-kernels-nhs-amd64/cuerdos-kernels-nhs-amd64_6.10.11_amd64.deb
+Size: 1352
+MD5sum: dfdd2c83f5098bae35910d21013826ee
+SHA1: 618a68e9b9840e07d8100a5aaeb9311042d94d9b
+SHA256: 032488345732099caf4c20a946490454954a7591d070cce1cd5a9740763f64a4
+SHA512: b683ac7c00b954c9782b93307cea8f58a83f0c24174f3277a75132e64773b0edb45eeb8ecc6827f8f86ea3077ab12772209892cb1ca8c3911be4b7ff91d065fa
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: debinstaller-sh
@@ -1270,17 +1252,17 @@ Homepage: https://github.com/CuerdOS/debinstaller-sh
 Package: fastfetch
 Priority: optional
 Section: devel
-Installed-Size: 27245
+Installed-Size: 27681
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
 Architecture: amd64
-Version: 2.27.1
+Version: 2.29.0
 Depends: libc6 (>= 2.31)
-Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.27.1_amd64.deb
-Size: 7145220
-MD5sum: 26b1bb4d8e29b6056bb4bdeb8bf8ce35
-SHA1: 46191b76390adb2a9774d5aef5aae0ca978d3422
-SHA256: 37420871c23416b6e7f58bceb4a6ae8d54d4c39b44221bace64e38ea7eb6f39a
-SHA512: fecc0729df063806a6c0357abb00487cd6072068c0b275f231094617b49e2b03dcf06969bf514a659d06857224b72b2b7c150acb9e85978b7f03b15ac752ed11
+Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.29.0_amd64.deb
+Size: 7222558
+MD5sum: ad3df57de8cdbbb70917e05c66d4bfb8
+SHA1: a09ad4896fa7d38b7884d6fcf22315539606d33c
+SHA256: f5d0d55048d8942bd1148609b409145b730430368fab31f99541e0ec080588f4
+SHA512: 62ceee78fdfa66df25e2138697f446d6185765532fa6cd8d2237f09129a5a95a47b2c8511ece3632d0df8636b68b3e6dce91485d5f945dea1866fce5fc38ff31
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
@@ -1379,104 +1361,44 @@ SHA512: d720273c87de130d03619834e506f1439a5ff10cf59e97be272a434481bd788c74e4c65f
 Description: AMDGPU control utility
 Homepage: https://github.com/ilya-zlobintsev/lact
 
-Package: linux-headers-6.10.10-cuerdos-nhs
+Package: linux-headers-6.6.60-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 55379
+Installed-Size: 55488
 Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.10.10-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.10.10-cuerdos-nhs_6.10.10-1_amd64.deb
-Size: 9580208
-MD5sum: 328ac847c7d158f48418e62f5d145a6c
-SHA1: b1a429c1701c4591d91d062dc153222e930b1f90
-SHA256: 1430b0fe06232ff1c89db45e78a6799f1a4434b365fe05134a080830ec55ccd7
-SHA512: cbf6bc9a66c66cb1d8e44318d47d226bd6b6ff508eeb2b24b8a18e7b1b43983019e1bc141bf2353f72bcdb99cc75da3f840fe5dba331e1cc4164e0e4b10ee568
-Description: Linux kernel headers for 6.10.10-cuerdos-nhs on amd64
- This package provides kernel header files for 6.10.10-cuerdos-nhs on amd64
+Version: 6.6.60-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.60-cuerdos_6.6.60-1_amd64.deb
+Size: 9251448
+MD5sum: 0c905f258ea7bf09f9b34d4260b31e56
+SHA1: 253c8908ed09737e8428bcaa91252483e9afc2ab
+SHA256: e719dc58e83288dbff86c5c2108c81691a6adfd7c340469e3121b5a496b5d5e9
+SHA512: 66256927e0e60bd487ec558d3451ecf5869caaad983c79d261ad59bcf64c85e47667aec35cbcb6d12889a0927f4b5e99bd879da3a9544e0d7acc94f09d2700b1
+Description: Linux kernel headers for 6.6.60-cuerdos on amd64
+ This package provides kernel header files for 6.6.60-cuerdos on amd64
  .
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-headers-6.6.58-cuerdos
+Package: linux-image-6.6.60-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 55489
+Installed-Size: 533511
 Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.58-2
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.58-cuerdos_6.6.58-2_amd64.deb
-Size: 9252204
-MD5sum: 45b998049ec30b903bb87724b4509adb
-SHA1: bd95ec617fd0d03fdba2d5f211875489e26a1235
-SHA256: 27a668ab1b6b799852adf582b1efd776231f12456a30126d5b2796abb3667fd6
-SHA512: 7b3b3ce6c2a22b6d12adec3adedd782dba9b1ba1c90cd791695a05960feadf839b2fe7881a9b550c7db37cfa5429b8852515481e89f0e6802f72c46f83093fb4
-Description: Linux kernel headers for 6.6.58-cuerdos on amd64
- This package provides kernel header files for 6.6.58-cuerdos on amd64
- .
- This is useful for people who need to build external modules
-Homepage: https://www.kernel.org/
-
-Package: linux-image-6.10.10-cuerdos-nhs
-Priority: optional
-Section: kernel
-Installed-Size: 440700
-Maintainer: ale <ale@CuerdOS>
-Architecture: amd64
-Source: linux-upstream
-Version: 6.10.10-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.10.10-cuerdos-nhs_6.10.10-1_amd64.deb
-Size: 76313272
-MD5sum: 32fea13887d41039678f0d843f5c18ce
-SHA1: e9d1e3ac64c5a155366b6648773e7eeb1f740746
-SHA256: 08ddc0c76924a746f523eeb46b499da1bd30a57eeeb321d2896e26f7ed34d8cd
-SHA512: a0343b5f52d8370afdb425afc925062ffe19f5fbb809ed4baf37bc213db287b7d0f7aa4950597d259c7d14b1d8618919b5bb11b840f369f0ea1ebb931b730ad9
-Description: Linux kernel, version 6.10.10-cuerdos-nhs
+Version: 6.6.60-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.60-cuerdos_6.6.60-1_amd64.deb
+Size: 89010616
+MD5sum: eab51e58527aaabcb45bd502ac0a6fcc
+SHA1: 9bf8b93ee273bcf5cf2ad8169cc31ab8bc4ce07b
+SHA256: b411522397d5bcd7f8401e2f619beda0c6603b24b8663f7734a1dd02bfffcfad
+SHA512: 46885240561b306af13f00517270c1d7fec2df4b844548572283545ce0b0d935c044cd1c89de5ea0e6ecb697f1ed7e814deadad87750bd9ab2913c16d870a122
+Description: Linux kernel, version 6.6.60-cuerdos
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.10.10-cuerdos-nhs.
+ files, version: 6.6.60-cuerdos.
 Homepage: https://www.kernel.org/
-
-Package: linux-image-6.6.58-cuerdos
-Priority: optional
-Section: kernel
-Installed-Size: 533433
-Maintainer: ale <ale@CuerdOS>
-Architecture: amd64
-Source: linux-upstream
-Version: 6.6.58-2
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.58-cuerdos_6.6.58-2_amd64.deb
-Size: 88985124
-MD5sum: d9a81600700648ac9f9c535013ffc2ac
-SHA1: d5dd9299859617c0092646b0b019f2a48cab0a8c
-SHA256: c6f6cb0ff6791db6c2f91925637709b06ffd70741addb56780f1a5e46981b562
-SHA512: 80db460ef78c5367776304585c31a3b3479acd7e34885dbfa049cce625f6683aa1e5f3c98fde8ec74d87413c5bf1eb7c551ab8162151705206c790aea791bfd1
-Description: Linux kernel, version 6.6.58-cuerdos
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.58-cuerdos.
-Homepage: https://www.kernel.org/
-
-Package: linux-libc-dev
-Priority: optional
-Section: devel
-Installed-Size: 7037
-Maintainer: ale <ale@CuerdOS>
-Architecture: amd64
-Source: linux-upstream
-Version: 6.10.10-1
-Provides: linux-kernel-headers
-Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.10.10-1_amd64.deb
-Size: 1367612
-MD5sum: 037b3371845717b12ea52042f20fb14a
-SHA1: e6ccde65887f9216ea13b500795c6ce129bd0819
-SHA256: 2f1cc24eafe60d7d7dac8feaf07edb488390d911c5c2d9221abe43de9f1f7cd3
-SHA512: e9e40f02e906981b8b58d276003fa8d0a7f0698113c21a0b24731e8b70573cc661ba1e695b8bc103dd6fa5e2a630891bb1bfd070e66d5a63f99c6edf50f5aaab
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-Homepage: https://www.kernel.org/
-Multi-Arch: same
 
 Package: linux-libc-dev
 Priority: optional
@@ -1485,14 +1407,14 @@ Installed-Size: 6846
 Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.58-2
+Version: 6.6.60-1
 Provides: linux-kernel-headers
-Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.58-2_amd64.deb
-Size: 1318568
-MD5sum: 84670b9355aab9e9d833f3fd5700503f
-SHA1: 10d4b9fbffde1a9d5c3b1641ac0abaa3ffe50a53
-SHA256: f7e5781b5c4f8d2d7d1ca64b7c0fd6ad8ad70f99f0e6831fe6aeb6200098dceb
-SHA512: c0b74464b8d9cea8e04e60c0a735a2f55cca11b082efe1a762012fd4097a1dcedc548197d12206a79f2d6b2276ab2413bc51e758d31963aadc891582d3e1ab1b
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.60-1_amd64.deb
+Size: 1318504
+MD5sum: 769f4a4b305ff5a15137ffbdcf1719c6
+SHA1: cddbc3b904cc4970d063742fda066d0ba7b087e1
+SHA256: 95d01e4fccede53024f21fab74480d2fdf8b685f5276fd9ea3fa38bd6f2135b8
+SHA512: 7a0aa2d369f30e1ff86c8e7b616d677af269a18ef81ab7f01273f32f46d35f3a480e501703fc4c061fb0094d0b721739c7da2194e2da7131a77d67ae79334f55
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
