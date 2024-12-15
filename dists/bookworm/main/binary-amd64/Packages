@@ -1208,14 +1208,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.6.63
-Depends: linux-headers-6.6.63-cuerdos, linux-image-6.6.63-cuerdos
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.63_amd64.deb
+Version: 6.6.66
+Depends: linux-headers-6.6.66-cuerdos, linux-image-6.6.66-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.66_amd64.deb
 Size: 764
-MD5sum: 1f340e1ffba3f774cf40f3528d7acb70
-SHA1: 8d7ccf82497c682ff08c48ff620ca5e87009f72e
-SHA256: e02e2bf05de623c7b0f8b946ace00fa412544f5ee365dad250a56d874d52e12c
-SHA512: 77166a29cba6e22da462c112eb81a712c4f87c74b18057edb3d080824df1b31315e632fd45852fa4a3a6b5049664b0d415affc0d36dc5d7e9834a854921b46a3
+MD5sum: 99f58021051f75be3e84fec38c722169
+SHA1: b5dca397a93efba004d81611938b7dd457f338ed
+SHA256: 272699301915d71292d9c1fb1ec89215519a606c1deb0e0bb0ef82391a7c6acd
+SHA512: b40f975ff96167c5b52683645ec8d303161785d82e6f67c00618d39f35a6ebd266ad9d49751f21e3ae63381844fe5b571984d008cc388b21691eeacbf0dd3db9
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: cuerdos-kernels-nhs-amd64
@@ -1361,43 +1361,43 @@ SHA512: 691cf820cb20f3f62f2509cc6f0aa64220645b77e882203e424924a12a48b9794dbb6b88
 Description: AMDGPU control utility
 Homepage: https://github.com/ilya-zlobintsev/lact
 
-Package: linux-headers-6.6.63-cuerdos
+Package: linux-headers-6.6.66-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 55633
+Installed-Size: 55724
 Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.63-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.63-cuerdos_6.6.63-1_amd64.deb
-Size: 9254004
-MD5sum: 3a8b627f7d02ad98fd60ccfb7c5d4ecd
-SHA1: 4ed94f37880a8422dc1513d133f08c89bd4f165a
-SHA256: a6cdf21aeb864da4f3a67ce98b5cacd3e2194e21cb08a7a5f857c15dbdf4981e
-SHA512: e33230651f8a0cb90f77de017ff6659c523b79364ebb29e3494dfd0498381e68f0522e9027aabb676d180093b02dd934da4cde970c66dc6391ad885e255382e5
-Description: Linux kernel headers for 6.6.63-cuerdos on amd64
- This package provides kernel header files for 6.6.63-cuerdos on amd64
+Version: 6.6.66-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.66-cuerdos_6.6.66-1_amd64.deb
+Size: 9260540
+MD5sum: ed956008a803a509b204b9db4909e937
+SHA1: 4597b0cfded026f5130404d0bb87722e590156c2
+SHA256: 8755198d49ee8a73d9579d04cfc264c37de33e5df8269b3331b8703da993d6a0
+SHA512: 220c7ec9c977b04aff83a32db3115f4ffb0d4757e0779a6459616b4c2edc1fc18f6096f4fb1d0905c79f0f440e16fa28fb93f48ca3171987d8c6e7cd3614b0ec
+Description: Linux kernel headers for 6.6.66-cuerdos on amd64
+ This package provides kernel header files for 6.6.66-cuerdos on amd64
  .
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-image-6.6.63-cuerdos
+Package: linux-image-6.6.66-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 533827
+Installed-Size: 534620
 Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.63-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.63-cuerdos_6.6.63-1_amd64.deb
-Size: 89276004
-MD5sum: 723588424b65d7afc1e997f71fd9dd38
-SHA1: b044eddf123776fb14caa408dca6c8e979a9a4de
-SHA256: fc1a464afe66acb860297e54d51879c3c69f32535e9d05670ad5e684befd605e
-SHA512: b4abbed85cfadf9093fe14ecfc9258fcfee910741a2e853a44b828d4be596539df5f944cbc20b200f0a3dea93353777c4fc8d5804d879e015db1ff81cdf5f112
-Description: Linux kernel, version 6.6.63-cuerdos
+Version: 6.6.66-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.66-cuerdos_6.6.66-1_amd64.deb
+Size: 89397320
+MD5sum: 26725fa8e5fc6f844245d84d6caf946e
+SHA1: 18cd07d3c7b9ffe43602b9a32f68f1c40f9ca0e3
+SHA256: bc18fb7d398982d14c73809ef9f16584290b0a655bee00e4919a91178773d6db
+SHA512: 1fcb5d7fd79b2e9b6d592c295a4d885f7ff6cb62697e0ddd5ac0f22c477539c58e487e4a5cdbcb65be4fb5ba87e7a3f96f66269aa70a6501daf57ebe9bceb128
+Description: Linux kernel, version 6.6.66-cuerdos
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.63-cuerdos.
+ files, version: 6.6.66-cuerdos.
 Homepage: https://www.kernel.org/
 
 Package: linux-libc-dev
@@ -1407,14 +1407,14 @@ Installed-Size: 6846
 Maintainer: ale <ale@CuerdOS>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.63-1
+Version: 6.6.66-1
 Provides: linux-kernel-headers
-Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.63-1_amd64.deb
-Size: 1318652
-MD5sum: ee0bcdaec717ce29422887f41a3113e5
-SHA1: a74e1a97db9a75f65b2f84b2b54425f6cc955635
-SHA256: 97d9d8ed9ef8ff28db28480d0f1c5bb1c27944ebd4690e97b5b5d796f932f601
-SHA512: ed432fbad3ab40eba2c0fb75d0464013ef832fe757ab680de3fac7507a28863d6d1a9aa63d9934150f92415e4bf48461d25a7292137ce9ebf3a5322cba852064
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.66-1_amd64.deb
+Size: 1318632
+MD5sum: 86736479adaf8e5e6625d369636893a7
+SHA1: f0fecf03b6a6376353b04efabeeee71e5fdb41bd
+SHA256: bf453f935f7cf3c631173468d9fc78235c6f424fc2a8788c3698bb6c60103aca
+SHA512: f042e41604dcad4d8744b41aa62c3e4449e8969b9c0b04984d675b7f39081b61df365446d837e191b4f1b41cd757be74a13923aefa9c46cec0b09ca69ef4d621
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
