@@ -315,14 +315,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.2.80
+Version: 1.2.90
 Depends: rsync, sed, libxapp-gtk3-module, ananicy
-Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.80_all.deb
-Size: 5900
-MD5sum: 1802ebbb170b3481d276e2ab9c6f44bb
-SHA1: f40cff891cd8f71881ff8bd18b185a97c0cb9b9f
-SHA256: 3e91268196d2a50c124dce92ad255da0b28e40ed77a45f74486dde4ee31e600a
-SHA512: 5ffbdde760398890a5c040ca41fe85dc10ebac455a3fc4248ba43662f6d112b6540a9c75f0d0eba11dcba124593e485932a7a4041e8e3569bf59c218089e8372
+Filename: pool/bookworm/main/c/config-updates/config-updates_1.2.90_all.deb
+Size: 5912
+MD5sum: bdb0cae89584bdad86d845ec1ef81c6a
+SHA1: 3d9a09816fab83964357c0426baec0c30a8a1c8e
+SHA256: 2bcf4d2792b913839071d95bd94c46e85375249c2679d5003ff574802b99dcec
+SHA512: 566c60c0e3e67404ba2474f338341f9f715093cacedf353eedda00f4d2fe716f9d6f7801713bf1bab609f9a558619149b94e0f591e1d2bd99f120d5d6e3101b4
 Description: CuerdOS config updates, please don´t remove this package.
 
 Package: config-updates-gnome
@@ -506,14 +506,14 @@ Priority: optional
 Section: misc
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.1
+Version: 1.2
 Depends: wl-clipboard, xclip
-Filename: pool/bookworm/main/d/discordo/discordo_1.1_all.deb
-Size: 2669004
-MD5sum: da0d8896d6cda1532da218b8c31baf0d
-SHA1: 0fac625ad22220d611b83f88fe606b2c1850cdf9
-SHA256: dfcb2c2e8130460f2ba75fc7b94c135941600bce17585bd2a90715b67c7238b6
-SHA512: 072a57a9c703942c149db9c258e2ff4061574740aab2976d9d0af1f8af5ef61948121de8620ebd01febed3c1b65d74e4075ad3ebab44bcdb6eed96e7469053bc
+Filename: pool/bookworm/main/d/discordo/discordo_1.2_all.deb
+Size: 2851528
+MD5sum: 853353af7d55c93d75515697ba6d4bb4
+SHA1: b39c92e6e8f99d2eba19733c6361471d7fa8d1b1
+SHA256: 2e41444b86a7d569f2898fbc423990f4e1dacfc61603f724ee7afd838b88221c
+SHA512: db631983d7c5071a9842db87e30d6854d77ba075ff493e3b043fc4dcee66de99db11c86f36ef0c7a51f728829bef8d5aa469629f8bb70a40d88de2f5f2d9ad37
 Description: CuerdOS deb package for a tty Discord client made by ayn2op.
 
 Package: doom-wad-shareware
@@ -767,14 +767,14 @@ Priority: optional
 Section: system
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: all
-Version: 1.0.1
+Version: 1.0.2
 Depends: apt-fast
-Filename: pool/bookworm/main/n/nvidia-installer/nvidia-installer_1.0.1_all.deb
-Size: 5052
-MD5sum: 211bbd9ad790cf6c76d2aa6bb9dc72c2
-SHA1: 10938c58654eb03c2e6bdf78bdceab862007f7b8
-SHA256: 9268da06bc610496fce8b0d98604a2763b09689bfe9df3a63e0ddbf74555872b
-SHA512: 8d6f75c3a21cca34b49bbef3e26319e08f694e398e183f5ac3ad3c9ba8482b3162987baaeb75b4b14883dc521269370c7a32372a69f3a026be66ea86dfb5e405
+Filename: pool/bookworm/main/n/nvidia-installer/nvidia-installer_1.0.2_all.deb
+Size: 5084
+MD5sum: 07fea4db57bbfee8845db941e6f30f01
+SHA1: f0c8ac9f63f7f4f667936a24146242c256c3830b
+SHA256: d6d3ba76bb4cf053b94d0c8e4822a5b4b3c79408a070b0076e11be942d85d88d
+SHA512: 3bee736283aa75fe0334dd46b2041009e505809822e9f2c17cbd351a68095b5d6ace88eab75ea91bbe4073572e920031e1611df924c64b1eacf108b33b94b738
 Description: Nvidia Driver installer
 Homepage: https://github.com/CuerdOS/nvidia-installer
 
@@ -989,17 +989,17 @@ Priority: optional
 Section: utils
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
 Architecture: all
-Version: 1.6.1-35
+Version: 1.6.1-40
 Conflicts: laptop-mode-tools, power-profiles-daemon
 Depends: hdparm, iw, pciutils, rfkill, usbutils, tlp-rdw
 Recommends: ethtool
 Suggests: tp-smapi-dkms, smartmontools, linux-cpupower
-Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-35_all.deb
-Size: 100252
-MD5sum: 5d1ab48735435c7bf45c94c9e3819d1e
-SHA1: 3b47542155379e6af4e208d88f301db1e0287b89
-SHA256: 52f1b5954797cbf184ca78cfe620802a7c43dbd381200fa0ea61724f1c8e814d
-SHA512: 4e998e2ac4ca30d82693daa4b5a098c4c2141bb63449e0daf42eb8e81b09878fb30c49e387414d5e3977e5fec4c8fa9dadf2a8b6c485f23d9f93ed11c7b79df0
+Filename: pool/bookworm/main/t/tlp/tlp_1.6.1-40_all.deb
+Size: 100176
+MD5sum: 71a13760561d9b8350de17e2468b3838
+SHA1: 140c2060296bad659428bff816f17a32ad18b87f
+SHA256: 507e08fddae0d2c0cf87dcfa2f7f9144690533b58842cce52572e838675e66b1
+SHA512: 616cda9208865a7e2834933083bddca92ca31778003ed189255b86f3705e9b4076d2f4dbf10b6083f8095db7990152aec673901d38510da373b9264a07038dae
 Description: Optimize laptop battery life
  TLP is a feature-rich command-line utility, saving laptop battery power
  without the need to delve deeper into technical details.
@@ -1023,14 +1023,14 @@ Section: utils
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
 Architecture: all
 Source: tlp
-Version: 1.6.1-35
+Version: 1.6.1-40
 Depends: network-manager, tlp (= 1.6.1-35)
-Filename: pool/bookworm/main/t/tlp/tlp-rdw_1.6.1-35_all.deb
-Size: 5084
-MD5sum: 194e3cc7e399bedd2ae9af88c7dc6124
-SHA1: a866bcdb323a776d52952c9f37f9ed0560152a5b
-SHA256: be2a6c808ca59da870a64a58826d0f3561e03dfa9a33a6395b4c9324c042de8b
-SHA512: db7b4e2737df47ad7e5788d48d3a907ba1bb8b346fbc6a712b5136179b8cd06c9c7eb4f3f55b5607568c3dca04320165d917a5cf7a843b47a2e37294d81c1453
+Filename: pool/bookworm/main/t/tlp/tlp-rdw_1.6.1-40_all.deb
+Size: 5072
+MD5sum: 132eec835e7d7aa01929112e3d0daba0
+SHA1: 40f6f93964bc0e9b316598315368197346908a8c
+SHA256: e121bf0ba9057881d3d472f739aa5fa33e232604b44dc96680a6de421b4ca07a
+SHA512: 424aee73469d4612bfa57c0d03b0b281d67ecc6684c2c90198e3b13726044e6d2dce1764be890144963f0362b71a66137d3653bd2301a86ca06846c17c8f3bb3
 Description: Radio device wizard
  Radio device wizard is an add-on to TLP. It provides event based
  switching of bluetooth, NFC, Wi-Fi and WWAN radio devices on:
@@ -1148,25 +1148,25 @@ Homepage: https://github.com/CuerdOS/calamares-ask
 Package: codium
 Priority: optional
 Section: devel
-Installed-Size: 374606
+Installed-Size: 379355
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
 Architecture: amd64
-Version: 1.95.3.24321
+Version: 1.96.2.24355
 Conflicts: visual-studio-codium
 Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Provides: visual-studio-codium
 Recommends: libvulkan1
 Replaces: visual-studio-codium
-Filename: pool/bookworm/main/c/codium/codium_1.95.3.24321_amd64.deb
-Size: 96604288
-MD5sum: f806d46d3e506900c3bd40e44ce3fe45
-SHA1: 69111d7eef12d0f33e6b2630434780d926e82885
-SHA256: 040071c99efea5bbc04197d7274b27f7e1ed8f0acdc15da0617055589dbe3617
-SHA512: d5a882b1398a3671330cf1e81f9affc1f063573190ba7971c00bbe2c00a585b4ba2cd2fa6fd98d545cff2888e867b7a441c8e1e87cc6f240b3533592566c211d
+Filename: pool/bookworm/main/c/codium/codium_1.96.2.24355_amd64.deb
+Size: 96820236
+MD5sum: ea0d45945e645481d1b9c42b96223566
+SHA1: 7d888ccca0e8c6a53b4b532a96056e8df9c361c3
+SHA256: 5cc4e148b3228a7eaad8082861a243a922e109bcd8c1f471ffe7c6afd1f24f5b
+SHA512: f7bf854ad0ee2eac04b2af0b543bedbe97f581813b08c7902fc4645f6968b7c1546e99a987c19ed3b51a72f5336e80f15a77f71b247cde2e6bb788e24221f427
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of
  a code editor with what developers need for the core edit-build-debug cycle.
- See https://vscodium.com/docs/setup/linux for installation
+ See https://github.com/VSCodium/vscodium#download-install for installation
  instructions and FAQ.
 Homepage: https://vscodium.com/
 
@@ -1252,17 +1252,17 @@ Homepage: https://github.com/CuerdOS/debinstaller-sh
 Package: fastfetch
 Priority: optional
 Section: devel
-Installed-Size: 27993
+Installed-Size: 28284
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
 Architecture: amd64
-Version: 2.31.0
+Version: 2.33.0
 Depends: libc6 (>= 2.31)
-Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.31.0_amd64.deb
-Size: 7305760
-MD5sum: 839a44c0cea5da78698ea3aa4546fe0b
-SHA1: d48f847a6bee4eb9a55cfe8b796a7c6f19aa8995
-SHA256: 563a16edfffbc20c8ee0cb06d56e3c3fd9ab60c7bf5d1d45eeb856002d1623ff
-SHA512: c0f267a7622fe2c930c0f76829309981306f44f4857684d0253d56a1dedc59558bb756f703e7d51b33c5899e587b4be21b702805fd215fb5aa476b35bfe4f8e5
+Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.33.0_amd64.deb
+Size: 7347718
+MD5sum: 0200a4d2134603d0fe11000dce17c950
+SHA1: 970890454801467bcb07b3e421bd5accd46284cb
+SHA256: 64448b642298dff687ac873a460d705af7e5a44c672f04a7b0df4e5de6bd0b42
+SHA512: 41b94c0a16c66cd6c5a45ececd1641292b4f2d1c16a89e37fddb50e6acb40cf116e41c66c8707ea19153a5b7d943f8962ca484b76b163f0ce426f531efc766a2
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
@@ -1360,6 +1360,24 @@ SHA256: 35fde33137ecbc5343ee61f65d21c23e9d7fbd2314e4a02de25416612055a932
 SHA512: 691cf820cb20f3f62f2509cc6f0aa64220645b77e882203e424924a12a48b9794dbb6b885983fd8608e885823738f97092cd6b8530b264320536facc5137ffb0
 Description: AMDGPU control utility
 Homepage: https://github.com/ilya-zlobintsev/lact
+
+Package: libi3ipc-glib
+Priority: optional
+Section: utils
+Installed-Size: 231
+Maintainer: Alexandre Acebedo <alexandre.acebedo@gmail.com>
+Architecture: amd64
+Version: 0.6.0-1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 1.5.2), libxcb1, gobject-introspection
+Filename: pool/bookworm/main/libi/libi3ipc-glib/libi3ipc-glib_0.6.0-1_amd64.deb
+Size: 42280
+MD5sum: 531d59cecfba0a2feb8631d98dc38e57
+SHA1: dd84c0813d5aa503bb41ff47e45b725730ba7e00
+SHA256: 4bce0e989e4e80d82091368abf170bc47767306988ebce4b4924abfd96f8cc10
+SHA512: 150fb7bc1016a7ddce2c0edace7375de25152a69780027a99d51b8af1902c37225904d9ca62c16b1a7e49b4cd2cb589f6eaa6488390e59c8873ead2e46734fcc
+Description: A C interface library to i3wm
+ i3's interprocess communication (or ipc) is the interface i3wm uses to receive commands from client applications such as i3-msg. It also features a publish/subscribe mechanism for notifying interested parties of window manager events. i3ipc-GLib is a C library for controlling the window manager. This project is intended to be useful in applications such as status line generators, pagers, notification daemons, scripting wrappers, external controllers, dock windows, compositors, config templaters, and for debugging or testing the window manager itself.
+Homepage: http://www.github.com/aacebedo/i3ipc-glib
 
 Package: linux-headers-6.6.66-cuerdos
 Priority: optional
@@ -1833,4 +1851,21 @@ Description: modern, docklike, minimalist taskbar for Xfce
   - Different styles
 Homepage: https://docs.xfce.org/panel-plugins/xfce4-docklike-plugin/start
 Multi-Arch: same
+
+Package: xfce4-i3-workspaces-plugin
+Priority: optional
+Section: utils
+Installed-Size: 94
+Maintainer: Alexandre Acebedo <alexandre.acebedo@gmail.com>
+Architecture: amd64
+Version: 1.4.0-1
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.9.10), libi3ipc-glib, libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0), libxcb1, libjson-glib-1.0-0, gobject-introspection, xfce4-panel
+Filename: pool/bookworm/main/x/xfce4-i3-workspaces-plugin/xfce4-i3-workspaces-plugin_1.4.0-1_amd64.deb
+Size: 23400
+MD5sum: 65a18e03d7baffae5705d355c07bdf05
+SHA1: 56d18c32d21b67ec5f74f4bef253ee45118f0896
+SHA256: 3d457a7f36215ec23ef888a62081463c913f430df65326c425657ac0716631ff
+SHA512: 2faa35afea97950220db9f1937a5fb11029c3f556ec1331549b827495dcfbfa10a7ec6da8a855c1554a19741a3050e959f125ab247545e7e74a08b6870c4fcbd
+Description: A workspaces plugin for xfce4 and the i3 window manager.
+Homepage: http://www.github.com/aacebedo/xfce4-i3-workspaces-plugin
 
