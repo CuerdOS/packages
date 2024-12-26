@@ -3,7 +3,7 @@ Hash: SHA256
 
 Origin: packagecloud.io/cuerdos/stable
 Label: stable
-Date: Thu, 26 Dec 2024 10:21:36 +0000
+Date: Thu, 26 Dec 2024 10:49:16 +0000
 Suite: bookworm
 Codename: bookworm
 Version: 1
@@ -13,389 +13,389 @@ Description:
 Acquire-By-Hash: yes
 MD5Sum:
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-alpha.bz2
- 295c8febc84ab06fe50cca4866f9f70c 20 Contents-alpha.gz
+ d6b0229535f9e7ac383d1ebdb285cd2d 20 Contents-alpha.gz
  2b3f7e8c1839d2964fbc1ef9f6d19f5d 152870 Contents-amd64.bz2
- 349d9b1395c127f5d51d5ce7e84a21e0 178190 Contents-amd64.gz
+ 3d0af64f02a7286f7ee3116125104d95 178190 Contents-amd64.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-arm.bz2
- 212931a865095eea6f7b4546f339b41c 20 Contents-arm.gz
+ 858d821981698db4bac2ba1e7f51c84f 20 Contents-arm.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-arm64.bz2
- 0e9766ab22a0213eb326ef9f3aa57347 20 Contents-arm64.gz
+ 028264ec6fc558bab6859b4d67a7cea1 20 Contents-arm64.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-armel.bz2
- 9b4b43d16880827efe0d12285033ff2f 20 Contents-armel.gz
+ e3ddaec18320475584da859365d8890f 20 Contents-armel.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-armhf.bz2
- b57da630828817d6026ee0f29579bcea 20 Contents-armhf.gz
+ f2714f8cd1c1f72de105f823f05bbab0 20 Contents-armhf.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-avr32.bz2
- c9a9b885072d32386745aa9f498ce919 20 Contents-avr32.gz
+ 302988994cf22cd969146fed1dbae1d0 20 Contents-avr32.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-hppa.bz2
- ee03a5d213df01861b0c3bed863d3670 20 Contents-hppa.gz
+ 351c34164ebcb99a435cd9066a826b6f 20 Contents-hppa.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-i386.bz2
- 570c3cf836c31393b30f9338579b9f8e 20 Contents-i386.gz
+ 8f13695057cdea8ed25e8e63d5ad390d 20 Contents-i386.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-ia64.bz2
- b5144291ff8f4479c45ac4897cb0a180 20 Contents-ia64.gz
+ b2905abf4753966b6267104383bba8f9 20 Contents-ia64.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-m32.bz2
- 2b52a4332a6feb43bc350ea3066c1dc3 20 Contents-m32.gz
+ a02fefd4f37fc5e4b5e41dfc0aaa0b2a 20 Contents-m32.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-m68k.bz2
- 0a23363368bcda9fb71f1c377029054e 20 Contents-m68k.gz
+ eac6be883de2db33128587ad892f225d 20 Contents-m68k.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-mips.bz2
- 5ac0a367c01fe17f610dbec023992617 20 Contents-mips.gz
+ a18f993b4b9a935827ab379aa72914f4 20 Contents-mips.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-mips64el.bz2
- 237d62d7820a8588271636d456b54108 20 Contents-mips64el.gz
+ 20c66dd27f078cb059972abb5ea41e50 20 Contents-mips64el.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-mipsel.bz2
- 1a188a37fbeedd6c975b8ada72a6d0ab 20 Contents-mipsel.gz
+ 21994855c5e759326a22261eb27ec30d 20 Contents-mipsel.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-musl-linux-amd64.bz2
- 6ead4ef1991b605af58155540d5b00e0 20 Contents-musl-linux-amd64.gz
+ 46e3787061397ec1b9d6ed981e8fc3aa 20 Contents-musl-linux-amd64.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-powerpc.bz2
- ba7430776cb690930e378191bf97a9c3 20 Contents-powerpc.gz
+ 110eab9740e2ffdbea08305a559d9ec3 20 Contents-powerpc.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-ppc64.bz2
- 470058029fb70926c80812121269fa16 20 Contents-ppc64.gz
+ b8de4642a421ec6690f34a3742c102cf 20 Contents-ppc64.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-ppc64el.bz2
- 24d0be18f779c355f4f996eae16f274a 20 Contents-ppc64el.gz
+ 129766d5d05d3608c83d679c0d378844 20 Contents-ppc64el.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-riscv64.bz2
- 7e8d0e9021fb1eaf94330485ffa98375 20 Contents-riscv64.gz
+ 04a3152650e1df26ea702a9be9550524 20 Contents-riscv64.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-s390.bz2
- a9b99aabf665da573cb5ca2bcb9164ff 20 Contents-s390.gz
+ 5491884aebf0edc9634649d4aad7efcf 20 Contents-s390.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-s390x.bz2
- 541107285122292483432c1f536a3381 20 Contents-s390x.gz
+ 971ceadac36c4416e8ae0a51fc703784 20 Contents-s390x.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-sh.bz2
- bddaa787af6ae849d4262be4f79096e4 20 Contents-sh.gz
+ 4bc6ac1b74c0d59d87260d261914019b 20 Contents-sh.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 Contents-sparc.bz2
- 2b49989166369f363a25ceb83dd52681 20 Contents-sparc.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-alpha/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-alpha/Packages.bz2
- 8ed0ee8e5f548413608f31090cb014d0 17791 main/binary-alpha/Packages.gz
- ff923f3e5e53babd58bfd9d6dc099575 86475 main/binary-amd64/Packages
- 478d91db0a1e221f8a970098ba1d79fc 29302 main/binary-amd64/Packages.bz2
- 93308c140ac3df21e8923edf45cfbe91 33630 main/binary-amd64/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-arm/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-arm/Packages.bz2
- 3da6699362aca87768db7b9b593a1c75 17791 main/binary-arm/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-arm64/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-arm64/Packages.bz2
- cb377cccd5d40d39b93d7d7a7aaa87ca 17791 main/binary-arm64/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-armel/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-armel/Packages.bz2
- 8509948ce30fe7548ada8bd03f362cf3 17791 main/binary-armel/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-armhf/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-armhf/Packages.bz2
- fb00faa385ba3702a7ec80f7305dd04b 17791 main/binary-armhf/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-avr32/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-avr32/Packages.bz2
- d645dfec1865080e6d51c3aa75304e80 17791 main/binary-avr32/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-hppa/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-hppa/Packages.bz2
- d434f58356d29c940180a4730a859a87 17791 main/binary-hppa/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-i386/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-i386/Packages.bz2
- 3e6d8d476388b5a96d96e0992740ea0f 17791 main/binary-i386/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-ia64/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-ia64/Packages.bz2
- be1f199bfce380fe7db975d6b44763a4 17791 main/binary-ia64/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-m32/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-m32/Packages.bz2
- 9d928b8404602bbd1e225192ba4174b1 17791 main/binary-m32/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-m68k/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-m68k/Packages.bz2
- d97475d909348b2416266900f2c81ea8 17791 main/binary-m68k/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-mips/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-mips/Packages.bz2
- 11697cf7bf47e5ccd245eeb75ae37c41 17791 main/binary-mips/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-mips64el/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-mips64el/Packages.bz2
- bd867f744a19c0c790db244dce2ed982 17791 main/binary-mips64el/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-mipsel/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-mipsel/Packages.bz2
- 9cfa2c1884a38aab3742aecaf94b5433 17791 main/binary-mipsel/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-musl-linux-amd64/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-musl-linux-amd64/Packages.bz2
- 271cfdd65cfed39da7c20db5a3c30d06 17791 main/binary-musl-linux-amd64/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-powerpc/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-powerpc/Packages.bz2
- 4e6395fd78075405899ee4145d10fb66 17791 main/binary-powerpc/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-ppc64/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-ppc64/Packages.bz2
- bd561d59ce8e7bd357be3e9acc188a36 17791 main/binary-ppc64/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-ppc64el/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-ppc64el/Packages.bz2
- 8e52f6bba2801943134c028ebbc59256 17791 main/binary-ppc64el/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-riscv64/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-riscv64/Packages.bz2
- 8091af03cd05f3b683b34e6452139d42 17791 main/binary-riscv64/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-s390/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-s390/Packages.bz2
- 82ff2fc5b187f1f52dff12ab09e0a9be 17791 main/binary-s390/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-s390x/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-s390x/Packages.bz2
- 72d3b58546bd419eccc26496f55dbdf6 17791 main/binary-s390x/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-sh/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-sh/Packages.bz2
- eafba4cd30c6ac627b6ffc9ebc868bfb 17791 main/binary-sh/Packages.gz
- 8f7f827e64bfb3753fb98eec17cd8d78 46323 main/binary-sparc/Packages
- 4e813e43e852005033ea9b597f42c345 15983 main/binary-sparc/Packages.bz2
- 65943a385325b47b63cfd143a114ce34 17791 main/binary-sparc/Packages.gz
+ 854b45222ddcb473906bb61a0714f006 20 Contents-sparc.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-alpha/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-alpha/Packages.bz2
+ fe7563b003513af9183323bff795a063 17483 main/binary-alpha/Packages.gz
+ 290d526d90278905f1722e42cc1f3c5b 85664 main/binary-amd64/Packages
+ d7c4b4e27a339004d236761761f5dce8 29102 main/binary-amd64/Packages.bz2
+ 9bb73e7967ee2ef847bcddb532791af5 33336 main/binary-amd64/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-arm/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-arm/Packages.bz2
+ 04d339be85a35fe1d5602f9591a7d1eb 17483 main/binary-arm/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-arm64/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-arm64/Packages.bz2
+ a4d61049194587e880679cfaccf04670 17483 main/binary-arm64/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-armel/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-armel/Packages.bz2
+ a494e15a426a0bca518ffcb754743d60 17483 main/binary-armel/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-armhf/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-armhf/Packages.bz2
+ 4cf9c422b9ce19bb0db05fd3b3b653a9 17483 main/binary-armhf/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-avr32/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-avr32/Packages.bz2
+ 6c05b36f7a38619b530026466b5f597a 17483 main/binary-avr32/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-hppa/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-hppa/Packages.bz2
+ 9fa4ac647a79f6edf9754a7cf61b07d4 17483 main/binary-hppa/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-i386/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-i386/Packages.bz2
+ a5b35e801b9ba4375c8269244153ae17 17483 main/binary-i386/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-ia64/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-ia64/Packages.bz2
+ 999b2765e9eb4f5b748cb211d75d9e50 17483 main/binary-ia64/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-m32/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-m32/Packages.bz2
+ 9967496420b1efdd1aaf3833e628878b 17483 main/binary-m32/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-m68k/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-m68k/Packages.bz2
+ 078f27ec458d4b04231a85a745260a88 17483 main/binary-m68k/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-mips/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-mips/Packages.bz2
+ aa0669e1ea19f682781b34e20be6294f 17483 main/binary-mips/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-mips64el/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-mips64el/Packages.bz2
+ 51bd99b87a4f24cd9693b2172a5cb93d 17483 main/binary-mips64el/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-mipsel/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-mipsel/Packages.bz2
+ bcdef89b927f591866aef11e19ba7783 17483 main/binary-mipsel/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-musl-linux-amd64/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-musl-linux-amd64/Packages.bz2
+ 5ae486b51a02397dd9b2ec4e6c0c8edd 17483 main/binary-musl-linux-amd64/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-powerpc/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-powerpc/Packages.bz2
+ d05454368b388a10600e3a08e2022ec5 17483 main/binary-powerpc/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-ppc64/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-ppc64/Packages.bz2
+ fc076e1891e1a2f861170ca10a94f0c2 17483 main/binary-ppc64/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-ppc64el/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-ppc64el/Packages.bz2
+ 8d43abf44e241c3b878fee07c2423bae 17483 main/binary-ppc64el/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-riscv64/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-riscv64/Packages.bz2
+ 689528f5a6650440e69ef3d134424909 17483 main/binary-riscv64/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-s390/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-s390/Packages.bz2
+ 77f04e4338a1f42903402f3928cf261c 17483 main/binary-s390/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-s390x/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-s390x/Packages.bz2
+ 309b8fc8e0321bc5786f48942dffb487 17483 main/binary-s390x/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-sh/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-sh/Packages.bz2
+ 403aabbf4659aa2a635fd05ee338a3ed 17483 main/binary-sh/Packages.gz
+ 26d30178ec1a373e53da418192c83894 45512 main/binary-sparc/Packages
+ c3247aec96abf3a472a1a0d7dd38875c 15674 main/binary-sparc/Packages.bz2
+ b88ab40ee37cd3b49ae030995071d2da 17483 main/binary-sparc/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  4059d198768f9f8dc9372dc1c54bc3c3 14 main/source/Sources.bz2
- ec27246aa2838ae12bfa05a4bd558077 20 main/source/Sources.gz
+ 6a8e98ae18f83226a99f1731fd961b20 20 main/source/Sources.gz
 SHA1:
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-alpha.bz2
- 93ca34e5bf47251d47192a93c1e84e72fd857c88 20 Contents-alpha.gz
+ 75bfd55e735853c0d240cc9fa515684e0298c5e3 20 Contents-alpha.gz
  bd16dbf87c9a463cecc34fc0c59befdbcdb48fd0 152870 Contents-amd64.bz2
- 72fdf11bf093b019fa4586241c28725577e3035d 178190 Contents-amd64.gz
+ 30359b4c646438519d16af9963f6c511d7911521 178190 Contents-amd64.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-arm.bz2
- 07d23a005eaf075551804eb169b6a398450c8415 20 Contents-arm.gz
+ 02ac5cefc8d68b68c873bcddeb36ae699d075554 20 Contents-arm.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-arm64.bz2
- 2fc037c366fec616b58799d21057503a852d0911 20 Contents-arm64.gz
+ 542834b13c4fdd71a8697195538792f5678d106a 20 Contents-arm64.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-armel.bz2
- f07a6c1115d9e1cfb7436c947a9c6713932216e1 20 Contents-armel.gz
+ d65a2c507651b6509da9a969510eed6379bffaf1 20 Contents-armel.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-armhf.bz2
- 0d47d700f42a67cfba8eb690a6ba833389a1912f 20 Contents-armhf.gz
+ e93e5495deaea913d26735a7c4951708a31f7172 20 Contents-armhf.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-avr32.bz2
- a9a4c6a91971b3c54001c6af05e0faee94919207 20 Contents-avr32.gz
+ ec91671feb1a0b11e8d43f4b5853228837d1b434 20 Contents-avr32.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-hppa.bz2
- d0d83a43a8db07737b3e9793139dab95c7bb7ec0 20 Contents-hppa.gz
+ 1350b8b1a0a1a7e6163646dde34b0a73bb114c39 20 Contents-hppa.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-i386.bz2
- f511945d04bdc63b4f14c7a0ff965dbea2d9f994 20 Contents-i386.gz
+ 59169e71affeb42330d878c4c5b802dac4254072 20 Contents-i386.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-ia64.bz2
- 85cee9a40434103920383e9b014791a8b2e6a36c 20 Contents-ia64.gz
+ a2f202f2ec05293b1d0b692b96df3db1cffbc013 20 Contents-ia64.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-m32.bz2
- d96074672057754555ecfda1331896ef91d28e47 20 Contents-m32.gz
+ 133d9721f79b2ddef3c93d866ca4dac26be636b9 20 Contents-m32.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-m68k.bz2
- 68104b741d51594683f28c7816b8e47e81dfa41a 20 Contents-m68k.gz
+ d8dffece14dd7f32a3f0bc73c0c40b8dfe866ec0 20 Contents-m68k.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-mips.bz2
- c5e06096c9d4510081d409d46a1c48c4470e1e4f 20 Contents-mips.gz
+ 2b9f202c9f16f7ee1bf2a0e25af52cdda7ec805d 20 Contents-mips.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-mips64el.bz2
- a3c69776f35c283ae7fa3dbe010d1ee315f4e2f3 20 Contents-mips64el.gz
+ e925bd66d98bb686e75443c50e93ec2718b66ef1 20 Contents-mips64el.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-mipsel.bz2
- 63265ff11311efb7c1949162a3a17a87d52e29d1 20 Contents-mipsel.gz
+ 84941095ee8a8e91a75b1a7af295bfe86ee68059 20 Contents-mipsel.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-musl-linux-amd64.bz2
- 21d6cbb69a176c9863db2f0fa2d14c9d898347ed 20 Contents-musl-linux-amd64.gz
+ 599a16136cf38415eded08957388e4dde8abecd9 20 Contents-musl-linux-amd64.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-powerpc.bz2
- 130fd985aa67979dee3a315ced6f57187462702b 20 Contents-powerpc.gz
+ 5bbbb4ed0278e139f09709169305565f66a2a53d 20 Contents-powerpc.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-ppc64.bz2
- a1d6398327c264651910983265219603e90ac166 20 Contents-ppc64.gz
+ 8deadb8debcc6786e6525444be6e91e7d503b6cc 20 Contents-ppc64.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-ppc64el.bz2
- 89fb84295c6ac6d488d325a39acf2286aa49a3ab 20 Contents-ppc64el.gz
+ 3335c3ea5a39994173aba97c2830bf79a469c0a9 20 Contents-ppc64el.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-riscv64.bz2
- ecdee16028df8180a8884c1363e8fcd6b9a0c84a 20 Contents-riscv64.gz
+ 720058b85502abe8250c99c8ea99be597185041d 20 Contents-riscv64.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-s390.bz2
- 7de491b48f5475d822ce1b6c1fa9b4dfc8bf8237 20 Contents-s390.gz
+ 8f097f110c704056e59cd51f9b5795ee3863dded 20 Contents-s390.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-s390x.bz2
- 84a00db6d3df9cc101fafb2b673d8fead1544865 20 Contents-s390x.gz
+ e69ea342396dabc9be27d009d5ed67fd627e3211 20 Contents-s390x.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-sh.bz2
- 3fced94de21e0748a92d6db4403ae017c8942cfb 20 Contents-sh.gz
+ 607d140007a23ee872d0c41a9461efa6f687a57d 20 Contents-sh.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Contents-sparc.bz2
- af6c57ab8f2cfe3dc45a650f379a4ab12d01b5a0 20 Contents-sparc.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-alpha/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-alpha/Packages.bz2
- b94553d2acdb0882180c6c188125c5b89c2336f7 17791 main/binary-alpha/Packages.gz
- 5a6e8b73846cf336d62eba9cd84f21e0b4306c38 86475 main/binary-amd64/Packages
- 796aae13a32f0658e507880b7fee19c645a72721 29302 main/binary-amd64/Packages.bz2
- b114fb69d953525ad0b80a7ebbdb5912c102e34f 33630 main/binary-amd64/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-arm/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-arm/Packages.bz2
- 581871ae784843d87f10b3db9f9d4d7d40a17749 17791 main/binary-arm/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-arm64/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-arm64/Packages.bz2
- 04628348fe092062a1494c2248e714b91271cd2e 17791 main/binary-arm64/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-armel/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-armel/Packages.bz2
- 39e34b2548bdfbe164d085bfbe6564a0d6235104 17791 main/binary-armel/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-armhf/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-armhf/Packages.bz2
- 0c40b2df0051e64f5697bbbf21de373b2e3bc799 17791 main/binary-armhf/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-avr32/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-avr32/Packages.bz2
- 408072fe55f0289a5c3b8fdc7cfc23bab06a56f7 17791 main/binary-avr32/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-hppa/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-hppa/Packages.bz2
- 9f9a51424b6c793d0a0798feb2a8ca7f8cc41f4f 17791 main/binary-hppa/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-i386/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-i386/Packages.bz2
- 9c61975c0b65f97e7935d2a6b549af54c5031992 17791 main/binary-i386/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-ia64/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-ia64/Packages.bz2
- 03dcad0dbb878eec621d3064a309840e451828ab 17791 main/binary-ia64/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-m32/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-m32/Packages.bz2
- 58ea03ac5b642221267782a317622612f8e122b3 17791 main/binary-m32/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-m68k/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-m68k/Packages.bz2
- 95aafb13fdad9ff9f86d39d5c16d101d924f3309 17791 main/binary-m68k/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-mips/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-mips/Packages.bz2
- 6764abaa0c1184aeb93445907bec80f88bdb4290 17791 main/binary-mips/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-mips64el/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-mips64el/Packages.bz2
- 56277934dcb3853bb5867704dce62fd833477c36 17791 main/binary-mips64el/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-mipsel/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-mipsel/Packages.bz2
- 74de8c46b3324f3bc01183243db6722bc1b1318e 17791 main/binary-mipsel/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-musl-linux-amd64/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-musl-linux-amd64/Packages.bz2
- 7fbf798f3d3206d024ffa3472e1dbf13312ff3ae 17791 main/binary-musl-linux-amd64/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-powerpc/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-powerpc/Packages.bz2
- 3170f9c6638770e82664df7363e03fbc546cf5d7 17791 main/binary-powerpc/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-ppc64/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-ppc64/Packages.bz2
- 8c848713852dafe77ceb02bc41f9ae0e34340f88 17791 main/binary-ppc64/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-ppc64el/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-ppc64el/Packages.bz2
- 4c8e6e8c1a13160e6328c472b714b00fd6c8e171 17791 main/binary-ppc64el/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-riscv64/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-riscv64/Packages.bz2
- aaef0ede803129629e8fe12d3e14f2bf2f0810a8 17791 main/binary-riscv64/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-s390/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-s390/Packages.bz2
- 640b2ada8fc0c6ff3fee7981f211278c90228d2b 17791 main/binary-s390/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-s390x/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-s390x/Packages.bz2
- 954068c1989d01a1830cc081909b314d1dda8ac0 17791 main/binary-s390x/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-sh/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-sh/Packages.bz2
- 4d0c39c5910f4c4112a1910d48ebcae4aee3af0b 17791 main/binary-sh/Packages.gz
- 0f40c97e4a48acb72d2f4b049cbcfcc4460ee197 46323 main/binary-sparc/Packages
- b6839c7107377488f99bc69f721d6041dee915c4 15983 main/binary-sparc/Packages.bz2
- a3f9b8f3c0ee423ab2c99a5071a32b4f34e948b0 17791 main/binary-sparc/Packages.gz
+ 98f2e77de39b2b475170c0bc8f727f860c16ca71 20 Contents-sparc.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-alpha/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-alpha/Packages.bz2
+ e3f44b51a870729723d5d35f0b5c9753d53bdf25 17483 main/binary-alpha/Packages.gz
+ db41e9db83cf8208da3381105d87464b586ae1a2 85664 main/binary-amd64/Packages
+ 498cc9f6fa4f9a650b890b737a543f8360169952 29102 main/binary-amd64/Packages.bz2
+ 2a4d865025867c816e56a65765b9972051c2c709 33336 main/binary-amd64/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-arm/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-arm/Packages.bz2
+ 0fb0dcf7aed620f73f661e93294b4222d18017e6 17483 main/binary-arm/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-arm64/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-arm64/Packages.bz2
+ 5f4cd0c08f886858a2434fc4417f8e21e12c1cc3 17483 main/binary-arm64/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-armel/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-armel/Packages.bz2
+ 8ba8b59af877aa1dec33014cad6cd56ca4aca411 17483 main/binary-armel/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-armhf/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-armhf/Packages.bz2
+ 49ae113f8ae902eea3f224ebbe35955b9b9c05b0 17483 main/binary-armhf/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-avr32/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-avr32/Packages.bz2
+ d678544fcf70759c96b8d7efbc641e80061a7e30 17483 main/binary-avr32/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-hppa/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-hppa/Packages.bz2
+ 3cfa412f596a5ffb7b0e5469e222308d6e37b321 17483 main/binary-hppa/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-i386/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-i386/Packages.bz2
+ 8bc6c4fb5af7d05d72338253d16d49dd09918d3d 17483 main/binary-i386/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-ia64/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-ia64/Packages.bz2
+ f2b0e2f9505279c718ecd1dde7a4651b079b3798 17483 main/binary-ia64/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-m32/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-m32/Packages.bz2
+ 4cbc670cf96c6a54214af7392386d7ed89e4f2a1 17483 main/binary-m32/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-m68k/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-m68k/Packages.bz2
+ ba36745ddd731995fcefa34fc57f91f0bf1c3b23 17483 main/binary-m68k/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-mips/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-mips/Packages.bz2
+ 344956bbe6bf908b81265f8bb0793e21127e7f01 17483 main/binary-mips/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-mips64el/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-mips64el/Packages.bz2
+ 87934049c4a3b48dfc5458d0f2f02aa592c399ec 17483 main/binary-mips64el/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-mipsel/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-mipsel/Packages.bz2
+ 1865353af89a49b96e5ddffe23898ef9c0a5c6e7 17483 main/binary-mipsel/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-musl-linux-amd64/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-musl-linux-amd64/Packages.bz2
+ f51a3b1e0316d2f1d1b91205de85fa1a592a5cfc 17483 main/binary-musl-linux-amd64/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-powerpc/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-powerpc/Packages.bz2
+ f222a39a827a56eec47ab23f322fb90615e239f3 17483 main/binary-powerpc/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-ppc64/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-ppc64/Packages.bz2
+ 5bbddedc41b9c4c7f840bdc25df5c8bcbfafa871 17483 main/binary-ppc64/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-ppc64el/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-ppc64el/Packages.bz2
+ f7d01a7bf205b5f41893de4bb24a55a2d904097e 17483 main/binary-ppc64el/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-riscv64/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-riscv64/Packages.bz2
+ 08812d21ff36b7bb7fc25460a626303f781edbdc 17483 main/binary-riscv64/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-s390/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-s390/Packages.bz2
+ a4d43a5dc8fac7eab3b6e51b408bb78c8a9e5b00 17483 main/binary-s390/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-s390x/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-s390x/Packages.bz2
+ ff307daafd73f16fdeb8921712b1ee0c77f1c8df 17483 main/binary-s390x/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-sh/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-sh/Packages.bz2
+ fb6e28c428f69817429d0734aa5859d90cc0155a 17483 main/binary-sh/Packages.gz
+ 176cef808d8d20b73d52fa823103dd9f5e22aca1 45512 main/binary-sparc/Packages
+ aa7fcf9426389bd372b807fea45eed92e8fc80c7 15674 main/binary-sparc/Packages.bz2
+ c80d47cf9ca6b131f5153c9f45d1b2c915c6c955 17483 main/binary-sparc/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/source/Sources.bz2
- 4cf3900011d30f64ea6e50dcb61ec7b4119263dd 20 main/source/Sources.gz
+ de6bb7a64745f3f637cec1bbebb9a109c28a8c0d 20 main/source/Sources.gz
 SHA256:
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-alpha.bz2
- 5cd42685a8fc4c6f4c7c3452c1934aba65ecdf13461e95fd855f4c6756a61414 20 Contents-alpha.gz
+ cbe5bd4605cfc05a6fd30431cb3f4d33ee699f623dcc30b8b0ff87e13dc508dc 20 Contents-alpha.gz
  9acdccb3e8553ab3988da1c4128a55868375e31782f0fb18aaa13180fb0c3e65 152870 Contents-amd64.bz2
- a9e0bbb50ce72e5de08a5ae4d33fa49e728e5f3e3c638b9a91441c29d325c169 178190 Contents-amd64.gz
+ 62db32facef7c50b3879ad5bc949650e88ebea3d0f2a5df6ca67c83a2608fa32 178190 Contents-amd64.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-arm.bz2
- 653227c4d41c72dbdd6b145886998ab7f2c45a768f98bfba16dac7be7f4ed508 20 Contents-arm.gz
+ a80fdb617da70240d68528f13809f59260987635386e95595162660cc5f07eec 20 Contents-arm.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-arm64.bz2
- c74bf28e662122ad4ed7ab5c80bc335a9fea63e58a763bb06c27a6e07cf3ded5 20 Contents-arm64.gz
+ c6edd73b6aaf39ac94d0dbdc21e6a8f5e32043d0a1f7e99c80223390a952c98a 20 Contents-arm64.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-armel.bz2
- f23258b200a2d189707bcdcf2642ce8587dff3e23b3bfce0d09a58105122673e 20 Contents-armel.gz
+ a87e8c298a23ffd9033940b83678413c2b7459d265d8d9bee6e415b42e592cc7 20 Contents-armel.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-armhf.bz2
- c4b1b79a46770d9ed0376cab68d006a6453aa233c3495282c70594cf84e07b37 20 Contents-armhf.gz
+ 25eb24b98e03a994967910266d6ab33e5fdbdc88bb514016f1158e55ed454c55 20 Contents-armhf.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-avr32.bz2
- 3a933780ea5fe24e4b2693c06d73e0151c8630a3e90b5144c247df01a9b4b4df 20 Contents-avr32.gz
+ 7712ab5e3eb872873acf6ca707dad93c8dcafa3d083041b681f7ee18caab47b9 20 Contents-avr32.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-hppa.bz2
- 739b1d59e387c2d5ae73771c150e326fa766eb16b734ad09ecabe9dcd6948586 20 Contents-hppa.gz
+ dd245d70f7c7e161f47f019a4e4f84c420b7c772d3c2d83b275f1517b41129e1 20 Contents-hppa.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-i386.bz2
- b0f98e55174f2fec01eed03c56469e0745c619f88f6373c916bdfe2536f26ef4 20 Contents-i386.gz
+ 5954df0e84b50935dae791f2c0261d29d6555c88189208b5ff208e0a9103d46e 20 Contents-i386.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-ia64.bz2
- 48b5845b8c088417a72f97ac5ffc928f9d8cfba2421f55c56618af149ec165fb 20 Contents-ia64.gz
+ c7e7e558d7f6ad551ab4823f908ce7df2af06d092f5bd1fb7b96e009213c8bb1 20 Contents-ia64.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-m32.bz2
- 40c6d278ead8f35b66ae1b52a0995ddd87f5cccf30dfcdd057df53a52fb3ed09 20 Contents-m32.gz
+ 4bc5fe3c1c2928a4685d84acffe1c54a0dbb7cda4e6b4f1c372da75ec9e41194 20 Contents-m32.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-m68k.bz2
- 9a48a0b05c4823508f7652ba1327082230f816a26dd577733401fa2b76f97bce 20 Contents-m68k.gz
+ a36bc9a917913ad074dd324d85be2409a7d46cbc22fff26dbdf509b9898b3daa 20 Contents-m68k.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-mips.bz2
- 2a66e4d650b2fbb54d3b3d131ef39db466ae9e1c28b5b8cead25226e698fedc1 20 Contents-mips.gz
+ 2bcbe1c0e8e1db3d278f6d84ef28cdcc1de6509e5449e90cdbb2f400c61abd85 20 Contents-mips.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-mips64el.bz2
- df621d834c67830f27346a4d055742d0dd07520281623defe0b4235b83e29c0a 20 Contents-mips64el.gz
+ 2ea321cc03624debde4a46b2905299339c625deb40eb120c63eddcb942d2964e 20 Contents-mips64el.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-mipsel.bz2
- 6ecdd8d137b708f5a97e5afbae9643658986191734715013e47f6dca1408a15b 20 Contents-mipsel.gz
+ 285b8683b4d5c719b19a74ef85a865bcca0be672b741a9bca2d3238fd41fa256 20 Contents-mipsel.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-musl-linux-amd64.bz2
- c931bdcd903c0a59eb2f4465af707e341b02365866827582701eacc625621326 20 Contents-musl-linux-amd64.gz
+ 8f4d206eead22ede957b93dc616f19e47e3e510c2ba40038bdb521591cb148f8 20 Contents-musl-linux-amd64.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-powerpc.bz2
- 9874bb81deca4311dc4b1839595419134ecd8764249a91e4a467399e2af1044f 20 Contents-powerpc.gz
+ 8b7ff0c66122562a271042542c450c7d3f6aea3799d6ca45e20669eac3bc6914 20 Contents-powerpc.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-ppc64.bz2
- b0bb571773040bfa026abe5f1419551ad28ededf5ca14d2f7fd49cd271ad1710 20 Contents-ppc64.gz
+ 6fec4b3fdff335fde72b1318848286b1c6486aa112a9d06430d0e95bb5588786 20 Contents-ppc64.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-ppc64el.bz2
- 20100aebcc7a070427c66445f723b561f8360194b12c08f3cb6efd4bdc46da50 20 Contents-ppc64el.gz
+ 39d453dd3cbdfae2bd6f1eb3a8fdde764ec25a14968c182bc1b34afd8d4fe968 20 Contents-ppc64el.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-riscv64.bz2
- cbd5095fb76954d189ba71cd700c16281b2a96f8edfecccc9fd75b6af0ccf843 20 Contents-riscv64.gz
+ 8b7d6f097c91061af0d667eac84cef25804a4e94f7bd0e582fb17328a9e86441 20 Contents-riscv64.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-s390.bz2
- dac3366a15c34a448461b653ba8f5ecb90e9146c62c7db0b396c221e37651073 20 Contents-s390.gz
+ 5479ffcb8d1894fcf34747e361476d6dfb89a9781593b3087ac4b6eebc71d074 20 Contents-s390.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-s390x.bz2
- 535b4ba368e6132723af3f31a5ec308bfd8b74b9f37dbe49b6616fcc5c7a6c14 20 Contents-s390x.gz
+ f7e5079ad955617fe5f0bd478d03727797cfe1acd2611c9d4b14d68816615452 20 Contents-s390x.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-sh.bz2
- 5b18cc716c8428c5f1478e3305f0e589e150a87ef2ec6fe94510b32216b1ab38 20 Contents-sh.gz
+ 09a6d8d091e18707cef4a7cc560aca25a103e9ca06f71451a95db0d212e76af7 20 Contents-sh.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Contents-sparc.bz2
- a5735240bf816cff0c803b3b2e831c32b461d879deac9654c9d7dc79561ff92b 20 Contents-sparc.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-alpha/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-alpha/Packages.bz2
- f67abfd5aaace763d7a9a3c4063cef0244350bca4bd5dbe52685091c8472efa5 17791 main/binary-alpha/Packages.gz
- 2a0913b6f30162838e0cc38216f23d12d1246b1cc86ad7e7a38a15b3e08e3ac7 86475 main/binary-amd64/Packages
- 297221a665a1e35d69a3db6c14b9a76c257bb6151966eca98ffe98ea90f83a0a 29302 main/binary-amd64/Packages.bz2
- 82c88f9f030bff706398b53518c8028c00bf781b29248b218cca477fbe219640 33630 main/binary-amd64/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-arm/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-arm/Packages.bz2
- c0a4f4e42971bb48a716718c77578286f9c1703d65b186b12c5154cb4741ced7 17791 main/binary-arm/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-arm64/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-arm64/Packages.bz2
- cc12095b4b5de515244600257ff95c10b68df1cb88aadda5c7bf785ea6ea860d 17791 main/binary-arm64/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-armel/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-armel/Packages.bz2
- d270a703b8fd222533cd87e9504138711dbb6278b920e4c24f0ea539768883c7 17791 main/binary-armel/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-armhf/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-armhf/Packages.bz2
- b73d524ef2871c1c0d1a54ab835c2795782dbb42fcd9c3c4207c88be0d502f2a 17791 main/binary-armhf/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-avr32/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-avr32/Packages.bz2
- 44240759d513a76b689f4a12d3bc76a97080a18023b325fc2b39c59d91b2edf0 17791 main/binary-avr32/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-hppa/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-hppa/Packages.bz2
- 10e35d9c35284ae522336a8a6954b87eb5822f807c0bade3fee2f45337a73711 17791 main/binary-hppa/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-i386/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-i386/Packages.bz2
- d1a0f20c27d46a3ca4e9b353090986479279db97af1d7d225c9a63446f005c6c 17791 main/binary-i386/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-ia64/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-ia64/Packages.bz2
- 2ebdf2a90506ccd43d918706fd08d0facd239e088ccd3449d9e06e8be11f100e 17791 main/binary-ia64/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-m32/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-m32/Packages.bz2
- ab19313d46ece8829842c276c7877d2fca73a4b9fa56d17ccd45ad13529ab623 17791 main/binary-m32/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-m68k/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-m68k/Packages.bz2
- e781edf992cec97080c34f58cbec8c895489b14b48d77a345557ade4733228e0 17791 main/binary-m68k/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-mips/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-mips/Packages.bz2
- 99a4ba2a5bfeffbcc80a1b0af8ce6db5ce589bfc1def4461dd5008a6dd72217e 17791 main/binary-mips/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-mips64el/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-mips64el/Packages.bz2
- 11b1b31ba3c706160a5a81cf4b344307bb3d2b856c0da43eff54e5bb3b635cde 17791 main/binary-mips64el/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-mipsel/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-mipsel/Packages.bz2
- 938be2d888e49ce5cf8b230efa22447ae4c343d104a1eea4979769680b3ebd57 17791 main/binary-mipsel/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-musl-linux-amd64/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-musl-linux-amd64/Packages.bz2
- 984ffd5f31118100366b95c1c15a07b8ae3c71bf91ed1f76b0ef7afbbf6dfef1 17791 main/binary-musl-linux-amd64/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-powerpc/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-powerpc/Packages.bz2
- 25263e1f30b17da5cd2a569c6f727e0b781b3ce6bb7550883d9f66724f962c84 17791 main/binary-powerpc/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-ppc64/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-ppc64/Packages.bz2
- 7b2cebb94651041bfc139d099865625266b1fbf89353db279a6c8b7d41391402 17791 main/binary-ppc64/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-ppc64el/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-ppc64el/Packages.bz2
- ce48ece4d23559048a8108f05da03578e49382b5a8d72c2440c36b03c3bf24ee 17791 main/binary-ppc64el/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-riscv64/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-riscv64/Packages.bz2
- 1c10729c52aaf9182c4e0abe0156c69c3ad119aa2b4f139e170b516480d62ab7 17791 main/binary-riscv64/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-s390/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-s390/Packages.bz2
- 6142794e27d996d7f6590ef7f20e5588adfb2dee767b82318181c53367195e0e 17791 main/binary-s390/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-s390x/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-s390x/Packages.bz2
- 7c61362f1dfba4b807a08f2e42b2231446a329b8a873a618d32bb040a332645f 17791 main/binary-s390x/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-sh/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-sh/Packages.bz2
- 3ff1d19485495136c831c3459ce93befbfcb18992b92d22d5d829c18d687d00a 17791 main/binary-sh/Packages.gz
- ee521fd48b69608121cd9b192efcd258671dbe2e36959054ac687624e72771cc 46323 main/binary-sparc/Packages
- 76d2ffd83a3411ebb92256bff057cf7014a4c967c460ed960e93ff13e741f494 15983 main/binary-sparc/Packages.bz2
- a99e21460a4d177f865bf762ad2a63670fb9948a4196f5eed023f4fb7798f2a7 17791 main/binary-sparc/Packages.gz
+ a9340091fcd0440b1ae7f5e5b24f867f9f853fbe7365944526ff11ca0477051c 20 Contents-sparc.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-alpha/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-alpha/Packages.bz2
+ 8417ddc67cfafefb693356e4f02a34deef94f60af5387c8ed8cbe414aa307ed3 17483 main/binary-alpha/Packages.gz
+ a2869fd1a7648962d75bf3e0681f377ab3649fb94549fcba5197bfdad65b2665 85664 main/binary-amd64/Packages
+ 9e72c265f51d7ea4aa0af6921a7d6f21012a8738b55675fb3972e0ff5725b061 29102 main/binary-amd64/Packages.bz2
+ f502b2c284e9fd082995c2662f2ef89aed8a75bef751dbd9c988381073c12df5 33336 main/binary-amd64/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-arm/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-arm/Packages.bz2
+ 1f0c798f558a38f9b4daacecc42bdc86faa151caf7ef2bd161c67f208bbdf1b3 17483 main/binary-arm/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-arm64/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-arm64/Packages.bz2
+ cc81ec844357b3af1b3ede05463db341ac835d7c3a93cbb03fb6d8dcc038c415 17483 main/binary-arm64/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-armel/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-armel/Packages.bz2
+ e6199a74bf7795d83a6b483e02dacc66d102951afc514df9f953cfb2ca4a652b 17483 main/binary-armel/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-armhf/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-armhf/Packages.bz2
+ 9d39a0ffbdbfaa0b1af7c3e56cc003e85df4fb4285f24cdd9d601cc192966439 17483 main/binary-armhf/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-avr32/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-avr32/Packages.bz2
+ 1746346fb764cfb25b3fa63d9dabe19e050af7e1430cd136a7bca47a4a2b60fa 17483 main/binary-avr32/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-hppa/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-hppa/Packages.bz2
+ fd38297a224abed94cd6ad633f0640c92e93c30690f183cc3591be016b96c2d4 17483 main/binary-hppa/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-i386/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-i386/Packages.bz2
+ 22d787ac816b19bebedae428cde928233899fa21c82705fef747d662a8211d74 17483 main/binary-i386/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-ia64/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-ia64/Packages.bz2
+ 4c78fa1b4bea021710eb74df0b43f52eb7b597a95925b8c5db7d2ca826115e5c 17483 main/binary-ia64/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-m32/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-m32/Packages.bz2
+ fce5f2a9cb211be4a2b5eaad39ee7d49a34b0b7b256607f8d61308a117fce25b 17483 main/binary-m32/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-m68k/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-m68k/Packages.bz2
+ 23401c8e212282aac34bf55f71e340ec070fbcdfe0a48a02c7d38bbe1529e922 17483 main/binary-m68k/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-mips/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-mips/Packages.bz2
+ a1f33bc0040ba000794ceba99dcdb843c40889d9c92526a421baee1a5a2f8285 17483 main/binary-mips/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-mips64el/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-mips64el/Packages.bz2
+ 0615a6bd86b39d3e7236da26240b2c669e05f09b550fe43c24614df4cc9064f6 17483 main/binary-mips64el/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-mipsel/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-mipsel/Packages.bz2
+ 2dfbf5f7fe9fb6685c74c97b329070bdd1c31eb5fe9e8f43b298d49fd44e7d36 17483 main/binary-mipsel/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-musl-linux-amd64/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-musl-linux-amd64/Packages.bz2
+ 826f634e42c2d8f38adaec02d1b5e0de49174620f7898b1e976dc9d2320ddb30 17483 main/binary-musl-linux-amd64/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-powerpc/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-powerpc/Packages.bz2
+ e4662e42a1a76f40bd40ec5f09707f0f1d4238a576c5d0c0121a5634d84e7a44 17483 main/binary-powerpc/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-ppc64/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-ppc64/Packages.bz2
+ 13d090142cc662ecdc5e6fad701e830e5074912add0243c169a82099648c65d2 17483 main/binary-ppc64/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-ppc64el/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-ppc64el/Packages.bz2
+ 7d66ff29ac568392738be270a2a628a348b97ad323bb838b82d7f85a7bcca440 17483 main/binary-ppc64el/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-riscv64/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-riscv64/Packages.bz2
+ bd13d90470c89473ea51b075fc454d3dc643b568d2a64dc3e0b32883624552b7 17483 main/binary-riscv64/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-s390/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-s390/Packages.bz2
+ 9db3a721044beeddb3aeabaa747949f32b94911b2191b572ae7800509f64dfdf 17483 main/binary-s390/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-s390x/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-s390x/Packages.bz2
+ 3bb337144dac0f770b2e7398dd7d6f952df86de347ad42c39639c32405437101 17483 main/binary-s390x/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-sh/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-sh/Packages.bz2
+ 8e475dd085f814719d4b9d25b15a9e89efd0b551b040a2081b2994d7069844c5 17483 main/binary-sh/Packages.gz
+ f4c37a10df4d81dd5062453ab6ab449678422d8156d2e8bacdfa54cab706ec3b 45512 main/binary-sparc/Packages
+ 67bd87a8ac39fc1de8fd1b7ac77685c5a0fc284099b5f44bfda0c7201ac06d7e 15674 main/binary-sparc/Packages.bz2
+ b5f675bf07fa6c5ea4b727cd18f5120244057f0f82df909565314049c65e8581 17483 main/binary-sparc/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/source/Sources.bz2
- 3c38b7688faab685272a3b827d83726e21d63eed8bce66bba96df1b43949c50b 20 main/source/Sources.gz
+ f52dbbafb700bb6ca918db71758bb9859fe1c83036d8e2ff295e6a65162eee48 20 main/source/Sources.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE/5uFRPhfPsOlcKhzQPzRNlRzEyoFAmdtLjAACgkQQPzRNlRz
-Eyqhbg/+PvSJOX2MQsq6YqNxicdTWXvn0+a4RY3/zYuOGT5VmkP7l4INiOhjhULM
-McjyulfN8i4E53ceuihOZGGAKT5paGw5OKASjyCCldSGQdLyx9tLNkdU+HHmxwRX
-1XF2xiEtLmMX9se11/JqeV+aHlxekWyRGBn/0DR6JpTHf+jVdydcdsRHLyOGT5ow
-bt30W7Y5IqDBwx2z1vd4I69YhE+cIMOKLdoLJHNcyBt6l2pPjXPBoVAxVGWIdWal
-rBBPBW+ucoMkIR49nzfcjcH5YAHAp6DbrOxlqzGYLk0cQuZajWq/HAujch7rPJjp
-DOX5rhcPY+2rcHMzCfNE68SR/S6HylRZw6oljONAdymw9O8syTgX7NwiZUQPrZDR
-tGFIY8pAyoNMgZ/vYvC6YeGQ7r0/2oOzCeEo80M96AOd0RLcjT2BuRFEDQqBr6PQ
-y1m3iP8n62DlTEhkUxVpz5Cw7kT8sAQ5TaBfBVa1fuagQAMNpVrDp4o+Y2tXNhN+
-e2dBWymCtdVBiVUJaGjNk6oTVN3QEg4EFfyVXJ73W1C13ht84qmeY6xErWw4RWdt
-tq1GmsOnZU4BrfCn109BrcRhXqCCt2EmMTcni/iSg0YLqZBcj2zzBYT55nnqocrv
-+sBR173NUmxP87oKTeUoxZfjhLzhenkN3xelRfyR95vT0kwBhHE=
-=aQXq
+iQIzBAEBCAAdFiEE/5uFRPhfPsOlcKhzQPzRNlRzEyoFAmdtNK0ACgkQQPzRNlRz
+EyphMw/9G3PjmRhVZ9xavwmUzkrSrMngpLp+ro/u2Hd/vpyoal2QHv/kQwREB4l7
+QA3MtkkXh5ARi3V0n0SHEfr9QLeo206vKi/UR7jyUc7YY2foTBXut7C18WRbd2Gl
+dCEb2RIW2FQUm0Bd9OWKXU9bObnxFj+uEgOiC6DLBB+RX3Qm1L+jljnNnoWdmh6i
+3m3yPRJfM2shzlLXNBd601AAvG173oRMx8BWuPPxEDsEfYUtf/w5+4IifqhX84PU
+geyswCAB4f7pWsm9n6NYisi8JKDuYlxeU+S4CRvwBkyQUIWUZZ2lX7IPTlEeceOu
++4k5GUVV6SyUiVZLr9Kh1spVTiKgKaoWqsH72WJwdTO/TT1b4i7BaniT+VFfVg79
+/NSL1xW0xqcY5zy93emsw5uFBWnfCpUiXOY2ltr8WzPhIb3lwitv8Uqtq5XXsRHP
+u8LeKgaFwGuV54X7peIIAmHefG+1hgITlWVKFGT/DbeYrj3bNWo1mi3tBWh1Bp5v
+7gBAooHcuOCV9JkHKRrY1L005lbBaZo14Gkyr41ZOg3FoETF+IR8s53k634MSsuq
+EgC7X5LcRlJptJzXFPIrd6zRIEzklsCyNlf170W5ApRBWvkXHuquCw0Nk0m04qSs
+HxDiIl93FmgtpS7/1CRAzUnzYnL1r3n74sSxeaS+3ZdxR0VanZs=
+=o8nN
 -----END PGP SIGNATURE-----
