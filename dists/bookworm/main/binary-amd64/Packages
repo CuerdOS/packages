@@ -1543,6 +1543,24 @@ Description: Video player
  Video player for playing and downloading online videos from youtube, bilibili etc.
 Homepage: https://github.com/coslyk/moonplayer
 
+Package: moosync
+Priority: optional
+Section: default
+Installed-Size: 398837
+Maintainer: Ovenoboyo <ovenoboyo@gmail.com>
+Architecture: amd64
+Version: 10.3.2
+Depends: libnotify4, libxtst6, libnss3, libatomic1, libicu-dev, libasound2-dev
+Recommends: libappindicator3-1
+Filename: pool/bookworm/main/m/moosync/moosync_10.3.2_amd64.deb
+Size: 94554588
+MD5sum: 8995e82359c6370b121d2620e89f174a
+SHA1: 126e187482fe6247581cd5f1d3d4eca228a00693
+SHA256: 185e672f71fff49bff6ace871e19a6ea6751b21e15952f158e8bd8f9b7ff283c
+SHA512: f5114d1f8a8bf7ad2a6ef72d48d263939e19de2d359c55d2ac8cf34a43de2505745b089585a4a70dee61f8e3d2e8ef28a58f64b5ecb7442d056e0ab4b362ac64
+Description: Moosync is a customizable desktop music player with a clean interface
+Homepage: https://github.com/Moosync/Moosync
+
 Package: mpc-qt
 Priority: extra
 Section: alien
