@@ -823,23 +823,6 @@ SHA512: 00cdcd85a891170106a430f38b28a885691fac878ba961faf3e8c69dfe1a40d3bc766ca1
 Description: Pac-Man game clone for MSDOS.
 Homepage: https://deathshadow.com/pakuPaku
 
-Package: pinta
-Priority: optional
-Section: graphics
-Installed-Size: 3686
-Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
-Architecture: all
-Version: 1.7.1
-Depends: mono-runtime, libc6, libcairo2, libglib2.0-cil, libgtk2.0-cil, libmono-cairo4.0-cil, libmono-corlib4.5-cil, libmono-posix4.0-cil, libmono-system-core4.0-cil, libmono-system-xml4.0-cil, libmono-system4.0-cil, gnome-icon-theme
-Filename: pool/bookworm/main/p/pinta/pinta_1.7.1_all.deb
-Size: 996336
-MD5sum: cef88ce2a542fb56511762c1dc17a41e
-SHA1: 6ac862d2c06205ac6bd126bb5f76ec2aa8706b19
-SHA256: 4e85d930807e4a5b31eddd310b50e94fc599a429e505a6be291c20d31f8527dd
-SHA512: 6ed655d39cc5de7cb3a9edc2db6f851ce2d796ff2ff9cf3432f7c0aae9fb5da3855873f623666b45225660aacf6dff3545167b11a815cbb02ce182a18b2d2a74
-Description: Simple GTK# Paint Program
-Homepage: http://pinta-project.com/
-
 Package: prime-run
 Priority: optional
 Section: misc
@@ -1252,17 +1235,17 @@ Homepage: https://github.com/CuerdOS/debinstaller-sh
 Package: fastfetch
 Priority: optional
 Section: devel
-Installed-Size: 28429
+Installed-Size: 28431
 Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
 Architecture: amd64
-Version: 2.34.0
+Version: 2.34.1
 Depends: libc6 (>= 2.31)
-Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.34.0_amd64.deb
-Size: 7405134
-MD5sum: 99d315da318d5a116496694ca30ca432
-SHA1: 59b4db187a33573803e3c1d4de2e600f0260918a
-SHA256: 1d0d5957ed1b24d774ad52714c39cba7eb730c5dfdc1a2345b3eb8d8bdd0ecaf
-SHA512: e1ea247701aa8eb160eec4e607f3603316b0add1dcc36f6dc5fd57a47d753bb94f08028657a8b2f9c6c67564b51b72d6c21e307bfd584d6651dce422f73cb5ce
+Filename: pool/bookworm/main/f/fastfetch/fastfetch_2.34.1_amd64.deb
+Size: 7405758
+MD5sum: ce2c5307efa34b002c818805cb2c8e00
+SHA1: 7ea944d5dfe0b3c17bd89dd97750c5bd10e9fa6c
+SHA256: 0e2acceec31ab772b1f77ebedbe41f2d9f33cb247c056363388980c2b26608fe
+SHA512: 09102659d6f3088a7d53f2f853e12963d823d943fe99963ee5fda3a2e9c2f3abfbf0c66b631f868b9d83a279ca917625457c8fb43110a5c4c334ba38dc56234f
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 Homepage: https://github.com/fastfetch-cli/fastfetch
@@ -1720,6 +1703,22 @@ SHA1: acfdf22d3a6a4e0fc74b7224d21c78b3009d0c94
 SHA256: a7ee4bb39142180af31e0a7e424d0c52f595dd8abd8666f1b5b6f5d81ee32341
 SHA512: b4ecc25b15ef076f34a052138816b3b91c6068d689e9b6ac5141b790c42f4f383b5c75a9c1b1414d1fa8a020d0bb1eda80b78a2cac4dc70c3f15d4b4ce614cd4
 Description: Pico-8 games recompilation by CuerdOS Dev Team.
+
+Package: pinta
+Priority: optional
+Section: Graphics
+Installed-Size: 84072
+Maintainer: gatoverde9506@gmail.com
+Architecture: amd64
+Version: 2.1.1
+Filename: pool/bookworm/main/p/pinta/pinta_2.1.1_amd64.deb
+Size: 25729600
+MD5sum: 1cf1f7c3558d3545188086112c15cd4f
+SHA1: 586330a4117f3c9b646cccd95a848a9d957b4194
+SHA256: 61ab39dc0ae95bb125321f30f1b0f360abf700eccab47766887aa8fb70987677
+SHA512: ce8a0920bce2ff6d26ce97ad0205ff3ec0482a8cd5ff3657c73d213d6b9f0711e01c4fec87b936351b47fcf44735f4202a42c6aa96b2bd2763adc30a2701cfda
+Description: Pinta
+  Editor de graficos facil y ligero, Cree y edite facilmente imagenes.
 
 Package: space-cadet-pinball
 Priority: optional
