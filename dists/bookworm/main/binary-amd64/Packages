@@ -1134,18 +1134,18 @@ Section: devel
 Installed-Size: 379355
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
 Architecture: amd64
-Version: 1.96.2.24355
+Version: 1.96.4.25017
 Conflicts: visual-studio-codium
 Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Provides: visual-studio-codium
 Recommends: libvulkan1
 Replaces: visual-studio-codium
-Filename: pool/bookworm/main/c/codium/codium_1.96.2.24355_amd64.deb
-Size: 96820236
-MD5sum: ea0d45945e645481d1b9c42b96223566
-SHA1: 7d888ccca0e8c6a53b4b532a96056e8df9c361c3
-SHA256: 5cc4e148b3228a7eaad8082861a243a922e109bcd8c1f471ffe7c6afd1f24f5b
-SHA512: f7bf854ad0ee2eac04b2af0b543bedbe97f581813b08c7902fc4645f6968b7c1546e99a987c19ed3b51a72f5336e80f15a77f71b247cde2e6bb788e24221f427
+Filename: pool/bookworm/main/c/codium/codium_1.96.4.25017_amd64.deb
+Size: 96861208
+MD5sum: db7b1a49ffc3e39b8437cf252a1ab861
+SHA1: 087794fba4ade38cd84e28b2c3c4071517abed96
+SHA256: 4aafbca29241c9d251de86cc7f63b56a48d4b417829b6ded68d253388ae6f969
+SHA512: 228c27f5c39409a258f9ba63c8188e5c962f0dd5e6ba2ba866a2ce513c2c93e111af60ef6d28cffd35329db46f253bbeeaf61a665be466496518ead52d5790d3
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of
  a code editor with what developers need for the core edit-build-debug cycle.
@@ -1191,14 +1191,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.6.66
-Depends: linux-headers-6.6.66-cuerdos, linux-image-6.6.66-cuerdos
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.66_amd64.deb
-Size: 764
-MD5sum: 99f58021051f75be3e84fec38c722169
-SHA1: b5dca397a93efba004d81611938b7dd457f338ed
-SHA256: 272699301915d71292d9c1fb1ec89215519a606c1deb0e0bb0ef82391a7c6acd
-SHA512: b40f975ff96167c5b52683645ec8d303161785d82e6f67c00618d39f35a6ebd266ad9d49751f21e3ae63381844fe5b571984d008cc388b21691eeacbf0dd3db9
+Version: 6.6.72
+Depends: linux-headers-6.6.72-cuerdos, linux-image-6.6.72-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.72_amd64.deb
+Size: 772
+MD5sum: 2baef1a7bc1b9d4ed57f931215bec026
+SHA1: 5e030aa7f6a76e21259f73fb50647d7b8946a9ce
+SHA256: 0a224b34977352351a7f5b08a01f3801a10666349e41588ecc39da4535afa78a
+SHA512: d3f7ceefff5996b6dce0049341723b658ac6ff51beead528f0507363ab239f9c0e70d2a8c397bc1382eb4af914c4ff99154a7db7bfffd9ef0fdde9a89cbd0517
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: cuerdos-kernels-nhs-amd64
@@ -1328,19 +1328,19 @@ Description: Linux utility that allows you to use the Super key both to open the
 Homepage: https://github.com/hanschen/ksuperkey
 
 Package: lact
-Installed-Size: 7204
+Installed-Size: 7768
 Maintainer: ilya-zlobintsev
 Architecture: amd64
-Version: 0.6.0-0
+Version: 0.7.0-0
 Conflicts: lact-headless, lact-libadwaita
-Depends: libdrm2, hwdata, libgtk-4-1, libdrm-amdgpu1
+Depends: libdrm-amdgpu1, libgtk-4-1, hwdata, libdrm2
 Provides: lact
-Filename: pool/bookworm/main/l/lact/lact_0.6.0-0_amd64.deb
-Size: 2175916
-MD5sum: c067f6a0de72cc0a6eed5c870fe4286a
-SHA1: 32292b1f8b2ab77602b536e1a2ade3144e95936e
-SHA256: 35fde33137ecbc5343ee61f65d21c23e9d7fbd2314e4a02de25416612055a932
-SHA512: 691cf820cb20f3f62f2509cc6f0aa64220645b77e882203e424924a12a48b9794dbb6b885983fd8608e885823738f97092cd6b8530b264320536facc5137ffb0
+Filename: pool/bookworm/main/l/lact/lact_0.7.0-0_amd64.deb
+Size: 2332412
+MD5sum: 961363966b67c182a6bd69e5565b3050
+SHA1: 3d769cb4852773588f2180b820bde6b7129d6f1f
+SHA256: cf1c5a91b0bdd177e325d29d4bf2bcf7edfc6465bedf1f9d4c412360b5d05e90
+SHA512: 961003075240615c34c0f214770213785ed1f82880c78e0ecfcf03cd980014b97f65bdcb391174d7bd9271587f6e627afeaca2703a78a44a7fce4b3f1434923f
 Description: AMDGPU control utility
 Homepage: https://github.com/ilya-zlobintsev/lact
 
@@ -1362,60 +1362,60 @@ Description: A C interface library to i3wm
  i3's interprocess communication (or ipc) is the interface i3wm uses to receive commands from client applications such as i3-msg. It also features a publish/subscribe mechanism for notifying interested parties of window manager events. i3ipc-GLib is a C library for controlling the window manager. This project is intended to be useful in applications such as status line generators, pagers, notification daemons, scripting wrappers, external controllers, dock windows, compositors, config templaters, and for debugging or testing the window manager itself.
 Homepage: http://www.github.com/aacebedo/i3ipc-glib
 
-Package: linux-headers-6.6.66-cuerdos
+Package: linux-headers-6.6.72-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 55724
-Maintainer: ale <ale@CuerdOS>
+Installed-Size: 55795
+Maintainer: ale <ale@Tierra>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.66-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.66-cuerdos_6.6.66-1_amd64.deb
-Size: 9260540
-MD5sum: ed956008a803a509b204b9db4909e937
-SHA1: 4597b0cfded026f5130404d0bb87722e590156c2
-SHA256: 8755198d49ee8a73d9579d04cfc264c37de33e5df8269b3331b8703da993d6a0
-SHA512: 220c7ec9c977b04aff83a32db3115f4ffb0d4757e0779a6459616b4c2edc1fc18f6096f4fb1d0905c79f0f440e16fa28fb93f48ca3171987d8c6e7cd3614b0ec
-Description: Linux kernel headers for 6.6.66-cuerdos on amd64
- This package provides kernel header files for 6.6.66-cuerdos on amd64
+Version: 6.6.72-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.72-cuerdos_6.6.72-1_amd64.deb
+Size: 9262508
+MD5sum: 6d9ce0f8d3094eb30f5a29ca5438e734
+SHA1: 82fc783af31433de0e3353044a9fd1182c1b419a
+SHA256: feaeb07a60e7fcccefadde67b00ba4afeb4e91f4bc523885969dd811b0aae7e3
+SHA512: 55cb7aeb8e0aef27464fcd96e69a04472ef600c985418718ce33087de20dcd006a5294ff8497df1fde0f64d6cfd32ee441b093692f346c13ecec50c645713f24
+Description: Linux kernel headers for 6.6.72-cuerdos on amd64
+ This package provides kernel header files for 6.6.72-cuerdos on amd64
  .
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-image-6.6.66-cuerdos
+Package: linux-image-6.6.72-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 534620
-Maintainer: ale <ale@CuerdOS>
+Installed-Size: 533856
+Maintainer: ale <ale@Tierra>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.66-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.66-cuerdos_6.6.66-1_amd64.deb
-Size: 89397320
-MD5sum: 26725fa8e5fc6f844245d84d6caf946e
-SHA1: 18cd07d3c7b9ffe43602b9a32f68f1c40f9ca0e3
-SHA256: bc18fb7d398982d14c73809ef9f16584290b0a655bee00e4919a91178773d6db
-SHA512: 1fcb5d7fd79b2e9b6d592c295a4d885f7ff6cb62697e0ddd5ac0f22c477539c58e487e4a5cdbcb65be4fb5ba87e7a3f96f66269aa70a6501daf57ebe9bceb128
-Description: Linux kernel, version 6.6.66-cuerdos
+Version: 6.6.72-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.72-cuerdos_6.6.72-1_amd64.deb
+Size: 89198672
+MD5sum: 63c048dd1ed4fd297fa602f34bb265e0
+SHA1: 4bf8c0e49afed6376a6352e543dbaf3fd032714b
+SHA256: 3714268c9d54fa941e7bf9fdf515b7fa88304194f135b17d99a17c7b9fb3c0ab
+SHA512: 8955a7a0a63232aff6bc4cb26151e5fe526fd60bb99be6c15ad86041dae27fe64a325f2766d7d96a81f6d6095793cb2a99907a38573de1a58957804d8f27338c
+Description: Linux kernel, version 6.6.72-cuerdos
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.66-cuerdos.
+ files, version: 6.6.72-cuerdos.
 Homepage: https://www.kernel.org/
 
 Package: linux-libc-dev
 Priority: optional
 Section: devel
 Installed-Size: 6846
-Maintainer: ale <ale@CuerdOS>
+Maintainer: ale <ale@Tierra>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.66-1
+Version: 6.6.72-1
 Provides: linux-kernel-headers
-Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.66-1_amd64.deb
-Size: 1318632
-MD5sum: 86736479adaf8e5e6625d369636893a7
-SHA1: f0fecf03b6a6376353b04efabeeee71e5fdb41bd
-SHA256: bf453f935f7cf3c631173468d9fc78235c6f424fc2a8788c3698bb6c60103aca
-SHA512: f042e41604dcad4d8744b41aa62c3e4449e8969b9c0b04984d675b7f39081b61df365446d837e191b4f1b41cd757be74a13923aefa9c46cec0b09ca69ef4d621
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.72-1_amd64.deb
+Size: 1318760
+MD5sum: e8757f60d40e420d890ffec0309e9911
+SHA1: f29b44ef4d262a788159d0b4d065f5e481ee796a
+SHA256: 1501509241da06bff017e158cd2731602658b84237ad033b5b45119d444e0bf8
+SHA512: 5452426e2f97262b697bb5ad79420517fba3564f838209fb91c4673a99deb14eb91f81fe761883d96d7d26eb5785c54aecef2cced9390be22f16e2660c6450e3
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
@@ -1546,22 +1546,20 @@ Homepage: https://github.com/Moosync/Moosync
 
 Package: mpc-qt
 Priority: extra
-Section: alien
-Installed-Size: 2418
-Maintainer: Leo <leo@localhost.localdomain>
+Section: multimedia
+Installed-Size: 2271
+Maintainer: gatoverde9506@outlook.com
 Architecture: amd64
-Version: 22.02-2
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.1.0), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2)
-Filename: pool/bookworm/main/m/mpc-qt/mpc-qt_22.02-2_amd64.deb
-Size: 633000
-MD5sum: 49124b0987de631c5fa3fb370bce3d62
-SHA1: afe9a889c4ad117f9d27e40f7792e1b9188c0a40
-SHA256: 1de0c2cd532eb7f5e4578fc74007b6f6a52b66339b0d874aabf330b16bc8a7d7
-SHA512: 879312dc03c577004348dca01ceeab396412f4e74a731d62e257dbe4ba5c4b09e8924727ae9f2af0a14f43010d378e4e50bf0bfa3d58272f5874c62b08dc76ca
+Version: 23.02-2
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.1.0), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2)
+Filename: pool/bookworm/main/m/mpc-qt/mpc-qt_23.02-2_amd64.deb
+Size: 543264
+MD5sum: 91ac8836aa0f8af5ab4733e1c40fa131
+SHA1: 8b76a4265c292aef94b07ab28a638e03f4e04556
+SHA256: 8135f5565ca1c0de3034c4992824cec98433c3d2730a5ffe2377ed99d6fdd1e9
+SHA512: d29134d023c885c709b5e0fbc60d8168e8b7236887167984057da7e57851dbc54d74b65b666052c84e71d97b3671a254aae47c853e0411427294db19acfbbd9d
 Description: Media Player Classic Qute Theater
  A clone of Media Player Classic reimplemented in Qt.
- .
- (Converted from a rpm package by alien version 8.95.6.)
 
 Package: museeks
 Priority: optional
