@@ -778,6 +778,21 @@ SHA512: 3bee736283aa75fe0334dd46b2041009e505809822e9f2c17cbd351a68095b5d6ace88ea
 Description: Nvidia Driver installer
 Homepage: https://github.com/CuerdOS/nvidia-installer
 
+Package: nvidia-settings-patch
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.0
+Depends: nvidia-settings
+Filename: pool/bookworm/main/n/nvidia-settings-patch/nvidia-settings-patch_1.0_all.deb
+Size: 1388
+MD5sum: bddcc74c2cdbd64f36e783e7e565dcc5
+SHA1: c081d18e4b320af280e5f7d27f8b09dc25a134c4
+SHA256: 74e79423157d818c6a76ca24c49b13cc7fc3a062bb3633a1c9a69c8ab9241204
+SHA512: 18d4cd62cb00e22d7388347a4ca0dccfa0f37cb7d06f94a463387f72222c2ee16a64e0a90258350d9a771e6e81ba4a6a23e3fda7044cc14639772f6e939b2e8a
+Description: Correction patch to nvidia-settings package.
+
 Package: os-uninstaller
 Priority: optional
 Section: admin
@@ -1191,14 +1206,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.6.72
-Depends: linux-headers-6.6.72-cuerdos, linux-image-6.6.72-cuerdos
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.72_amd64.deb
-Size: 772
-MD5sum: 2baef1a7bc1b9d4ed57f931215bec026
-SHA1: 5e030aa7f6a76e21259f73fb50647d7b8946a9ce
-SHA256: 0a224b34977352351a7f5b08a01f3801a10666349e41588ecc39da4535afa78a
-SHA512: d3f7ceefff5996b6dce0049341723b658ac6ff51beead528f0507363ab239f9c0e70d2a8c397bc1382eb4af914c4ff99154a7db7bfffd9ef0fdde9a89cbd0517
+Version: 6.6.74
+Depends: linux-headers-6.6.74-cuerdos, linux-image-6.6.74-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.74_amd64.deb
+Size: 764
+MD5sum: ad5911aa030cb988eb8a854a23dc6a23
+SHA1: be1cb999a9597a341a436bfc7353c6b959a035d5
+SHA256: 93a8a8e311acbabf21e42e4670b6d5416793eca2700f6afef00fed37c6685735
+SHA512: 7ea74f307bc356eaea2739e2e1b496a7f97f9280472db3c8715ae204628bf96d981f331cb500b4a920ba89f25a17b044a3b459cd2b73eb0ede1df572ffd5c3b3
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: cuerdos-kernels-nhs-amd64
@@ -1362,43 +1377,43 @@ Description: A C interface library to i3wm
  i3's interprocess communication (or ipc) is the interface i3wm uses to receive commands from client applications such as i3-msg. It also features a publish/subscribe mechanism for notifying interested parties of window manager events. i3ipc-GLib is a C library for controlling the window manager. This project is intended to be useful in applications such as status line generators, pagers, notification daemons, scripting wrappers, external controllers, dock windows, compositors, config templaters, and for debugging or testing the window manager itself.
 Homepage: http://www.github.com/aacebedo/i3ipc-glib
 
-Package: linux-headers-6.6.72-cuerdos
+Package: linux-headers-6.6.74-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 55795
+Installed-Size: 54921
 Maintainer: ale <ale@Tierra>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.72-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.72-cuerdos_6.6.72-1_amd64.deb
-Size: 9262508
-MD5sum: 6d9ce0f8d3094eb30f5a29ca5438e734
-SHA1: 82fc783af31433de0e3353044a9fd1182c1b419a
-SHA256: feaeb07a60e7fcccefadde67b00ba4afeb4e91f4bc523885969dd811b0aae7e3
-SHA512: 55cb7aeb8e0aef27464fcd96e69a04472ef600c985418718ce33087de20dcd006a5294ff8497df1fde0f64d6cfd32ee441b093692f346c13ecec50c645713f24
-Description: Linux kernel headers for 6.6.72-cuerdos on amd64
- This package provides kernel header files for 6.6.72-cuerdos on amd64
+Version: 6.6.74-2
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.74-cuerdos_6.6.74-2_amd64.deb
+Size: 9286348
+MD5sum: b7c5229a315044a532a126295b1da8d1
+SHA1: 1e8085bfb9cac1114f5664d87765f6c728118589
+SHA256: 75ad7f9d7771fec3d63ed08c6c66b5d2fcbacb966b6077dda5b056112faab8f2
+SHA512: ce0846a0ad7ca2f36c9115dc8167a00585e775bbc6cc1e638768dd341adf9f612e6b70cea2adace993dd05f06bafa614c7bb528ae7eed14aa82b5cfde270220d
+Description: Linux kernel headers for 6.6.74-cuerdos on amd64
+ This package provides kernel header files for 6.6.74-cuerdos on amd64
  .
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-image-6.6.72-cuerdos
+Package: linux-image-6.6.74-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 533856
+Installed-Size: 405018
 Maintainer: ale <ale@Tierra>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.72-1
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.72-cuerdos_6.6.72-1_amd64.deb
-Size: 89198672
-MD5sum: 63c048dd1ed4fd297fa602f34bb265e0
-SHA1: 4bf8c0e49afed6376a6352e543dbaf3fd032714b
-SHA256: 3714268c9d54fa941e7bf9fdf515b7fa88304194f135b17d99a17c7b9fb3c0ab
-SHA512: 8955a7a0a63232aff6bc4cb26151e5fe526fd60bb99be6c15ad86041dae27fe64a325f2766d7d96a81f6d6095793cb2a99907a38573de1a58957804d8f27338c
-Description: Linux kernel, version 6.6.72-cuerdos
+Version: 6.6.74-2
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.74-cuerdos_6.6.74-2_amd64.deb
+Size: 69221896
+MD5sum: 4c3b443699958e2c3efea23a72d52a03
+SHA1: 4a9bddd3dfff197d02a58e8dae287ac249e6e7cf
+SHA256: 91a286c543ca7e46aa64cb9c267d05020ec54b8976883c12d8812649dd29733a
+SHA512: b4cf88e3cf7c562190e164b22cce1df1b6c7b8952cf5cbd078db29bf75ca650719142a70c6bcfc6184d00fcbd5640cb6941913d8456ae2003db5ff233feff8a7
+Description: Linux kernel, version 6.6.74-cuerdos
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.72-cuerdos.
+ files, version: 6.6.74-cuerdos.
 Homepage: https://www.kernel.org/
 
 Package: linux-libc-dev
@@ -1408,14 +1423,14 @@ Installed-Size: 6846
 Maintainer: ale <ale@Tierra>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.72-1
+Version: 6.6.74-2
 Provides: linux-kernel-headers
-Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.72-1_amd64.deb
-Size: 1318760
-MD5sum: e8757f60d40e420d890ffec0309e9911
-SHA1: f29b44ef4d262a788159d0b4d065f5e481ee796a
-SHA256: 1501509241da06bff017e158cd2731602658b84237ad033b5b45119d444e0bf8
-SHA512: 5452426e2f97262b697bb5ad79420517fba3564f838209fb91c4673a99deb14eb91f81fe761883d96d7d26eb5785c54aecef2cced9390be22f16e2660c6450e3
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.74-2_amd64.deb
+Size: 1318620
+MD5sum: 11ca06ebff7814a5f026d0d42e601132
+SHA1: 14ab8f9903db3420ade7aba0564f512c7d0d4149
+SHA256: d4728cad1abd8d6690773d0244f9d9979e178b863c9f84102ffb0bfbb3f88c8e
+SHA512: 984f2cde38f4bae5e42f566cf4526d357692947ff0a0032347963b09e34b82a112f5fa704e0c8a80421477e9b55917052f01b204078dc0f2e9d23c5a188d6f8a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
