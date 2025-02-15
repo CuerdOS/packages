@@ -325,6 +325,22 @@ SHA256: 18a2c8c4774c17a27e9c754a19b63c743d5f7db2686e9e79f9760881d3d96fe2
 SHA512: e8fcef870dfe86c59f540253371bc1f0162de30db1e298ba36f0ec447eb4884c9cad3928d9bd12f6a61fac4b176ad22de7280c5659f8de50418a6799ddcdc6e3
 Description: CuerdOS config updates, please don´t remove this package.
 
+Package: config-updates
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
+Architecture: all
+Version: 1.3.02
+Depends: rsync, sed, libxapp-gtk3-module, ananicy, cuerdos-repo
+Recommends: firefox-repo
+Filename: pool/bookworm/main/c/config-updates/config-updates_1.3.02_all.deb
+Size: 6160
+MD5sum: e6f8ba22ef70a5739b462d2f19db3bc1
+SHA1: b1abdaa176db9bc4641d3c796feac0b0292e954e
+SHA256: 41a6b4d176e4d6db24ec2bae9abf0844dbcdfd99908979e9d73eb31027ede950
+SHA512: d7d70e7bc6702ca84ed67e48df7b13c11ecf1f10d10217f04ba8291d3f2539e6e5faba298fc27f68f2d04d006c76c00b30ceefafc270849d31caf3646b617c83
+Description: CuerdOS config updates, please don´t remove this package.
+
 Package: config-updates-gnome
 Priority: optional
 Section: misc
@@ -400,6 +416,20 @@ SHA256: 1482cf169a3af1188636a28e03fab46a947835ca4a702c74b0f2a18207633a15
 SHA512: 4cb4e43eb178f903cc5fb86f8412cf9a2ad78fce6ef0ae5072bd99cffdeed77bd6be6042d0cfdd1232060f4acc178d16a1cca96d2b6c14aed546b00087f73a11
 Description: CuerdOS GTK Theme
  CuerdOS con un toque de menta.
+
+Package: cuerdos-repo
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.0
+Filename: pool/bookworm/main/c/cuerdos-repo/cuerdos-repo_1.0_all.deb
+Size: 848
+MD5sum: 8a978ed7213378c01d34fe041f88c766
+SHA1: b1e860351dac8a7de926811342808c0c0d5f0cd5
+SHA256: fd7ccd4dbc667dea87c6e1fd91342ced95a3bb942a5af29628dfdf13ec586534
+SHA512: c9d3c54aadfda4384a7b40c75665a7abf0f96a39b78a2548f3868a76ca1ee54d564763df9fd29a89ede2cb4033aedfbbe3e4e27038d56abe1e42929d16918dca
+Description: Metapackage with CuerdOS Linux repository
 
 Package: cuerdos-second-plymouth-theme
 Priority: optional
@@ -573,6 +603,20 @@ SHA256: bbd23d65ba4cd9c283acc5c303809b75e1e64605e1c0dcab01619ba3e52f618d
 SHA512: b661a69ae4bb6089fdf1ae516bf2d2e62647ae3314e7a0377154af60eab1481dd92bdcf58601bf471d52d565a87d85f43ae8642138cb7942dbc2bea723f3378b
 Description: Discord webapp on Firefox web browser.
 Homepage: https://github.com/CuerdOS/firecord
+
+Package: firefox-repo
+Priority: optional
+Section: misc
+Maintainer: CuerdOS Dev Team (cuerdoslinux@proton.me)
+Architecture: all
+Version: 1.0
+Filename: pool/bookworm/main/f/firefox-repo/firefox-repo_1.0_all.deb
+Size: 908
+MD5sum: 38b07ce81bb8da93cf58df891a5ac5eb
+SHA1: 4eb804c5941f0b738606a30640130efc828c820a
+SHA256: db20819f9d5b13c4d02aea5ae99ae8f66ea6bbc4874c7b1b0ea815db0eb5de22
+SHA512: 6ac1119c190de175fb2ba37a943d712e7b063b6c4b3a58c4dcc6f6e9440ed64cc1d95d6d5a52b0ee1009f21e303b96064ad9087fc3476d2e83039087777bff13
+Description: Metapackage with firefox-browser repository introduction script
 
 Package: glade2script
 Priority: optional
@@ -1206,14 +1250,14 @@ Priority: optional
 Section: kernel
 Maintainer: CuerdOS Dev Team <cuerdoslinux@proton.me>
 Architecture: amd64
-Version: 6.6.74
-Depends: linux-headers-6.6.74-cuerdos, linux-image-6.6.74-cuerdos
-Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.74_amd64.deb
+Version: 6.6.76
+Depends: linux-headers-6.6.76-cuerdos, linux-image-6.6.76-cuerdos
+Filename: pool/bookworm/main/c/cuerdos-kernels-amd64/cuerdos-kernels-amd64_6.6.76_amd64.deb
 Size: 764
-MD5sum: ad5911aa030cb988eb8a854a23dc6a23
-SHA1: be1cb999a9597a341a436bfc7353c6b959a035d5
-SHA256: 93a8a8e311acbabf21e42e4670b6d5416793eca2700f6afef00fed37c6685735
-SHA512: 7ea74f307bc356eaea2739e2e1b496a7f97f9280472db3c8715ae204628bf96d981f331cb500b4a920ba89f25a17b044a3b459cd2b73eb0ede1df572ffd5c3b3
+MD5sum: d3c4eafae223325ec032c92cabf1e5ff
+SHA1: cdf8626acc19225953545a95c269fc47d783ce73
+SHA256: 6ab5bf6157329ed24c65fa21ff33a0ff526315f0c4277158ff689f2bc07e43ed
+SHA512: 09b0bd6fd48feca54d6d75bd3fc601cf48a7bbcd34070814bb35cbcbb02327ae0251d1f9b190b8d21a3fef0485f297045705abc942a1c190bf7d70f9c196744e
 Description: The Linux kernel for x86_64 architecture (meta-package).
 
 Package: cuerdos-kernels-nhs-amd64
@@ -1377,43 +1421,43 @@ Description: A C interface library to i3wm
  i3's interprocess communication (or ipc) is the interface i3wm uses to receive commands from client applications such as i3-msg. It also features a publish/subscribe mechanism for notifying interested parties of window manager events. i3ipc-GLib is a C library for controlling the window manager. This project is intended to be useful in applications such as status line generators, pagers, notification daemons, scripting wrappers, external controllers, dock windows, compositors, config templaters, and for debugging or testing the window manager itself.
 Homepage: http://www.github.com/aacebedo/i3ipc-glib
 
-Package: linux-headers-6.6.74-cuerdos
+Package: linux-headers-6.6.76-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 54921
-Maintainer: ale <ale@Tierra>
+Installed-Size: 54948
+Maintainer: ale <ale@Satelite>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.74-2
-Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.74-cuerdos_6.6.74-2_amd64.deb
-Size: 9286348
-MD5sum: b7c5229a315044a532a126295b1da8d1
-SHA1: 1e8085bfb9cac1114f5664d87765f6c728118589
-SHA256: 75ad7f9d7771fec3d63ed08c6c66b5d2fcbacb966b6077dda5b056112faab8f2
-SHA512: ce0846a0ad7ca2f36c9115dc8167a00585e775bbc6cc1e638768dd341adf9f612e6b70cea2adace993dd05f06bafa614c7bb528ae7eed14aa82b5cfde270220d
-Description: Linux kernel headers for 6.6.74-cuerdos on amd64
- This package provides kernel header files for 6.6.74-cuerdos on amd64
+Version: 6.6.76-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-headers-6.6.76-cuerdos_6.6.76-1_amd64.deb
+Size: 9292240
+MD5sum: d247b27535a1627e9e82f122f07270f2
+SHA1: caf608407214b2310f05f9320ac2372fa1bf7f01
+SHA256: 2d6affac727d3d2483cea1067aa9932e2b7cf5c3795bd475b5180d4601fcc20c
+SHA512: f7e42bf2e64feaf6f021f157a8bbc6bbfd8ad529513e9287c13101c372d67625e80f947118002b6b0c59cf4b70645d48e2e02d079c8ba3156e13fc49e3cf752d
+Description: Linux kernel headers for 6.6.76-cuerdos on amd64
+ This package provides kernel header files for 6.6.76-cuerdos on amd64
  .
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-image-6.6.74-cuerdos
+Package: linux-image-6.6.76-cuerdos
 Priority: optional
 Section: kernel
-Installed-Size: 405018
-Maintainer: ale <ale@Tierra>
+Installed-Size: 404994
+Maintainer: ale <ale@Satelite>
 Architecture: amd64
 Source: linux-upstream
-Version: 6.6.74-2
-Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.74-cuerdos_6.6.74-2_amd64.deb
-Size: 69221896
-MD5sum: 4c3b443699958e2c3efea23a72d52a03
-SHA1: 4a9bddd3dfff197d02a58e8dae287ac249e6e7cf
-SHA256: 91a286c543ca7e46aa64cb9c267d05020ec54b8976883c12d8812649dd29733a
-SHA512: b4cf88e3cf7c562190e164b22cce1df1b6c7b8952cf5cbd078db29bf75ca650719142a70c6bcfc6184d00fcbd5640cb6941913d8456ae2003db5ff233feff8a7
-Description: Linux kernel, version 6.6.74-cuerdos
+Version: 6.6.76-1
+Filename: pool/bookworm/main/l/linux-upstream/linux-image-6.6.76-cuerdos_6.6.76-1_amd64.deb
+Size: 69236204
+MD5sum: 13df55f7191728cd100c081c3c7bb760
+SHA1: da7be941faeeebacae9668991898b13ec06169ae
+SHA256: 6c00f2e898f4f0fc35599a38b657c31d356b8c1dcd22f334136a3175a43ae4a9
+SHA512: c3eb221f306e74cd522958ea322b32d1b7801500b5753c5ab467ea0986f34d9660fc7ee6c7daca3d25111f18a41b755ca2e01137137acc1e01d0b6baf9906f9c
+Description: Linux kernel, version 6.6.76-cuerdos
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.74-cuerdos.
+ files, version: 6.6.76-cuerdos.
 Homepage: https://www.kernel.org/
 
 Package: linux-libc-dev
@@ -1431,6 +1475,27 @@ MD5sum: 11ca06ebff7814a5f026d0d42e601132
 SHA1: 14ab8f9903db3420ade7aba0564f512c7d0d4149
 SHA256: d4728cad1abd8d6690773d0244f9d9979e178b863c9f84102ffb0bfbb3f88c8e
 SHA512: 984f2cde38f4bae5e42f566cf4526d357692947ff0a0032347963b09e34b82a112f5fa704e0c8a80421477e9b55917052f01b204078dc0f2e9d23c5a188d6f8a
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Homepage: https://www.kernel.org/
+Multi-Arch: same
+
+Package: linux-libc-dev
+Priority: optional
+Section: devel
+Installed-Size: 6846
+Maintainer: ale <ale@Satelite>
+Architecture: amd64
+Source: linux-upstream
+Version: 6.6.76-1
+Provides: linux-kernel-headers
+Filename: pool/bookworm/main/l/linux-upstream/linux-libc-dev_6.6.76-1_amd64.deb
+Size: 1318624
+MD5sum: 15cfa2c21c28cce2a1822cd3ec2cdeaa
+SHA1: fc3daac0bfd1246a1d4ab65713f4abc7ffdafd97
+SHA256: 51a19029d6c26cd7ce1aa26f4fdcd6d89c5f48e96520d3a9d2e7fa29354135a8
+SHA512: 52c5b59741f0bab9d6dd0197b63c60414c32f4e273e9d26f24f1c4a7ef9ff5f694cdd159c8a80b2980e3107ab7c49c43e8beac35bfcb615b9fd69eaa4671d205
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
